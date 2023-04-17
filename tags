@@ -1,0 +1,532 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ACTIVE_ADJUST	initialize.c	28;"	d	file:
+ACTIVE_FIXED	initialize.c	27;"	d	file:
+AD_COPYBACK	initialize.h	43;"	d
+AD_INTERLEAVE	initialize.h	45;"	d
+AD_RANDOM	initialize.h	42;"	d
+AD_TWOPLANE	initialize.h	44;"	d
+AD_TWOPLANE_READ	initialize.h	46;"	d
+AVLTREE_H	avlTree.h	2;"	d
+AVL_NULL	avlTree.h	8;"	d
+AVL_TREENODE_FREE	avlTree.c	/^void AVL_TREENODE_FREE$/;"	f
+AVL_TREE_LOCK	avlTree.c	/^void AVL_TREE_LOCK$/;"	f
+AVL_TREE_UNLOCK	avlTree.c	/^void AVL_TREE_UNLOCK$/;"	f
+BLOKC	initialize.h	101;"	d
+BUFSIZE	initialize.h	30;"	d
+CHANNEL	initialize.h	97;"	d
+CHANNEL_C_A_TRANSFER	initialize.h	62;"	d
+CHANNEL_DATA_TRANSFER	initialize.h	64;"	d
+CHANNEL_GC	initialize.h	63;"	d
+CHANNEL_IDLE	initialize.h	61;"	d
+CHANNEL_TRANSFER	initialize.h	65;"	d
+CHANNEL_UNKNOWN	initialize.h	66;"	d
+CHIP_COPYBACK_BUSY	initialize.h	75;"	d
+CHIP_C_A_TRANSFER	initialize.h	71;"	d
+CHIP_DATA_TRANSFER	initialize.h	72;"	d
+CHIP_ERASE_BUSY	initialize.h	74;"	d
+CHIP_IDLE	initialize.h	68;"	d
+CHIP_READ_BUSY	initialize.h	70;"	d
+CHIP_WAIT	initialize.h	73;"	d
+CHIP_WRITE_BUSY	initialize.h	69;"	d
+COPY_BACK	initialize.h	40;"	d
+DYNAMIC_ALLOCATION	initialize.h	32;"	d
+Dram_write_map	initialize.h	/^typedef struct Dram_write_map$/;"	s
+Dram_write_map	initialize.h	/^}Dram_write_map;$/;"	t	typeref:struct:Dram_write_map
+EH_FACTOR	avlTree.h	10;"	d
+ERROR	initialize.h	115;"	d
+FAILURE	initialize.h	114;"	d
+FALSE	initialize.c	24;"	d	file:
+FALSE	initialize.h	112;"	d
+FLASH_H	flash.h	20;"	d
+GC_COMPLETE	initialize.h	93;"	d
+GC_COPY_BACK	initialize.h	92;"	d
+GC_ERASE_C_A	initialize.h	91;"	d
+GC_INTERRUPT	initialize.h	94;"	d
+GC_UNINTERRUPT	initialize.h	95;"	d
+GC_WAIT	initialize.h	90;"	d
+INFEASIBLE	initialize.h	116;"	d
+INIT	IsHot.h	2;"	d
+INITIALIZE_H	initialize.h	19;"	d
+INSERT_NEXT	avlTree.h	20;"	d
+INSERT_PREV	avlTree.h	19;"	d
+INTERLEAVE	initialize.h	35;"	d
+INTERLEAVE_TWO_PLANE	initialize.h	39;"	d
+IsHot	IsHot.c	/^int IsHot(struct ssd_info *ssd){$/;"	f
+LEFT_MINUS	avlTree.h	13;"	d
+LH_FACTOR	avlTree.h	11;"	d
+LRU_link_next	initialize.h	/^	struct buffer_group *LRU_link_next;	\/\/ next node in LRU list$/;"	m	struct:buffer_group	typeref:struct:buffer_group::buffer_group
+LRU_link_pre	initialize.h	/^	struct buffer_group *LRU_link_pre;	\/\/ previous node in LRU list$/;"	m	struct:buffer_group	typeref:struct:buffer_group::buffer_group
+L_Rotate	avlTree.c	/^static void L_Rotate(TREE_NODE **ppNode)$/;"	f	file:
+LeftBalance	avlTree.c	/^static void LeftBalance(TREE_NODE **ppNode)$/;"	f	file:
+MAX_INT64	pagemap.h	24;"	d
+MAX_INT64	ssd.h	27;"	d
+NORMAL	initialize.h	38;"	d
+ORDER_LIST_WANTED	avlTree.h	17;"	d
+OUTPUT	initialize.h	88;"	d
+OVERFLOW	initialize.h	117;"	d
+PAGE	initialize.h	102;"	d
+PAGEMAP_H	pagemap.h	19;"	d
+PG_SUB	initialize.h	105;"	d
+PLANE	initialize.h	100;"	d
+PRE_LIST_SIZE	initialize.h	52;"	d
+READ	initialize.h	48;"	d
+REQUEST_IN	initialize.h	87;"	d
+RH_FACTOR	avlTree.h	12;"	d
+RIGHT_MINUS	avlTree.h	14;"	d
+R_Rotate	avlTree.c	/^static void R_Rotate(TREE_NODE **ppNode)$/;"	f	file:
+RightBalance	avlTree.c	/^static void RightBalance(TREE_NODE **ppNode)$/;"	f	file:
+SECTOR	initialize.h	29;"	d
+SR_COMPLETE	initialize.h	85;"	d
+SR_R_C_A_TRANSFER	initialize.h	79;"	d
+SR_R_DATA_TRANSFER	initialize.h	81;"	d
+SR_R_READ	initialize.h	80;"	d
+SR_WAIT	initialize.h	78;"	d
+SR_W_C_A_TRANSFER	initialize.h	82;"	d
+SR_W_DATA_TRANSFER	initialize.h	83;"	d
+SR_W_TRANSFER	initialize.h	84;"	d
+STATIC_ALLOCATION	initialize.h	33;"	d
+SUBPAGE	initialize.h	103;"	d
+SUCCESS	initialize.h	113;"	d
+Status	initialize.h	/^typedef int Status;     $/;"	t
+TREE_NODE	avlTree.h	/^}TREE_NODE;$/;"	t	typeref:struct:_AVL_TREE_NODE
+TRUE	initialize.c	25;"	d	file:
+TRUE	initialize.h	111;"	d
+TWO_PLANE	initialize.h	36;"	d
+UNKNOWN	initialize.h	76;"	d
+WRITE	initialize.h	49;"	d
+_AVL_TREE_NODE	avlTree.h	/^typedef struct _AVL_TREE_NODE$/;"	s
+_CRTDBG_MAP_ALLOC	initialize.c	19;"	d	file:
+_CRTDBG_MAP_ALLOC	pagemap-tmp.c	19;"	d	file:
+_CRTDBG_MAP_ALLOC	pagemap.c	19;"	d	file:
+ac_time_characteristics	initialize.h	/^struct ac_time_characteristics{$/;"	s
+ac_timing	initialize.h	/^    struct ac_time_characteristics ac_timing;  $/;"	m	struct:chip_info	typeref:struct:chip_info::ac_time_characteristics
+ac_timing	initialize.h	/^}ac_timing;$/;"	v	typeref:struct:ac_time_characteristics
+active_block	initialize.h	/^	unsigned int active_block;          \/\/if a die has a active block, 该项表示其物理块号$/;"	m	struct:plane_info
+active_current	initialize.h	/^	float active_current;$/;"	m	struct:dram_parameter
+active_flag	initialize.h	/^	int active_flag;                     \/\/记录主动写是否阻塞，如果发现柱塞，需要将时间向前推进,0表示没有阻塞，1表示被阻塞，需要向前推进时间$/;"	m	struct:ssd_info
+active_write	initialize.h	/^	int active_write;               \/\/表示是否执行主动写操作1,yes;0,no$/;"	m	struct:parameter_value
+ad_priority	initialize.h	/^	int ad_priority;                \/\/record the priority between two plane operation and interleave operation$/;"	m	struct:parameter_value
+ad_priority2	initialize.h	/^	int ad_priority2;               \/\/record the priority of channel-level, 0 indicates that the priority order of channel-level is highest; 1 indicates the contrary$/;"	m	struct:parameter_value
+add_reg_ppn	initialize.h	/^	int add_reg_ppn;                    \/\/read，write时把地址传送到该变量，该变量代表地址寄存器。die由busy变为idle时，清除地址 \/\/有可能因为一对多的映射，在一个读请求时，有多个相同的lpn，所以需要用ppn来区分  $/;"	m	struct:plane_info
+address_mapping	initialize.h	/^	int address_mapping;            \/\/记录映射的类型，1：page；2：block；3：fast$/;"	m	struct:parameter_value
+advanced_commands	initialize.h	/^	int advanced_commands;  $/;"	m	struct:parameter_value
+aged	initialize.h	/^	int aged;                       \/\/1表示需要将这个SSD变成aged，0表示需要将这个SSD保持non-aged$/;"	m	struct:parameter_value
+aged_ratio	initialize.h	/^	float aged_ratio; $/;"	m	struct:parameter_value
+alloc_assert	pagemap-tmp.c	/^void alloc_assert(void *p,char *s)\/\/锟斤拷锟斤拷$/;"	f
+alloc_assert	pagemap.c	/^void alloc_assert(void *p,char *s)\/\/断言$/;"	f
+alloc_pool	initialize.h	/^	int alloc_pool;                 \/\/allocation pool 大小(plane，die，chip，channel),也就是拥有active_block的单位$/;"	m	struct:parameter_value
+allocate_location	flash.c	/^Status allocate_location(struct ssd_info * ssd ,struct sub_request *sub_req)$/;"	f
+allocation_scheme	initialize.h	/^	int allocation_scheme;          \/\/记录分配方式的选择，0表示动态分配，1表示静态分配$/;"	m	struct:parameter_value
+attach_info	initialize.h	/^	struct buffer_info *attach_info;	\/\/ info about attach map$/;"	m	struct:map_info	typeref:struct:map_info::buffer_info
+ave_read_size	initialize.h	/^	float ave_read_size;$/;"	m	struct:ssd_info
+ave_write_size	initialize.h	/^	float ave_write_size;$/;"	m	struct:ssd_info
+avlDelBalance	avlTree.c	/^static int avlDelBalance$/;"	f	file:
+avlTreeAdd	avlTree.c	/^int avlTreeAdd$/;"	f
+avlTreeCheck	avlTree.c	/^int avlTreeCheck(tAVLTree *pTree , TREE_NODE *pNode)$/;"	f
+avlTreeCount	avlTree.c	/^unsigned int avlTreeCount$/;"	f
+avlTreeCreate	avlTree.c	/^tAVLTree *avlTreeCreate(int *keyCompareFunc,int *freeFunc)$/;"	f
+avlTreeDel	avlTree.c	/^int avlTreeDel( tAVLTree *pTree ,TREE_NODE *pDelNode)$/;"	f
+avlTreeDestroy	avlTree.c	/^int avlTreeDestroy$/;"	f
+avlTreeFind	avlTree.c	/^TREE_NODE *avlTreeFind$/;"	f
+avlTreeFirst	avlTree.c	/^TREE_NODE *avlTreeFirst$/;"	f
+avlTreeFlush	avlTree.c	/^int avlTreeFlush$/;"	f
+avlTreeHigh	avlTree.c	/^int avlTreeHigh(TREE_NODE *pNode)$/;"	f
+avlTreeInsert	avlTree.c	/^static int avlTreeInsert$/;"	f	file:
+avlTreeLast	avlTree.c	/^TREE_NODE *avlTreeLast$/;"	f
+avlTreeLookup	avlTree.c	/^static TREE_NODE *avlTreeLookup$/;"	f	file:
+avlTreeNext	avlTree.c	/^TREE_NODE *avlTreeNext$/;"	f
+avlTreePrev	avlTree.c	/^TREE_NODE *avlTreePrev$/;"	f
+avlTreeRemove	avlTree.c	/^static int avlTreeRemove$/;"	f	file:
+begin_time	initialize.h	/^	int64_t begin_time;               \/\/子请求开始时间$/;"	m	struct:sub_request
+begin_time	initialize.h	/^	int64_t begin_time;            \/\/记录一个plane什么时候开始gc操作的$/;"	m	struct:gc_info
+begin_time	initialize.h	/^	int64_t begin_time;$/;"	m	struct:request
+bf	avlTree.h	/^	int  bf;    			                     \/*平衡因子；当平衡因子的绝对值大于 或等于2的时候就表示树不平衡(balance_factor)*\/$/;"	m	struct:_AVL_TREE_NODE
+blk_head	initialize.h	/^	struct blk_info *blk_head;$/;"	m	struct:plane_info	typeref:struct:plane_info::blk_info
+blk_info	initialize.h	/^struct blk_info{$/;"	s
+block	initialize.h	/^	unsigned int block;           \/\/该参数只在可中断的gc函数中使用（gc_interrupt），用来记录已近找出来的目标块号$/;"	m	struct:gc_operation
+block	initialize.h	/^	unsigned int block;$/;"	m	struct:direct_erase
+block	initialize.h	/^	unsigned int block;$/;"	m	struct:local
+block_num_plane	initialize.h	/^	unsigned int block_num_plane;       \/\/indicate how many blocks in a plane$/;"	m	struct:chip_info
+block_plane	initialize.h	/^	unsigned int block_plane;$/;"	m	struct:parameter_value
+buf_node	initialize.h	/^}buf_node;$/;"	t	typeref:struct:buffer_group
+buffer	initialize.h	/^	struct buffer_info *buffer; $/;"	m	struct:dram_info	typeref:struct:dram_info::buffer_info
+buffer_group	initialize.h	/^typedef struct buffer_group{$/;"	s
+buffer_head	avlTree.h	/^	struct buffer_group *buffer_head;            \/*as LRU head which is most recently used*\/$/;"	m	struct:buffer_info	typeref:struct:buffer_info::buffer_group
+buffer_info	avlTree.h	/^typedef struct buffer_info$/;"	s
+buffer_management	initialize.h	/^	int buffer_management;          \/\/indicates that there are buffer management or not$/;"	m	struct:parameter_value
+buffer_management	ssd.c	/^struct ssd_info *buffer_management(struct ssd_info *ssd)$/;"	f
+buffer_sector_count	avlTree.h	/^	unsigned int buffer_sector_count;$/;"	m	struct:buffer_info
+buffer_tail	avlTree.h	/^	struct buffer_group *buffer_tail;            \/*as LRU tail which is least recently used*\/$/;"	m	struct:buffer_info	typeref:struct:buffer_info::buffer_group
+can_erase_block	initialize.h	/^	int can_erase_block;                \/\/记录在一个plane中准备在gc操作中被擦除操作的块,-1表示还没有找到合适的块$/;"	m	struct:plane_info
+channel	initialize.h	/^	unsigned int channel;$/;"	m	struct:local
+channel_head	initialize.h	/^	struct channel_info *channel_head;   \/\/指向channel结构体数组的首地址$/;"	m	struct:ssd_info	typeref:struct:ssd_info::channel_info
+channel_info	initialize.h	/^struct channel_info{$/;"	s
+channel_number	initialize.h	/^	unsigned int channel_number;    \/\/记录SSD中有多少个通道，每个通道是单独的bus$/;"	m	struct:parameter_value
+chip	initialize.h	/^	int chip;                            \/\/表示在该总线上有多少颗粒$/;"	m	struct:channel_info
+chip	initialize.h	/^	unsigned int chip;$/;"	m	struct:gc_operation
+chip	initialize.h	/^	unsigned int chip;$/;"	m	struct:local
+chip	initialize.h	98;"	d
+chip_channel	initialize.h	/^	unsigned int chip_channel[100]; \/\/设置SSD中channel数和每channel上颗粒的数量$/;"	m	struct:parameter_value
+chip_head	initialize.h	/^	struct chip_info *chip_head;        $/;"	m	struct:channel_info	typeref:struct:channel_info::chip_info
+chip_info	initialize.h	/^struct chip_info{$/;"	s
+chip_num	initialize.h	/^	unsigned int chip_num;          \/\/记录一个SSD中有多少个颗粒$/;"	m	struct:parameter_value
+clean_in_background	initialize.h	/^	int clean_in_background;        \/\/清除操作是否在前台完成$/;"	m	struct:parameter_value
+clock_time	initialize.h	/^	int clock_time;$/;"	m	struct:dram_parameter
+clock_time	initialize.h	/^	int64_t clock_time;                 \/\/表示一个时钟周期的时间$/;"	m	struct:controller_info
+complete_lsn_count	initialize.h	/^	unsigned int complete_lsn_count;   \/\/record the count of lsn served by buffer$/;"	m	struct:request
+complete_time	initialize.h	/^	int64_t complete_time;            \/\/记录该子请求的处理时间,既真正写入或者读出数据的时间$/;"	m	struct:sub_request
+compute_serve_time	flash.c	/^struct ssd_info *compute_serve_time(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,struct sub_request **subs, unsigned int subs_count,unsigned int command)$/;"	f
+controller_info	initialize.h	/^struct controller_info{$/;"	s
+copy_back	flash.c	/^Status copy_back(struct ssd_info * ssd, unsigned int channel, unsigned int chip, unsigned int die,struct sub_request * sub)$/;"	f
+copy_back_count	initialize.h	/^	int copy_back_count;    $/;"	m	struct:gc_info
+copy_back_count	initialize.h	/^	unsigned long copy_back_count;$/;"	m	struct:ssd_info
+count	avlTree.h	/^	unsigned int	count;		                 \/*AVL树里的节点总数*\/$/;"	m	struct:buffer_info
+cpu_sdram	initialize.h	/^	unsigned int cpu_sdram;         \/\/记录片内有多少$/;"	m	struct:parameter_value
+creat_sub_request	flash.c	/^struct sub_request * creat_sub_request(struct ssd_info * ssd,unsigned int lpn,int size,unsigned int state,struct request * req,unsigned int operation)$/;"	f
+current_state	initialize.h	/^	int current_state;                   \/\/channel has serveral states, including idle, command\/address transfer,data transfer,unknown$/;"	m	struct:channel_info
+current_state	initialize.h	/^	int current_state;                  \/\/channel has serveral states, including idle, command\/address transfer,data transfer,unknown$/;"	m	struct:chip_info
+current_state	initialize.h	/^	unsigned int current_state;        \/\/表示该子请求所处的状态，见宏定义sub request$/;"	m	struct:sub_request
+current_time	initialize.h	/^	int64_t current_time;                \/\/记录该通道的当前时间$/;"	m	struct:channel_info
+current_time	initialize.h	/^	int64_t current_time;                \/\/记录系统时间$/;"	m	struct:ssd_info
+current_time	initialize.h	/^	int64_t current_time;               \/\/记录该通道的当前时间$/;"	m	struct:chip_info
+current_time	initialize.h	/^	int64_t current_time;$/;"	m	struct:dram_info
+current_time	initialize.h	/^	int64_t current_time;$/;"	m	struct:sub_request
+decide_gc_invoke	pagemap-tmp.c	/^int decide_gc_invoke(struct ssd_info *ssd, unsigned int channel)      $/;"	f
+decide_gc_invoke	pagemap.c	/^int decide_gc_invoke(struct ssd_info *ssd, unsigned int channel)      $/;"	f
+delete_from_channel	flash.c	/^struct ssd_info *delete_from_channel(struct ssd_info *ssd,unsigned int channel,struct sub_request * sub_req)$/;"	f
+delete_gc_node	pagemap-tmp.c	/^int delete_gc_node(struct ssd_info *ssd, unsigned int channel,struct gc_operation *gc_node)$/;"	f
+delete_gc_node	pagemap.c	/^int delete_gc_node(struct ssd_info *ssd, unsigned int channel,struct gc_operation *gc_node)$/;"	f
+delete_w_sub_request	flash.c	/^int delete_w_sub_request(struct ssd_info * ssd, unsigned int channel, struct sub_request * sub )$/;"	f
+die	initialize.h	/^	unsigned int die;$/;"	m	struct:gc_operation
+die	initialize.h	/^	unsigned int die;$/;"	m	struct:local
+die	initialize.h	99;"	d
+die_chip	initialize.h	/^	unsigned int die_chip;    $/;"	m	struct:parameter_value
+die_head	initialize.h	/^	struct die_info *die_head;$/;"	m	struct:chip_info	typeref:struct:chip_info::die_info
+die_info	initialize.h	/^struct die_info{$/;"	s
+die_num	initialize.h	/^	unsigned int die_num;               \/\/表示一个颗粒中有多少个die$/;"	m	struct:chip_info
+direct_erase	initialize.h	/^struct direct_erase{$/;"	s
+direct_erase_count	initialize.h	/^	unsigned long direct_erase_count;$/;"	m	struct:ssd_info
+dirty_clean	initialize.h	/^	unsigned int dirty_clean;           \/\/it is flag of the data has been modified, one bit indicates one subpage. EX. 0001 indicates the first subpage is dirty$/;"	m	struct:buffer_group
+distri_flag	initialize.h	/^	int distri_flag;		           \/\/ indicate whether this request has been distributed already$/;"	m	struct:request
+distribute	ssd.c	/^struct ssd_info *distribute(struct ssd_info *ssd) $/;"	f
+dram	initialize.h	/^	struct dram_info *dram;$/;"	m	struct:ssd_info	typeref:struct:ssd_info::dram_info
+dram_active_current	initialize.h	/^	double dram_active_current;     \/\/cpu sdram work current   uA$/;"	m	struct:parameter_value
+dram_capacity	initialize.h	/^	unsigned int dram_capacity;     $/;"	m	struct:dram_info
+dram_capacity	initialize.h	/^	unsigned int dram_capacity;     \/\/记录SSD中DRAM capacity$/;"	m	struct:parameter_value
+dram_info	initialize.h	/^struct dram_info{$/;"	s
+dram_parameter	initialize.h	/^struct dram_parameter{$/;"	s
+dram_paramters	initialize.h	/^	struct dram_parameter *dram_paramters;      $/;"	m	struct:dram_info	typeref:struct:dram_info::dram_parameter
+dram_refresh_current	initialize.h	/^	double dram_refresh_current;    \/\/cpu sdram work current   uA$/;"	m	struct:parameter_value
+dram_standby_current	initialize.h	/^	double dram_standby_current;    \/\/cpu sdram work current   uA$/;"	m	struct:parameter_value
+dram_voltage	initialize.h	/^	double dram_voltage;            \/\/cpu sdram work voltage  V$/;"	m	struct:parameter_value
+dynamic_advanced_process	flash.c	/^struct ssd_info *dynamic_advanced_process(struct ssd_info *ssd,unsigned int channel,unsigned int chip)         $/;"	f
+dynamic_allocation	initialize.h	/^	int dynamic_allocation;         \/\/记录动态分配的方式$/;"	m	struct:parameter_value
+energy_consumption	initialize.h	/^	double energy_consumption;         \/\/记录该请求的能量消耗，单位为uJ$/;"	m	struct:request
+energy_consumption	initialize.h	/^	double energy_consumption;     \/\/该plane花了多少能量在gc操作上$/;"	m	struct:gc_info
+entry	initialize.h	/^struct entry{                       $/;"	s
+erase_count	initialize.h	/^	int erase_count;$/;"	m	struct:gc_info
+erase_count	initialize.h	/^	unsigned int erase_count;          \/\/块的擦除次数，该项记录在ram中，用于GC$/;"	m	struct:blk_info
+erase_count	initialize.h	/^	unsigned long erase_count;$/;"	m	struct:channel_info
+erase_count	initialize.h	/^	unsigned long erase_count;$/;"	m	struct:chip_info
+erase_count	initialize.h	/^	unsigned long erase_count;$/;"	m	struct:ssd_info
+erase_node	initialize.h	/^	struct direct_erase *erase_node;    \/\/用来记录可以直接删除的块号,在获取新的ppn时，每当出现invalid_page_num==64时，将其添加到这个指针上，供GC操作时直接删除$/;"	m	struct:plane_info	typeref:struct:plane_info::direct_erase
+erase_operation	pagemap-tmp.c	/^Status erase_operation(struct ssd_info * ssd,unsigned int channel ,unsigned int chip ,unsigned int die ,unsigned int plane ,unsigned int block)$/;"	f
+erase_operation	pagemap.c	/^Status erase_operation(struct ssd_info * ssd,unsigned int channel ,unsigned int chip ,unsigned int die ,unsigned int plane ,unsigned int block)$/;"	f
+erase_planes	pagemap-tmp.c	/^Status erase_planes(struct ssd_info * ssd, unsigned int channel, unsigned int chip, unsigned int die1, unsigned int plane1,unsigned int command)$/;"	f
+erase_planes	pagemap.c	/^Status erase_planes(struct ssd_info * ssd, unsigned int channel, unsigned int chip, unsigned int die1, unsigned int plane1,unsigned int command)$/;"	f
+ers_invalid	initialize.h	/^	unsigned int ers_invalid;           \/\/记录该plane中擦除失效的块数$/;"	m	struct:plane_info
+ers_limit	initialize.h	/^	unsigned int ers_limit;             \/\/该chip中每块能够被擦除的次数$/;"	m	struct:chip_info
+ers_limit	initialize.h	/^	unsigned int ers_limit;         \/\/记录每个块可擦除的次数$/;"	m	struct:parameter_value
+event	initialize.h	/^	struct event_node *event;            \/\/事件队列，每产生一个新的事件，按照时间顺序加到这个队列，在simulate函数最后，根据这个队列队首的时间，确定时间$/;"	m	struct:ssd_info	typeref:struct:ssd_info::event_node
+event	initialize.h	/^	struct event_node *event;$/;"	m	struct:channel_info	typeref:struct:channel_info::event_node
+event_node	initialize.h	/^struct event_node{$/;"	s
+file_assert	pagemap-tmp.c	/^void file_assert(int error,char *s)$/;"	f
+file_assert	pagemap.c	/^void file_assert(int error,char *s)$/;"	f
+find_active_block	flash.c	/^Status  find_active_block(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane)$/;"	f
+find_interleave_twoplane_page	flash.c	/^struct sub_request *find_interleave_twoplane_page(struct ssd_info *ssd, struct sub_request *one_page,unsigned int command)$/;"	f
+find_interleave_twoplane_sub_request	flash.c	/^int find_interleave_twoplane_sub_request(struct ssd_info * ssd, unsigned int channel,struct sub_request * sub_request_one,struct sub_request * sub_request_two,unsigned int command)$/;"	f
+find_level_page	flash.c	/^Status find_level_page(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,struct sub_request *subA,struct sub_request *subB)       $/;"	f
+find_location	pagemap-tmp.c	/^struct local *find_location(struct ssd_info *ssd,unsigned int ppn)$/;"	f
+find_location	pagemap.c	/^struct local *find_location(struct ssd_info *ssd,unsigned int ppn)$/;"	f
+find_nearest_event	ssd.c	/^int64_t find_nearest_event(struct ssd_info *ssd) $/;"	f
+find_ppn	pagemap-tmp.c	/^unsigned int find_ppn(struct ssd_info * ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane,unsigned int block,unsigned int page)$/;"	f
+find_ppn	pagemap.c	/^unsigned int find_ppn(struct ssd_info * ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane,unsigned int block,unsigned int page)$/;"	f
+find_read_sub_request	flash.c	/^struct sub_request * find_read_sub_request(struct ssd_info * ssd, unsigned int channel, unsigned int chip, unsigned int die)$/;"	f
+find_write_sub_request	flash.c	/^struct sub_request * find_write_sub_request(struct ssd_info * ssd, unsigned int channel)$/;"	f
+flag	initialize.h	/^	int flag;			                \/\/indicates if this node is the last 20% of the LRU list	$/;"	m	struct:buffer_group
+flag	initialize.h	/^	int flag;$/;"	m	struct:ssd_info
+flash_page_state_modify	flash.c	/^struct ssd_info *flash_page_state_modify(struct ssd_info *ssd,struct sub_request *sub,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane,unsigned int block,unsigned int page)$/;"	f
+free	avlTree.h	/^	int			(*free)(TREE_NODE *);$/;"	m	struct:buffer_info
+freeFunc	initialize.c	/^extern int freeFunc(TREE_NODE *pNode)$/;"	f
+free_all_node	ssd.c	/^void free_all_node(struct ssd_info *ssd)$/;"	f
+free_page	initialize.h	/^	unsigned int free_page;             \/\/该plane中有多少free page$/;"	m	struct:plane_info
+free_page_num	initialize.h	/^	unsigned int free_page_num;        \/\/记录该块中的free页个数，同上$/;"	m	struct:blk_info
+free_state	initialize.h	/^	int free_state;                    \/\/each bit indicates the subpage is free or occupted. 1 indicates that the bit is free and 0 indicates that the bit is used$/;"	m	struct:page_info
+frequency	initialize.h	/^	unsigned int frequency;             \/\/表示该控制器的工作频率$/;"	m	struct:controller_info
+gc	initialize.h	/^	int gc;                         \/\/记录gc策略$/;"	m	struct:parameter_value
+gc	pagemap-tmp.c	/^unsigned int gc(struct ssd_info *ssd,unsigned int channel, unsigned int flag)$/;"	f
+gc	pagemap.c	/^unsigned int gc(struct ssd_info *ssd,unsigned int channel, unsigned int flag)$/;"	f
+gc_command	initialize.h	/^	struct gc_operation *gc_command;     \/\/记录需要产生gc的位置$/;"	m	struct:channel_info	typeref:struct:channel_info::gc_operation
+gc_copy_back	initialize.h	/^	unsigned long gc_copy_back;$/;"	m	struct:ssd_info
+gc_direct_erase	pagemap-tmp.c	/^int gc_direct_erase(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane)     $/;"	f
+gc_direct_erase	pagemap.c	/^int gc_direct_erase(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane)     $/;"	f
+gc_for_channel	pagemap-tmp.c	/^Status gc_for_channel(struct ssd_info *ssd, unsigned int channel)$/;"	f
+gc_for_channel	pagemap.c	/^Status gc_for_channel(struct ssd_info *ssd, unsigned int channel)$/;"	f
+gc_hard_threshold	initialize.h	/^	float gc_hard_threshold;        \/\/普通策略中用不到该参数，只有在主动写策略中，当满足这个阈值时，GC操作不可中断$/;"	m	struct:parameter_value
+gc_info	initialize.h	/^struct gc_info{$/;"	s
+gc_operation	initialize.h	/^struct gc_operation{          $/;"	s
+gc_request	initialize.h	/^	unsigned int gc_request;             \/\/记录在SSD中，当前时刻有多少gc操作的请求$/;"	m	struct:ssd_info
+gc_threshold	initialize.h	/^	float gc_threshold;             \/\/当达到这个阈值时，开始GC操作，在主动写策略中，开始GC操作后可以临时中断GC操作，服务新到的请求；在普通策略中，GC不可中断$/;"	m	struct:parameter_value
+get_ppn	pagemap-tmp.c	/^struct ssd_info *get_ppn(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane,struct sub_request *sub)$/;"	f
+get_ppn	pagemap.c	/^struct ssd_info *get_ppn(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane,struct sub_request *sub)$/;"	f
+get_ppn_for_advanced_commands	flash.c	/^Status get_ppn_for_advanced_commands(struct ssd_info *ssd,unsigned int channel,unsigned int chip,struct sub_request * * subs ,unsigned int subs_count,unsigned int command)      $/;"	f
+get_ppn_for_gc	pagemap-tmp.c	/^ unsigned int get_ppn_for_gc(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane)     $/;"	f
+get_ppn_for_gc	pagemap.c	/^ unsigned int get_ppn_for_gc(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane)     $/;"	f
+get_ppn_for_normal_command	flash.c	/^Status get_ppn_for_normal_command(struct ssd_info * ssd, unsigned int channel,unsigned int chip, struct sub_request * sub)$/;"	f
+get_ppn_for_pre_process	pagemap-tmp.c	/^unsigned int get_ppn_for_pre_process(struct ssd_info *ssd,unsigned int lsn)     $/;"	f
+get_ppn_for_pre_process	pagemap.c	/^unsigned int get_ppn_for_pre_process(struct ssd_info *ssd,unsigned int lsn)     $/;"	f
+get_requests	ssd.c	/^int get_requests(struct ssd_info *ssd)  $/;"	f
+go_one_step	flash.c	/^Status go_one_step(struct ssd_info * ssd, struct sub_request * sub1,struct sub_request *sub2, unsigned int aim_state,unsigned int command)$/;"	f
+greed_CB_ad	initialize.h	/^	int greed_CB_ad;                \/\/0 don't use copyback advanced commands greedily; 1 use copyback advanced commands greedily$/;"	m	struct:parameter_value
+greed_MPW_ad	initialize.h	/^	int greed_MPW_ad;               \/\/0 don't use multi-plane write advanced commands greedily; 1 use multi-plane write advanced commands greedily$/;"	m	struct:parameter_value
+group	initialize.h	/^	unsigned int group;                 \/\/the first data logic sector number of a group stored in buffer $/;"	m	struct:buffer_group
+initialize_block	initialize.c	/^struct blk_info * initialize_block(struct blk_info * p_block,struct parameter_value *parameter)$/;"	f
+initialize_channels	initialize.c	/^struct ssd_info * initialize_channels(struct ssd_info * ssd )$/;"	f
+initialize_chip	initialize.c	/^struct chip_info * initialize_chip(struct chip_info * p_chip,struct parameter_value *parameter,long long current_time )$/;"	f
+initialize_die	initialize.c	/^struct die_info * initialize_die(struct die_info * p_die,struct parameter_value *parameter,long long current_time )$/;"	f
+initialize_dram	initialize.c	/^struct dram_info * initialize_dram(struct ssd_info * ssd)$/;"	f
+initialize_page	initialize.c	/^struct page_info * initialize_page(struct page_info * p_page )$/;"	f
+initialize_plane	initialize.c	/^struct plane_info * initialize_plane(struct plane_info * p_plane,struct parameter_value *parameter )$/;"	f
+initiation	initialize.c	/^struct ssd_info *initiation(struct ssd_info *ssd)$/;"	f
+insert2buffer	flash.c	/^struct ssd_info * insert2buffer(struct ssd_info *ssd,unsigned int lpn,int state,struct sub_request *sub,struct request *req)      $/;"	f
+inter_mplane_count	initialize.h	/^	unsigned long inter_mplane_count;$/;"	m	struct:ssd_info
+inter_mplane_prog_count	initialize.h	/^	unsigned long inter_mplane_prog_count;$/;"	m	struct:ssd_info
+interleave_count	initialize.h	/^	unsigned long interleave_count;$/;"	m	struct:ssd_info
+interleave_erase_count	initialize.h	/^	unsigned long interleave_erase_count;$/;"	m	struct:ssd_info
+interleave_mplane_erase_count	initialize.h	/^	unsigned long interleave_mplane_erase_count;$/;"	m	struct:ssd_info
+interleave_read_count	initialize.h	/^	unsigned long interleave_read_count;$/;"	m	struct:ssd_info
+interleaving	initialize.h	/^	int interleaving;$/;"	m	struct:parameter_value
+interrupt_gc	pagemap-tmp.c	/^int interrupt_gc(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane,struct gc_operation *gc_node)        $/;"	f
+interrupt_gc	pagemap.c	/^int interrupt_gc(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane,struct gc_operation *gc_node)        $/;"	f
+invalid_page_num	initialize.h	/^	unsigned int invalid_page_num;     \/\/记录该块中失效页的个数，同上$/;"	m	struct:blk_info
+keyCompare	avlTree.h	/^	int 			(*keyCompare)(TREE_NODE * , TREE_NODE *);$/;"	m	struct:buffer_info
+keyCompareFunc	initialize.c	/^extern int keyCompareFunc(TREE_NODE *p , TREE_NODE *p1)$/;"	f
+last_write_page	initialize.h	/^	int last_write_page;               \/\/记录最近一次写操作执行的页数,-1表示该块没有一页被写过$/;"	m	struct:blk_info
+left_child	avlTree.h	/^	struct _AVL_TREE_NODE *left_child;$/;"	m	struct:_AVL_TREE_NODE	typeref:struct:_AVL_TREE_NODE::_AVL_TREE_NODE
+load_parameters	initialize.c	/^struct parameter_value *load_parameters(char parameter_file[30])$/;"	f
+local	initialize.h	/^struct local{          $/;"	s
+location	initialize.h	/^	struct local *location;           \/\/在静态分配和混合分配方式中，已知lpn就知道该lpn该分配到那个channel，chip，die，plane，这个结构体用来保存计算得到的地址$/;"	m	struct:sub_request	typeref:struct:sub_request::local
+lpn	initialize.h	/^	unsigned int lpn;                  \/\/这里表示该子请求的逻辑页号$/;"	m	struct:sub_request
+lpn	initialize.h	/^	unsigned int lpn;                 $/;"	m	struct:page_info
+lpn2ppn	ssd.c	/^unsigned int lpn2ppn(struct ssd_info *ssd,unsigned int lsn)$/;"	f
+lsn	initialize.h	/^	unsigned int lsn;                  \/\/请求的起始地址，逻辑地址$/;"	m	struct:request
+m_plane_prog_count	initialize.h	/^	unsigned long m_plane_prog_count;$/;"	m	struct:ssd_info
+m_plane_read_count	initialize.h	/^	unsigned long m_plane_read_count;$/;"	m	struct:ssd_info
+main	ssd.c	/^int  main()$/;"	f
+make_aged	ssd.c	/^struct ssd_info *make_aged(struct ssd_info *ssd)$/;"	f
+make_level_page	flash.c	/^Status make_level_page(struct ssd_info * ssd, struct sub_request * sub0,struct sub_request * sub1)$/;"	f
+make_same_level	flash.c	/^struct ssd_info *make_same_level(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane,unsigned int block,unsigned int aim_page)$/;"	f
+map	initialize.h	/^	struct map_info *map;$/;"	m	struct:dram_info	typeref:struct:dram_info::map_info
+map_entry	initialize.h	/^	struct entry *map_entry;            \/\/该项是映射表结构体指针,each entry indicate a mapping information$/;"	m	struct:map_info	typeref:struct:map_info::entry
+map_info	initialize.h	/^struct map_info{$/;"	s
+max_buffer_sector	avlTree.h	/^	unsigned int max_buffer_sector;$/;"	m	struct:buffer_info
+max_lsn	initialize.h	/^	unsigned int max_lsn;$/;"	m	struct:ssd_info
+min_lsn	initialize.h	/^	unsigned int min_lsn;$/;"	m	struct:ssd_info
+move_page	pagemap-tmp.c	/^Status move_page(struct ssd_info * ssd, struct local *location, unsigned int * transfer_size)$/;"	f
+move_page	pagemap.c	/^Status move_page(struct ssd_info * ssd, struct local *location, unsigned int * transfer_size)$/;"	f
+mplane_erase_conut	initialize.h	/^	unsigned long mplane_erase_conut;$/;"	m	struct:ssd_info
+need_distr_flag	initialize.h	/^	unsigned int* need_distr_flag;$/;"	m	struct:request
+next	avlTree.h	/^	struct _AVL_TREE_NODE *next;$/;"	m	struct:_AVL_TREE_NODE	typeref:struct:_AVL_TREE_NODE::_AVL_TREE_NODE
+next_node	initialize.h	/^	struct direct_erase *next_node;$/;"	m	struct:direct_erase	typeref:struct:direct_erase::direct_erase
+next_node	initialize.h	/^	struct event_node *next_node;$/;"	m	struct:event_node	typeref:struct:event_node::event_node
+next_node	initialize.h	/^	struct gc_operation *next_node;$/;"	m	struct:gc_operation	typeref:struct:gc_operation::gc_operation
+next_node	initialize.h	/^	struct request *next_node;         \/\/指向下一个请求结构体$/;"	m	struct:request	typeref:struct:request::request
+next_node	initialize.h	/^	struct sub_request *next_node;    \/\/指向同一个channel中下一个子请求结构体$/;"	m	struct:sub_request	typeref:struct:sub_request::sub_request
+next_request_time	initialize.h	/^	int64_t next_request_time;$/;"	m	struct:ssd_info
+next_state	initialize.h	/^	int next_state;$/;"	m	struct:channel_info
+next_state	initialize.h	/^	int next_state;$/;"	m	struct:chip_info
+next_state	initialize.h	/^	unsigned int next_state;$/;"	m	struct:sub_request
+next_state_predict_time	initialize.h	/^	int64_t next_state_predict_time;     \/\/the predict time of next state, used to decide the sate at the moment$/;"	m	struct:channel_info
+next_state_predict_time	initialize.h	/^	int64_t next_state_predict_time;    \/\/the predict time of next state, used to decide the sate at the moment$/;"	m	struct:chip_info
+next_state_predict_time	initialize.h	/^	int64_t next_state_predict_time;$/;"	m	struct:sub_request
+next_subs	initialize.h	/^	struct sub_request *next_subs;    \/\/指向属于同一个request的子请求$/;"	m	struct:sub_request	typeref:struct:sub_request::sub_request
+no_buffer_distribute	ssd.c	/^struct ssd_info *no_buffer_distribute(struct ssd_info *ssd)$/;"	f
+node	initialize.h	/^	TREE_NODE node;                     \/\/树节点的结构一定要放在用户自定义结构的最前面，注意!$/;"	m	struct:buffer_group
+not_align_write_count	initialize.h	/^	unsigned int not_align_write_count;$/;"	m	struct:ssd_info
+operating_current	initialize.h	/^	double operating_current;       \/\/NAND FLASH的工作电流单位是uA$/;"	m	struct:parameter_value
+operation	initialize.h	/^	unsigned int operation;            \/\/表示该子请求的类型，除了读1 写0，还有擦除，two plane等操作 $/;"	m	struct:sub_request
+operation	initialize.h	/^	unsigned int operation;            \/\/请求的种类，1为读，0为写$/;"	m	struct:request
+orderListInsert	avlTree.c	/^static int orderListInsert$/;"	f	file:
+orderListRemove	avlTree.c	/^static int orderListRemove$/;"	f	file:
+outputfile	initialize.h	/^	FILE * outputfile;$/;"	m	struct:ssd_info
+outputfilename	initialize.h	/^	char outputfilename[30];$/;"	m	struct:ssd_info
+overprovide	initialize.h	/^	float overprovide;$/;"	m	struct:parameter_value
+pListHeader	avlTree.h	/^	TREE_NODE	*pListHeader;$/;"	m	struct:buffer_info
+pListTail	avlTree.h	/^	TREE_NODE	*pListTail;$/;"	m	struct:buffer_info
+pTreeHeader	avlTree.h	/^	TREE_NODE	*pTreeHeader;     				 \/*for search target lsn is LRU table*\/$/;"	m	struct:buffer_info
+page	initialize.h	/^	unsigned int page;            \/\/该参数只在可中断的gc函数中使用（gc_interrupt），用来记录已经完成的数据迁移的页号$/;"	m	struct:gc_operation
+page	initialize.h	/^	unsigned int page;$/;"	m	struct:local
+page	initialize.h	/^	unsigned int page;$/;"	m	struct:ssd_info
+page_block	initialize.h	/^	unsigned int page_block;$/;"	m	struct:parameter_value
+page_capacity	initialize.h	/^	unsigned int page_capacity;$/;"	m	struct:parameter_value
+page_head	initialize.h	/^	struct page_info *page_head;       \/\/记录每一子页的状态$/;"	m	struct:blk_info	typeref:struct:blk_info::page_info
+page_info	initialize.h	/^struct page_info{                      \/\/lpn记录该物理页存储的逻辑页，当该逻辑页有效时，valid_state大于0，free_state大于0；$/;"	s
+page_num_block	initialize.h	/^	unsigned int page_num_block;        \/\/indicate how many pages in a block$/;"	m	struct:chip_info
+parameter	initialize.h	/^    struct parameter_value *parameter;   \/\/SSD参数因子$/;"	m	struct:ssd_info	typeref:struct:ssd_info::parameter_value
+parameter_value	initialize.h	/^struct parameter_value{$/;"	s
+parameterfilename	initialize.h	/^	char parameterfilename[30];$/;"	m	struct:ssd_info
+pipelining	initialize.h	/^	int pipelining;$/;"	m	struct:parameter_value
+plane	initialize.h	/^	unsigned int plane;$/;"	m	struct:gc_operation
+plane	initialize.h	/^	unsigned int plane;$/;"	m	struct:local
+plane_die	initialize.h	/^	unsigned int plane_die;$/;"	m	struct:parameter_value
+plane_head	initialize.h	/^	struct plane_info *plane_head;$/;"	m	struct:die_info	typeref:struct:die_info::plane_info
+plane_info	initialize.h	/^struct plane_info{$/;"	s
+plane_num_die	initialize.h	/^	unsigned int plane_num_die;         \/\/indicate how many planes in a die$/;"	m	struct:chip_info
+pn	initialize.h	/^	unsigned int pn;                \/\/物理号，既可以表示物理页号，也可以表示物理子页号，也可以表示物理块号$/;"	m	struct:entry
+power	initialize.h	/^	float power;                        \/\/表示控制器单位时间的能耗$/;"	m	struct:controller_info
+ppn	initialize.h	/^	unsigned int ppn;                  \/\/分配那个物理子页给这个子请求。在multi_chip_page_mapping中，产生子页请求时可能就知道psn的值，其他时候psn的值由page_map_read,page_map_write等FTL最底层函数产生。 $/;"	m	struct:sub_request
+pre_entropy	initialize.h	/^	double pre_entropy[PRE_LIST_SIZE];$/;"	m	struct:ssd_info
+pre_list	initialize.h	/^	int64_t pre_list[PRE_LIST_SIZE];$/;"	m	struct:ssd_info
+pre_node	initialize.h	/^	struct event_node *pre_node;$/;"	m	struct:event_node	typeref:struct:event_node::event_node
+pre_process_page	pagemap-tmp.c	/^struct ssd_info *pre_process_page(struct ssd_info *ssd)$/;"	f
+pre_process_page	pagemap.c	/^struct ssd_info *pre_process_page(struct ssd_info *ssd)$/;"	f
+predict_time	initialize.h	/^	int64_t predict_time;            \/\/记录这个时间开始的预计时间，防止提前执行这个时间$/;"	m	struct:event_node
+prev	avlTree.h	/^	struct _AVL_TREE_NODE *prev;$/;"	m	struct:_AVL_TREE_NODE	typeref:struct:_AVL_TREE_NODE::_AVL_TREE_NODE
+priority	initialize.h	/^	unsigned int priority;        \/\/记录该gc操作的优先级，1表示不可中断，0表示可中断（软阈值产生的gc请求）$/;"	m	struct:gc_operation
+process	flash.c	/^struct ssd_info *process(struct ssd_info *ssd)   $/;"	f
+process_time	initialize.h	/^	int64_t process_time;          \/\/该plane花了多少时间在gc操作上$/;"	m	struct:gc_info
+program_count	initialize.h	/^	unsigned long program_count;$/;"	m	struct:channel_info
+program_count	initialize.h	/^	unsigned long program_count;$/;"	m	struct:chip_info
+program_count	initialize.h	/^	unsigned long program_count;$/;"	m	struct:ssd_info
+queue_length	initialize.h	/^	int queue_length;               \/\/请求队列的长度限制$/;"	m	struct:parameter_value
+quick_radio	initialize.h	/^	float quick_radio;$/;"	m	struct:parameter_value
+read_avg	initialize.h	/^	int64_t read_avg;                    \/\/记录用于计算读请求平均响应时间的时间$/;"	m	struct:ssd_info
+read_count	initialize.h	/^	unsigned long read_count;           \/\/how many read count in the process of workload$/;"	m	struct:chip_info
+read_count	initialize.h	/^	unsigned long read_count;$/;"	m	struct:channel_info
+read_count	initialize.h	/^	unsigned long read_count;$/;"	m	struct:ssd_info
+read_hit	avlTree.h	/^	unsigned long read_hit;                      \/*这里的hit都表示sector的命中次数或是没命中的次数*\/$/;"	m	struct:buffer_info
+read_miss_hit	avlTree.h	/^	unsigned long read_miss_hit;  $/;"	m	struct:buffer_info
+read_request_count	initialize.h	/^	unsigned int read_request_count;     \/\/记录读操作的次数$/;"	m	struct:ssd_info
+real_time_subreq	initialize.h	/^	unsigned int real_time_subreq;       \/\/记录实时的写请求个数，用在全动态分配时，channel优先的情况$/;"	m	struct:ssd_info
+related_mapping	initialize.h	/^	int related_mapping;$/;"	m	struct:parameter_value
+request	initialize.h	/^struct request{$/;"	s
+request_queue	initialize.h	/^	struct request *request_queue;       \/\/dynamic request queue$/;"	m	struct:ssd_info	typeref:struct:ssd_info::request
+request_queue_length	initialize.h	/^	unsigned int request_queue_length;$/;"	m	struct:ssd_info
+request_tail	initialize.h	/^	struct request *request_tail;	     \/\/ the tail of the request queue$/;"	m	struct:ssd_info	typeref:struct:ssd_info::request
+response_time	initialize.h	/^	int64_t response_time;$/;"	m	struct:request
+right_child	avlTree.h	/^	struct _AVL_TREE_NODE *right_child;$/;"	m	struct:_AVL_TREE_NODE	typeref:struct:_AVL_TREE_NODE::_AVL_TREE_NODE
+scheduling_algorithm	initialize.h	/^	int scheduling_algorithm;       \/\/记录使用哪种调度算法，1:FCFS$/;"	m	struct:parameter_value
+services_2_r_cmd_trans_and_complete	flash.c	/^Status services_2_r_cmd_trans_and_complete(struct ssd_info * ssd)$/;"	f
+services_2_r_data_trans	flash.c	/^Status services_2_r_data_trans(struct ssd_info * ssd,unsigned int channel,unsigned int * channel_busy_flag, unsigned int * change_current_time_flag)$/;"	f
+services_2_r_wait	flash.c	/^int services_2_r_wait(struct ssd_info * ssd,unsigned int channel,unsigned int * channel_busy_flag, unsigned int * change_current_time_flag)$/;"	f
+services_2_write	flash.c	/^Status services_2_write(struct ssd_info * ssd,unsigned int channel,unsigned int * channel_busy_flag, unsigned int * change_current_time_flag)$/;"	f
+set_entry_state	pagemap-tmp.c	/^int set_entry_state(struct ssd_info *ssd,unsigned int lsn,unsigned int size)$/;"	f
+set_entry_state	pagemap.c	/^int set_entry_state(struct ssd_info *ssd,unsigned int lsn,unsigned int size)$/;"	f
+simulate	ssd.c	/^struct ssd_info *simulate(struct ssd_info *ssd)$/;"	f
+size	initialize.h	/^	int size;$/;"	m	struct:sub_request
+size	initialize.h	/^	unsigned int size;                 \/\/请求的大小，既多少个扇区$/;"	m	struct:request
+size	ssd.c	/^unsigned int size(unsigned int stored)$/;"	f
+sleep_current	initialize.h	/^	float sleep_current;$/;"	m	struct:dram_parameter
+small_large_write	initialize.h	/^	unsigned int small_large_write; \/\/the threshould of large write, large write do not occupt buffer, which is written back to flash directly$/;"	m	struct:parameter_value
+ssd_energy	initialize.h	/^	double ssd_energy;                   \/\/SSD的能耗，是时间和芯片数的函数,能耗因子$/;"	m	struct:ssd_info
+ssd_info	initialize.h	/^struct ssd_info{ $/;"	s
+state	initialize.h	/^	 unsigned int state;              \/\/使用state的最高位表示该子请求是否是一对多映射关系中的一个，是的话，需要读到buffer中。1表示是一对多，0表示不用写到buffer$/;"	m	struct:sub_request
+state	initialize.h	/^	int state;                      \/\/十六进制表示的话是0000-FFFF，每位表示相应的子页是否有效（页映射）。比如在这个页中，0，1号子页有效，2，3无效，这个应该是0x0003.$/;"	m	struct:entry
+state	initialize.h	/^	unsigned int state;           \/\/记录当前gc请求的状态$/;"	m	struct:gc_operation
+state	initialize.h	/^	unsigned int state; $/;"	m	struct:Dram_write_map
+static_allocation	initialize.h	/^	int static_allocation;          \/\/记录是那种静态分配方式，如ICS09那篇文章所述的所有静态分配方式$/;"	m	struct:parameter_value
+static_write	flash.c	/^Status static_write(struct ssd_info * ssd, unsigned int channel,unsigned int chip, unsigned int die,struct sub_request * sub)$/;"	f
+statistic_output	ssd.c	/^void statistic_output(struct ssd_info *ssd)$/;"	f
+statisticfile	initialize.h	/^	FILE * statisticfile;$/;"	m	struct:ssd_info
+statisticfile2	initialize.h	/^	FILE * statisticfile2;$/;"	m	struct:ssd_info
+statisticfilename	initialize.h	/^	char statisticfilename[30];$/;"	m	struct:ssd_info
+statisticfilename2	initialize.h	/^	char statisticfilename2[30];$/;"	m	struct:ssd_info
+stored	initialize.h	/^	unsigned int stored;                \/\/indicate the sector is stored in buffer or not. 1 indicates the sector is stored and 0 indicate the sector isn't stored.EX.  00110011 indicates the first, second, fifth, sixth sector is stored in buffer.$/;"	m	struct:buffer_group
+striping	initialize.h	/^	int striping;                   \/\/表示是否使用了striping方式，0表示没有，1表示有$/;"	m	struct:parameter_value
+sub_page	initialize.h	/^	unsigned int sub_page;$/;"	m	struct:local
+sub_request	initialize.h	/^struct sub_request{$/;"	s
+subpage_capacity	initialize.h	/^	unsigned int subpage_capacity;$/;"	m	struct:parameter_value
+subpage_num_page	initialize.h	/^	unsigned int subpage_num_page;      \/\/indicate how many subpage in a page$/;"	m	struct:chip_info
+subpage_page	initialize.h	/^	unsigned int subpage_page;$/;"	m	struct:parameter_value
+subs	initialize.h	/^	struct sub_request *subs;          \/\/链接到属于该请求的所有子请求$/;"	m	struct:request	typeref:struct:request::sub_request
+subs_r_head	initialize.h	/^	struct sub_request *subs_r_head;     \/\/channel上的读请求队列头，先服务处于队列头的子请求$/;"	m	struct:channel_info	typeref:struct:channel_info::sub_request
+subs_r_tail	initialize.h	/^	struct sub_request *subs_r_tail;     \/\/channel上的读请求队列尾，新加进来的子请求加到队尾$/;"	m	struct:channel_info	typeref:struct:channel_info::sub_request
+subs_w_head	initialize.h	/^	struct sub_request *subs_w_head;     \/\/channel上的写请求队列头，先服务处于队列头的子请求$/;"	m	struct:channel_info	typeref:struct:channel_info::sub_request
+subs_w_head	initialize.h	/^	struct sub_request *subs_w_head;     \/\/当采用全动态分配时，分配是不知道应该挂载哪个channel上，所以先挂在ssd上，等进入process函数时才挂到相应的channel的读请求队列上$/;"	m	struct:ssd_info	typeref:struct:ssd_info::sub_request
+subs_w_tail	initialize.h	/^	struct sub_request *subs_w_tail;     \/\/channel上的写请求队列，新加进来的子请求加到队尾$/;"	m	struct:channel_info	typeref:struct:channel_info::sub_request
+subs_w_tail	initialize.h	/^	struct sub_request *subs_w_tail;$/;"	m	struct:ssd_info	typeref:struct:ssd_info::sub_request
+supply_voltage	initialize.h	/^	double supply_voltage;	$/;"	m	struct:parameter_value
+tADL	initialize.h	/^	int tADL;      \/\/address to data loading time$/;"	m	struct:ac_time_characteristics
+tALH	initialize.h	/^	int tALH;      \/\/ALE hold time$/;"	m	struct:ac_time_characteristics
+tALS	initialize.h	/^	int tALS;      \/\/ALE setup time$/;"	m	struct:ac_time_characteristics
+tAR	initialize.h	/^	int tAR;       \/\/ALE to RE delay$/;"	m	struct:ac_time_characteristics
+tAVLTree	avlTree.h	/^} tAVLTree;$/;"	t	typeref:struct:buffer_info
+tBERS	initialize.h	/^	int tBERS;     \/\/block erase time$/;"	m	struct:ac_time_characteristics
+tCEA	initialize.h	/^	int tCEA;      \/\/CE access time$/;"	m	struct:ac_time_characteristics
+tCH	initialize.h	/^	int tCH;       \/\/CE hold time$/;"	m	struct:ac_time_characteristics
+tCHZ	initialize.h	/^	int tCHZ;      \/\/CE high to output hi-z$/;"	m	struct:ac_time_characteristics
+tCLH	initialize.h	/^	int tCLH;      \/\/CLE hold time$/;"	m	struct:ac_time_characteristics
+tCLR	initialize.h	/^	int tCLR;      \/\/CLE to RE delay$/;"	m	struct:ac_time_characteristics
+tCLS	initialize.h	/^	int tCLS;      \/\/CLE setup time$/;"	m	struct:ac_time_characteristics
+tCOH	initialize.h	/^	int tCOH;      \/\/CE high to output hold$/;"	m	struct:ac_time_characteristics
+tCS	initialize.h	/^	int tCS;       \/\/CE setup time$/;"	m	struct:ac_time_characteristics
+tDBSY	initialize.h	/^	int tDBSY;     \/\/bummy busy time for two-plane program$/;"	m	struct:ac_time_characteristics
+tDH	initialize.h	/^	int tDH;       \/\/data hold time$/;"	m	struct:ac_time_characteristics
+tDS	initialize.h	/^	int tDS;       \/\/data setup time$/;"	m	struct:ac_time_characteristics
+tIR	initialize.h	/^	int tIR;       \/\/output hi-z to RE low$/;"	m	struct:ac_time_characteristics
+tPROG	initialize.h	/^	int tPROG;     \/\/program time$/;"	m	struct:ac_time_characteristics
+tR	initialize.h	/^	int tR;        \/\/data transfer from cell to register$/;"	m	struct:ac_time_characteristics
+tRC	initialize.h	/^	int tRC;       \/\/read cycle time$/;"	m	struct:ac_time_characteristics
+tREA	initialize.h	/^	int tREA;      \/\/RE access time$/;"	m	struct:ac_time_characteristics
+tREH	initialize.h	/^	int tREH;      \/\/RE high to output time$/;"	m	struct:ac_time_characteristics
+tRHOH	initialize.h	/^	int tRHOH;     \/\/RE high to output hold$/;"	m	struct:ac_time_characteristics
+tRHW	initialize.h	/^	int tRHW;      \/\/RE high to WE low$/;"	m	struct:ac_time_characteristics
+tRHZ	initialize.h	/^	int tRHZ;      \/\/RE high to output hi-z$/;"	m	struct:ac_time_characteristics
+tRLOH	initialize.h	/^	int tRLOH;     \/\/RE low to output hold$/;"	m	struct:ac_time_characteristics
+tRP	initialize.h	/^	int tRP;       \/\/RE pulse width$/;"	m	struct:ac_time_characteristics
+tRR	initialize.h	/^	int tRR;       \/\/ready to RE low$/;"	m	struct:ac_time_characteristics
+tRST	initialize.h	/^	int tRST;      \/\/device resetting time$/;"	m	struct:ac_time_characteristics
+tWB	initialize.h	/^	int tWB;       \/\/WE high to busy$/;"	m	struct:ac_time_characteristics
+tWC	initialize.h	/^	int tWC;       \/\/write cycle time$/;"	m	struct:ac_time_characteristics
+tWH	initialize.h	/^	int tWH;       \/\/WE high hold time$/;"	m	struct:ac_time_characteristics
+tWHR	initialize.h	/^	int tWHR;      \/\/WE high to RE low$/;"	m	struct:ac_time_characteristics
+tWP	initialize.h	/^	int tWP;       \/\/WE pulse width$/;"	m	struct:ac_time_characteristics
+threshold_fixed_adjust	initialize.h	/^	int threshold_fixed_adjust;$/;"	m	struct:parameter_value
+threshold_value	initialize.h	/^	int threshold_value;$/;"	m	struct:parameter_value
+time	initialize.h	/^	int64_t time;                      \/\/请求到达的时间，单位为us,这里和通常的习惯不一样，通常的是ms为单位，这里需要有个单位变换过程$/;"	m	struct:request
+time_characteristics	initialize.h	/^	struct ac_time_characteristics time_characteristics;$/;"	m	struct:parameter_value	typeref:struct:parameter_value::ac_time_characteristics
+time_step	initialize.h	/^	unsigned int time_step;$/;"	m	struct:parameter_value
+token	initialize.h	/^	unsigned int token;                  \/\/在动态分配中，为防止每次分配在第一个channel需要维持一个令牌，每次从令牌所指的位置开始分配$/;"	m	struct:ssd_info
+token	initialize.h	/^	unsigned int token;                  \/\/在动态分配中，为防止每次分配在第一个chip需要维持一个令牌，每次从令牌所指的位置开始分配$/;"	m	struct:channel_info
+token	initialize.h	/^	unsigned int token;                 \/\/在动态分配中，为防止每次分配在第一个die需要维持一个令牌，每次从令牌所指的位置开始分配$/;"	m	struct:chip_info
+token	initialize.h	/^	unsigned int token;                 \/\/在动态分配中，为防止每次分配在第一个plane需要维持一个令牌，每次从令牌所指的位置开始分配$/;"	m	struct:die_info
+trace_assert	pagemap-tmp.c	/^void trace_assert(int64_t time_t,int device,unsigned int lsn,int size,int ope)\/\/锟斤拷锟斤拷$/;"	f
+trace_assert	pagemap.c	/^void trace_assert(int64_t time_t,int device,unsigned int lsn,int size,int ope)\/\/断言$/;"	f
+trace_output	ssd.c	/^void trace_output(struct ssd_info* ssd){$/;"	f
+tracefile	initialize.h	/^	FILE * tracefile;$/;"	m	struct:ssd_info
+tracefilename	initialize.h	/^	char tracefilename[30];$/;"	m	struct:ssd_info
+transfer_size	ssd.c	/^unsigned int transfer_size(struct ssd_info *ssd,int need_distribute,unsigned int lpn,struct request *req)$/;"	f
+tree_root	avlTree.h	/^	struct _AVL_TREE_NODE *tree_root;$/;"	m	struct:_AVL_TREE_NODE	typeref:struct:_AVL_TREE_NODE::_AVL_TREE_NODE
+type	initialize.h	/^	int type;                        \/\/记录该事件的类型，1表示命令类型，2表示数据传输类型$/;"	m	struct:event_node
+un_greed_copyback	flash.c	/^struct ssd_info *un_greed_copyback(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,struct sub_request *sub1)$/;"	f
+un_greed_interleave_copyback	flash.c	/^struct ssd_info *un_greed_interleave_copyback(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,struct sub_request *sub1,struct sub_request *sub2)$/;"	f
+uninterrupt_gc	pagemap-tmp.c	/^int uninterrupt_gc(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane)       $/;"	f
+uninterrupt_gc	pagemap.c	/^int uninterrupt_gc(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane)       $/;"	f
+update	initialize.h	/^	struct sub_request *update;       \/\/因为在写操作中存在更新操作，因为在动态分配方式中无法使用copyback操作，需要将原来的页读出后才能进行写操作，所以，将因更新产生的读操作挂在这个指针上$/;"	m	struct:sub_request	typeref:struct:sub_request::sub_request
+update_read_count	initialize.h	/^	unsigned int update_read_count;      \/\/记录因为更新操作导致的额外读出操作$/;"	m	struct:ssd_info
+valid_state	initialize.h	/^	int valid_state;                   \/\/indicate the page is valid or invalid$/;"	m	struct:page_info
+voltage	initialize.h	/^	float voltage;$/;"	m	struct:dram_parameter
+waste_page_count	initialize.h	/^	unsigned long waste_page_count;      \/\/记录因为高级命令的限制导致的页浪费$/;"	m	struct:ssd_info
+wear_leveling	initialize.h	/^	int wear_leveling;              \/\/ WL算法$/;"	m	struct:parameter_value
+write_avg	initialize.h	/^	int64_t write_avg;                   \/\/记录用于计算写请求平均响应时间的时间$/;"	m	struct:ssd_info
+write_flash_count	initialize.h	/^	unsigned long write_flash_count;     \/\/实际产生的对flash的写操作$/;"	m	struct:ssd_info
+write_hit	avlTree.h	/^	unsigned long write_hit;   $/;"	m	struct:buffer_info
+write_miss_hit	avlTree.h	/^	unsigned long write_miss_hit;$/;"	m	struct:buffer_info
+write_page	flash.c	/^Status write_page(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane,unsigned int active_block,unsigned int *ppn)$/;"	f
+write_request_count	initialize.h	/^	unsigned int write_request_count;    \/\/记录写操作的次数$/;"	m	struct:ssd_info
+written_count	initialize.h	/^	unsigned int written_count;        \/\/记录该页被写的次数$/;"	m	struct:page_info
