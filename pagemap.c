@@ -1355,6 +1355,13 @@ Status gc_for_channel(struct ssd_info *ssd, unsigned int channel)
 	die=gc_node->die;
 	plane=gc_node->plane;
 
+//code	4 debugging
+	FILE* reqfile;
+	reqfile=fopen("gc.dat","a+");
+	fprintf(reqfile,"%d	%d	%d",chip,die,plane);
+	fclose(reqfile);
+//
+
 	if (gc_node->priority==GC_UNINTERRUPT)
 	{
 		flag_direct_erase=gc_direct_erase(ssd,channel,chip,die,plane);

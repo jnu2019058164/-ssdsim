@@ -23,7 +23,7 @@ channel number = 2;   #the number of channel
 chip number = 2;
 die number = 2;      
 plane number = 2;
-block number = 2048;
+block number = 256;
 page number = 64;
 subpage page = 4;
 page capacity = 1024;
@@ -100,5 +100,5 @@ slc_cache_size = 1
 
 slc_cache_start[0] = 0      #   slc cache setting,  top 3 * 8 bit is number of chip,die,plane and the last 32 bit is block number. 
 
-slc_cache_end[0] = 1000
+slc_cache_end[0] = 50
 #end
