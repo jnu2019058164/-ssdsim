@@ -75,15 +75,16 @@ dram voltage=3.3;                      #working voltage of DRAM�0�7���
 address mapping=1;                    #mapping schemes�0�7���0�4�0�7���0�41�0�7���0�4�0�7���0�4page�0�7���0�4�0�7���0�42�0�7���0�4�0�7���0�4block�0�7���0�4�0�7���0�43�0�7���0�4�0�7���0�4fast
 wear leveling=1;                      #record WL algorithm mode
 gc=1;                                 #record garbage collection mode
-overprovide=0.10;                     #reserved area percentage, unavailable to users
+overprovide=0.03;                     #reserved area percentage, unavailable to users
 gc threshold=0.3;                    #GC operation begins when this threshold is reached.
 buffer management=1;                  #record buffer scheme
 scheduling algorithm=1;               #1:FCFS recordscheduling algorithm mode, 1 means FCFS
-gc hard threshold=0.30;          #
+gc hard threshold=0.10;          #
 allocation=0;                   #0 for dynamic allocation, 1 for static allocation
 static_allocation=2;            #record static allocation mode like all static allocation modes0-6 in ICS2011 paper
 dynamic_allocation=0;           #record dynamic allocation mode, 0 for all dynamic, 1 for fixed channel and dynamic package, die, plane
-advanced command=31;             #advanced command indicator, 0 for no advanced command, bin number 00001 for random, 00010 for copyback, 00100 for two-plane-program, 01000 for interleave, 10000 for two-plane-read, 11111 for using all�0�7���0�4�0�7���0�4
+#advanced command=31;             #advanced command indicator, 0 for no advanced command, bin number 00001 for random, 00010 for copyback, 00100 for two-plane-program, 01000 for interleave, 10000 for two-plane-read, 11111 for using all�0�7���0�4�0�7���0�4
+advanced command=0;             #advanced command indicator, 0 for no advanced command, bin number 00001 for random, 00010 for copyback, 00100 for two-plane-program, 01000 for interleave, 10000 for two-plane-read, 11111 for using all�0�7���0�4�0�7���0�4
 advanced command priority=0;    #0 for interleave is prior to two-plane, 1 for two-plane is prior to interleave
 greed CB command=1;            #1 for using copyback command greedily, 0 for not
 greed MPW command=1;            #1 for using multi-plane write greedily, 0 for not
@@ -107,45 +108,45 @@ slc_cache_end[0] = 50
 #end
 
 -----------------------simulation output----------------------
-the 0 channel, 0 chip, 0 die, 256 plane has :            75 erase operations
-the 0 channel, 0 chip, 1 die, 256 plane has :            77 erase operations
-the 0 channel, 1 chip, 0 die, 256 plane has :           101 erase operations
-the 0 channel, 1 chip, 1 die, 256 plane has :           105 erase operations
-the 1 channel, 0 chip, 0 die, 256 plane has :            74 erase operations
-the 1 channel, 0 chip, 1 die, 256 plane has :            76 erase operations
-the 1 channel, 1 chip, 0 die, 256 plane has :            96 erase operations
-the 1 channel, 1 chip, 1 die, 256 plane has :            97 erase operations
+the 0 channel, 0 chip, 0 die, 256 plane has :            67 erase operations
+the 0 channel, 0 chip, 1 die, 256 plane has :            56 erase operations
+the 0 channel, 1 chip, 0 die, 256 plane has :            56 erase operations
+the 0 channel, 1 chip, 1 die, 256 plane has :            56 erase operations
+the 1 channel, 0 chip, 0 die, 256 plane has :            65 erase operations
+the 1 channel, 0 chip, 1 die, 256 plane has :            56 erase operations
+the 1 channel, 1 chip, 0 die, 256 plane has :            56 erase operations
+the 1 channel, 1 chip, 1 die, 256 plane has :            56 erase operations
 
 
 ---------------------------statistic data---------------------------
 min lsn:             0
 max lsn:       4558840
-read count:         22806
-program count:         89730                        include the flash write count leaded by read requests
-the read operation leaded by un-covered update count:          4640
-erase count:          1514
+read count:         20990
+program count:         84959                        include the flash write count leaded by read requests
+the read operation leaded by un-covered update count:          3667
+erase count:           916
 direct erase count:             0
-copy back count:         10285
+copy back count:             0
 multi-plane program count:             0
 multi-plane read count:             0
-interleave count:         25215
+interleave count:             0
 interleave read count:             0
 interleave two plane and one program count:             0
-interleave two plane count:         10309
-gc copy back count:         10285
-write flash count:         89277
-waste page count:          6820
+interleave two plane count:             0
+gc copy back count:             0
+write flash count:         81926
+waste page count:             0
 interleave erase count:             0
 multiple plane erase count:             0
 interleave multiple plane erase count:             0
 read request count:          1440
 write request count:          7037
-read request average size:     37.520386
-write request average size:     34.721119
-read request average response time: 110778649
-write request average response time: 207048553
+read request average size:     37.517483
+write request average size:     34.711151
+read request average response time: 135437307
+write request average response time: 364025493
 buffer read hits:             0
 buffer read miss:             0
 buffer write hits:             0
-buffer write miss:        234025
-erase:           701
+buffer write miss:        235712
+erase:           468
