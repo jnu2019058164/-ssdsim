@@ -534,7 +534,7 @@ struct ssd_info * insert2buffer(struct ssd_info *ssd,unsigned int lpn,int state,
 /**************************************************************************************
 *�����Ĺ�����Ѱ�һ�Ծ�죬ӦΪÿ��plane�ж�ֻ��һ����Ծ�飬ֻ�������Ծ���в��ܽ��в���
 ***************************************************************************************/
-Status  find_active_block(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane)
+Status find_active_block(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane)
 {
 	unsigned int active_block;
 	unsigned int free_page_num=0;
@@ -549,13 +549,13 @@ Status  find_active_block(struct ssd_info *ssd,unsigned int channel,unsigned int
 
 	//last_write_page=ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[active_block].free_page_num;
 
-	while((free_page_num <= (2 * ssd->parameter->flash_type)) && (count<ssd->parameter->block_plane))
+	while(((free_page_num < (ssd->parameter->flash_type))  || (bool_Is_SLC_blk) || (free_page_num > ssd->parameter->page_block)) && (count<ssd->parameter->block_plane))
 	{
 		active_block=(active_block+1)%ssd->parameter->block_plane;	
 		free_page_num=ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[active_block].free_page_num;
 //
 		bool_Is_SLC_blk = Is_SLC_cache_blk(ssd,chip,die,plane,active_block) & SLC_CACHE_MODE;
-		//  || (bool_Is_SLC_blk) || (free_page_num >= ssd->parameter->page_block+1)
+		//  
 //
 		count++;
 	}
@@ -586,7 +586,7 @@ Status find_slc_cache_active_block(struct ssd_info *ssd,unsigned int channel,uns
 //
 	free_page_num=ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[active_block].free_page_num;
 	//last_write_page=ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[active_block].free_page_num;
-	while((free_page_num <= ssd->parameter->flash_type)&&(count<ssd->parameter->block_plane)&&(!bool_Is_SLC_blk))
+	while((free_page_num <= ssd->parameter->flash_type || (!bool_Is_SLC_blk))&&(count<ssd->parameter->block_plane))
 	{
 		active_block=(active_block+1)%ssd->parameter->block_plane;	
 		free_page_num=ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[active_block].free_page_num;
@@ -595,7 +595,7 @@ Status find_slc_cache_active_block(struct ssd_info *ssd,unsigned int channel,uns
 //
 		count++;
 	}
-	ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].active_block=active_block;
+	ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].slc_cache_active_block=active_block;
 	if(count<ssd->parameter->block_plane)
 	{
 		return SUCCESS;
@@ -621,12 +621,12 @@ Status write_page(struct ssd_info *ssd,unsigned int channel,unsigned int chip,un
 	ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[active_block].free_page_num  -= (bool_Is_SLC_blk) ? ssd->parameter->flash_type : 1;
 	ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].free_page -= (bool_Is_SLC_blk) ? ssd->parameter->flash_type : 1;
 
-	if(ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[active_block].free_page_num <= (2 * ssd->parameter->flash_type)){
+	if(ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[active_block].free_page_num <= (ssd->parameter->flash_type)  || ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[active_block].free_page_num > ssd->parameter->page_block ){
 		ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].free_page -= ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[active_block].free_page_num;
 		ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[active_block].free_page_num  = 0;
 	}
 
-	if(ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].free_page <= (2 * ssd->parameter->flash_type)){
+	if(ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].free_page <= (ssd->parameter->flash_type)){
 		ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].free_page  = 0;
 	}
 
@@ -2911,9 +2911,21 @@ struct ssd_info *flash_page_state_modify(struct ssd_info *ssd,struct sub_request
 	struct local *location;
 	struct direct_erase *new_direct_erase,*direct_erase_node;
 	
+	//TAG
+	//奇淫技巧实现XLC读写大小控制
+	int bool_Is_SLC_blk = Is_SLC_cache_blk(ssd,chip,die,plane,block) & SLC_CACHE_MODE;
+
 	full_page=~(0xffffffff<<ssd->parameter->subpage_page);
 	ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[block].last_write_page=page;
-	ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[block].free_page_num--;
+
+
+	ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[block].free_page_num  -= (bool_Is_SLC_blk) ? ssd->parameter->flash_type : 1;
+	// ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[block].free_page_num--;
+
+	ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[block].free_page_num = (ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[block].free_page_num > ssd->parameter->page_block )? 0 : ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[block].free_page_num;
+	ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[block].invalid_page_num = (ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[block].invalid_page_num > ssd->parameter->page_block) ? ssd->parameter->page_block : ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[block].invalid_page_num;
+	ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[block].last_write_page = (ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[block].last_write_page > 63) ? 63:ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[block].last_write_page;
+
 
 	if(ssd->channel_head[channel].chip_head[chip].die_head[die].plane_head[plane].blk_head[block].last_write_page>63)
 	{
@@ -2967,7 +2979,7 @@ struct ssd_info *flash_page_state_modify(struct ssd_info *ssd,struct sub_request
 	sub->location->block=block;
 	sub->location->page=page;
 	
-	int bool_Is_SLC_blk = Is_SLC_cache_blk(ssd,chip,die,plane,block) & SLC_CACHE_MODE;
+	bool_Is_SLC_blk = Is_SLC_cache_blk(ssd,chip,die,plane,block) & SLC_CACHE_MODE;
 
 
 	ssd->program_count++;

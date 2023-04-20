@@ -1,7 +1,7 @@
 # ssdsim linux support
 all:ssd 
 	echo "t" | ./ssd
-	rm -f ssd *.o *~
+#	rm -f ssd *.o *~
 	
 #all:testssd 
 #	echo "example.ascii" | ./testssd

@@ -1107,6 +1107,11 @@ struct ssd_info *make_aged(struct ssd_info *ssd)
 								ssd->channel_head[i].chip_head[j].die_head[k].plane_head[l].free_page--;
 								flag++;
 
+								ssd->channel_head[i].chip_head[j].die_head[k].plane_head[l].blk_head[m].free_page_num = (ssd->channel_head[i].chip_head[j].die_head[k].plane_head[l].blk_head[m].free_page_num > ssd->parameter->page_block )? 0 : ssd->channel_head[i].chip_head[j].die_head[k].plane_head[l].blk_head[m].free_page_num;
+								ssd->channel_head[i].chip_head[j].die_head[k].plane_head[l].blk_head[m].invalid_page_num = (ssd->channel_head[i].chip_head[j].die_head[k].plane_head[l].blk_head[m].invalid_page_num > ssd->parameter->page_block) ? ssd->parameter->page_block : ssd->channel_head[i].chip_head[j].die_head[k].plane_head[l].blk_head[m].invalid_page_num;
+								ssd->channel_head[i].chip_head[j].die_head[k].plane_head[l].blk_head[m].last_write_page = (ssd->channel_head[i].chip_head[j].die_head[k].plane_head[l].blk_head[m].last_write_page > 63) ? 63:ssd->channel_head[i].chip_head[j].die_head[k].plane_head[l].blk_head[m].last_write_page;
+
+
 								ppn=find_ppn(ssd,i,j,k,l,m,n);
 							
 							}

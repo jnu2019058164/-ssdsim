@@ -54,6 +54,7 @@ Hao Luo         2011/01/01        2.0           Change               luohao13568
 #define MAX_STORAGE_CELL 8
 #define MAX_SLC_NUM 8
 #define SLC_CACHE_MODE 1
+#define TempDivMethod 0
 //
 
 /*********************************all states of each objects************************************************
@@ -290,6 +291,11 @@ struct plane_info{
 	unsigned int free_page;             //��plane���ж���free page
 	unsigned int ers_invalid;           //��¼��plane�в���ʧЧ�Ŀ���
 	unsigned int active_block;          //if a die has a active block, �����ʾ���������
+
+	//TAG
+//	毕业论文用活动块
+	unsigned int slc_cache_active_block;
+//
 	int can_erase_block;                //��¼��һ��plane��׼����gc�����б����������Ŀ�,-1��ʾ��û���ҵ����ʵĿ�
 	struct direct_erase *erase_node;    //������¼����ֱ��ɾ���Ŀ��,�ڻ�ȡ�µ�ppnʱ��ÿ������invalid_page_num==64ʱ���������ӵ����ָ���ϣ���GC����ʱֱ��ɾ��
 	struct blk_info *blk_head;

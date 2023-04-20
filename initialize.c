@@ -654,7 +654,7 @@ int Is_SLC_cache_blk(struct ssd_info * ssd,unsigned int chip,unsigned int die,un
 
 		//出于技术原因只好限制单条cache带长度😥
 		if(cache_block_num >= (ssd->parameter->block_plane<<1)){
-			printf("slc cache overflow!\n");
+			printf("slc cache max_size oversize!\n");
 			exit(0);
 		}
 
