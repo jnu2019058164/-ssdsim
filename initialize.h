@@ -51,7 +51,7 @@ Hao Luo         2011/01/01        2.0           Change               luohao13568
 // TAG
 //	hx list size and vector 4 mlc
 #define PRE_LIST_SIZE 4
-#define MAX_STORAGE_CELL 8
+#define MAX_STORAGE_CELL 32
 #define MAX_SLC_NUM 8
 #define SLC_CACHE_MODE 1
 #define TempDivMethod 0
@@ -183,7 +183,7 @@ struct ssd_info{
 	//TAG
 //
 	double pre_entropy[PRE_LIST_SIZE];
-	int64_t pre_list[PRE_LIST_SIZE];
+	unsigned int pre_list[PRE_LIST_SIZE];
 //	
 	unsigned int min_lsn;
 	unsigned int max_lsn;

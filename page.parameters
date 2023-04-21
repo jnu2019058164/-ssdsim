@@ -97,9 +97,9 @@ t_RXLC[0] = 20000
 t_RXLC[1] = 22000
 t_RXLC[2] = 23000
 
-slc_cache_size = 4
+slc_cache_size = 0
 
-				#   slc cache setting,  top 3 * 8 bit is number of chip,die,plane and the last 32 bit is block number.
+				#   slc cache setting,  top 3 * 8 bit is number of chip,die,plane and the last 32 bit is block number.(在开启冷热分区的时候，可能会因为写入不够空间而报错）
 slc_cache_start[0] = 0
 slc_cache_start[1] = 1099511627776
 slc_cache_start[2] = 72057594037927940
