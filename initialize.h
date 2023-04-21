@@ -54,7 +54,7 @@ Hao Luo         2011/01/01        2.0           Change               luohao13568
 #define MAX_STORAGE_CELL 32
 #define MAX_SLC_NUM 8
 #define SLC_CACHE_MODE 1
-#define TempDivMethod 0
+#define TempDivMethod 1
 //
 
 /*********************************all states of each objects************************************************

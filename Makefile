@@ -1,8 +1,9 @@
 # ssdsim linux support
-all:ssd 
-	echo "t" | ./ssd
-#	rm -f ssd *.o *~
-	
+tracefile=glassfish
+
+all:ssd
+	echo "trace4ssd/$(tracefile)" | ./ssd
+
 #all:testssd 
 #	echo "example.ascii" | ./testssd
 #	rm -f ssd *.o *~
