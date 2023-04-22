@@ -1,5 +1,5 @@
 # ssdsim linux support
-tracefile=glassfish
+tracefile=jenkins
 
 all:ssd
 	echo "trace4ssd/$(tracefile)" | ./ssd
