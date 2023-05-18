@@ -1,5 +1,5 @@
 parameter file: page.parameters
-trace file: t
+trace file: d
 -----------------------parameter file----------------------
 #parameter file
 dram capacity = 2048;     #the unit is B
@@ -102,7 +102,7 @@ t_RXLC[2] = 23000
 
 slc_cache_size = 4
 
-				#   slc cache setting,  top 3 * 8 bit is number of chip,die,plane and the last 32 bit is block number.
+				#   slc cache setting,  top 3 * 8 bit is number of chip,die,plane and the last 32 bit is block number.(在开启冷热分区的时候，可能会因为写入不够空间而报错）
 slc_cache_start[0] = 0
 slc_cache_start[1] = 1099511627776
 slc_cache_start[2] = 72057594037927940
@@ -122,45 +122,3 @@ slc_cache_end[3] = 281474976710706
 #end
 
 -----------------------simulation output----------------------
-the 0 channel, 0 chip, 0 die, 256 plane has :            40 erase operations
-the 0 channel, 0 chip, 1 die, 256 plane has :            39 erase operations
-the 0 channel, 1 chip, 0 die, 256 plane has :            40 erase operations
-the 0 channel, 1 chip, 1 die, 256 plane has :            42 erase operations
-the 1 channel, 0 chip, 0 die, 256 plane has :            39 erase operations
-the 1 channel, 0 chip, 1 die, 256 plane has :            40 erase operations
-the 1 channel, 1 chip, 0 die, 256 plane has :            40 erase operations
-the 1 channel, 1 chip, 1 die, 256 plane has :            42 erase operations
-
-
----------------------------statistic data---------------------------
-min lsn:             0
-max lsn:       4558840
-read count:         21044
-program count:         84196                        include the flash write count leaded by read requests
-the read operation leaded by un-covered update count:          3680
-erase count:           653
-direct erase count:             0
-copy back count:             0
-multi-plane program count:             0
-multi-plane read count:             0
-interleave count:             0
-interleave read count:             0
-interleave two plane and one program count:             0
-interleave two plane count:             0
-gc copy back count:             0
-write flash count:         81163
-waste page count:             0
-interleave erase count:             0
-multiple plane erase count:             0
-interleave multiple plane erase count:             0
-read request count:          1440
-write request count:          7037
-read request average size:     37.519344
-write request average size:     34.711216
-read request average response time: 127430384
-write request average response time: 332971537
-buffer read hits:             0
-buffer read miss:             0
-buffer write hits:             0
-buffer write miss:        235712
-erase:           322

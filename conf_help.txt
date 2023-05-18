@@ -1,0 +1,2 @@
+# set local variable first than execute program
+export  LD_LIBRARY_PATH=$(pwd)

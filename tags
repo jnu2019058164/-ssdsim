@@ -1,532 +1,548 @@
 !_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
 !_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
-!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
-!_TAG_PROGRAM_NAME	Exuberant Ctags	//
-!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
-!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
-ACTIVE_ADJUST	initialize.c	28;"	d	file:
-ACTIVE_FIXED	initialize.c	27;"	d	file:
-AD_COPYBACK	initialize.h	43;"	d
-AD_INTERLEAVE	initialize.h	45;"	d
-AD_RANDOM	initialize.h	42;"	d
-AD_TWOPLANE	initialize.h	44;"	d
-AD_TWOPLANE_READ	initialize.h	46;"	d
-AVLTREE_H	avlTree.h	2;"	d
-AVL_NULL	avlTree.h	8;"	d
-AVL_TREENODE_FREE	avlTree.c	/^void AVL_TREENODE_FREE$/;"	f
-AVL_TREE_LOCK	avlTree.c	/^void AVL_TREE_LOCK$/;"	f
-AVL_TREE_UNLOCK	avlTree.c	/^void AVL_TREE_UNLOCK$/;"	f
-BLOKC	initialize.h	101;"	d
-BUFSIZE	initialize.h	30;"	d
-CHANNEL	initialize.h	97;"	d
-CHANNEL_C_A_TRANSFER	initialize.h	62;"	d
-CHANNEL_DATA_TRANSFER	initialize.h	64;"	d
-CHANNEL_GC	initialize.h	63;"	d
-CHANNEL_IDLE	initialize.h	61;"	d
-CHANNEL_TRANSFER	initialize.h	65;"	d
-CHANNEL_UNKNOWN	initialize.h	66;"	d
-CHIP_COPYBACK_BUSY	initialize.h	75;"	d
-CHIP_C_A_TRANSFER	initialize.h	71;"	d
-CHIP_DATA_TRANSFER	initialize.h	72;"	d
-CHIP_ERASE_BUSY	initialize.h	74;"	d
-CHIP_IDLE	initialize.h	68;"	d
-CHIP_READ_BUSY	initialize.h	70;"	d
-CHIP_WAIT	initialize.h	73;"	d
-CHIP_WRITE_BUSY	initialize.h	69;"	d
-COPY_BACK	initialize.h	40;"	d
-DYNAMIC_ALLOCATION	initialize.h	32;"	d
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/data/data/com.termux/files/home/gitPlace/tmp_ssd/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	//
+ACTIVE_ADJUST	initialize.c	/^#define ACTIVE_ADJUST /;"	d	file:
+ACTIVE_FIXED	initialize.c	/^#define ACTIVE_FIXED /;"	d	file:
+AD_COPYBACK	initialize.h	/^#define AD_COPYBACK /;"	d
+AD_INTERLEAVE	initialize.h	/^#define AD_INTERLEAVE /;"	d
+AD_RANDOM	initialize.h	/^#define AD_RANDOM /;"	d
+AD_TWOPLANE	initialize.h	/^#define AD_TWOPLANE /;"	d
+AD_TWOPLANE_READ	initialize.h	/^#define AD_TWOPLANE_READ /;"	d
+AVLTREE_H	avlTree.h	/^#define AVLTREE_H /;"	d
+AVL_NULL	avlTree.h	/^#define AVL_NULL	/;"	d
+AVL_TREENODE_FREE	avlTree.c	/^void AVL_TREENODE_FREE$/;"	f	typeref:typename:void
+AVL_TREE_LOCK	avlTree.c	/^void AVL_TREE_LOCK$/;"	f	typeref:typename:void
+AVL_TREE_UNLOCK	avlTree.c	/^void AVL_TREE_UNLOCK$/;"	f	typeref:typename:void
+BLOKC	initialize.h	/^#define BLOKC(/;"	d
+BUFSIZE	initialize.h	/^#define BUFSIZE /;"	d
+CHANNEL	initialize.h	/^#define CHANNEL(/;"	d
+CHANNEL_C_A_TRANSFER	initialize.h	/^#define CHANNEL_C_A_TRANSFER /;"	d
+CHANNEL_DATA_TRANSFER	initialize.h	/^#define CHANNEL_DATA_TRANSFER /;"	d
+CHANNEL_GC	initialize.h	/^#define CHANNEL_GC /;"	d
+CHANNEL_IDLE	initialize.h	/^#define CHANNEL_IDLE /;"	d
+CHANNEL_TRANSFER	initialize.h	/^#define CHANNEL_TRANSFER /;"	d
+CHANNEL_UNKNOWN	initialize.h	/^#define CHANNEL_UNKNOWN /;"	d
+CHIP_COPYBACK_BUSY	initialize.h	/^#define CHIP_COPYBACK_BUSY /;"	d
+CHIP_C_A_TRANSFER	initialize.h	/^#define CHIP_C_A_TRANSFER /;"	d
+CHIP_DATA_TRANSFER	initialize.h	/^#define CHIP_DATA_TRANSFER /;"	d
+CHIP_ERASE_BUSY	initialize.h	/^#define CHIP_ERASE_BUSY /;"	d
+CHIP_IDLE	initialize.h	/^#define CHIP_IDLE /;"	d
+CHIP_READ_BUSY	initialize.h	/^#define CHIP_READ_BUSY /;"	d
+CHIP_WAIT	initialize.h	/^#define CHIP_WAIT /;"	d
+CHIP_WRITE_BUSY	initialize.h	/^#define CHIP_WRITE_BUSY /;"	d
+COPY_BACK	initialize.h	/^#define COPY_BACK	/;"	d
+DYNAMIC_ALLOCATION	initialize.h	/^#define DYNAMIC_ALLOCATION /;"	d
 Dram_write_map	initialize.h	/^typedef struct Dram_write_map$/;"	s
 Dram_write_map	initialize.h	/^}Dram_write_map;$/;"	t	typeref:struct:Dram_write_map
-EH_FACTOR	avlTree.h	10;"	d
-ERROR	initialize.h	115;"	d
-FAILURE	initialize.h	114;"	d
-FALSE	initialize.c	24;"	d	file:
-FALSE	initialize.h	112;"	d
-FLASH_H	flash.h	20;"	d
-GC_COMPLETE	initialize.h	93;"	d
-GC_COPY_BACK	initialize.h	92;"	d
-GC_ERASE_C_A	initialize.h	91;"	d
-GC_INTERRUPT	initialize.h	94;"	d
-GC_UNINTERRUPT	initialize.h	95;"	d
-GC_WAIT	initialize.h	90;"	d
-INFEASIBLE	initialize.h	116;"	d
-INIT	IsHot.h	2;"	d
-INITIALIZE_H	initialize.h	19;"	d
-INSERT_NEXT	avlTree.h	20;"	d
-INSERT_PREV	avlTree.h	19;"	d
-INTERLEAVE	initialize.h	35;"	d
-INTERLEAVE_TWO_PLANE	initialize.h	39;"	d
-IsHot	IsHot.c	/^int IsHot(struct ssd_info *ssd){$/;"	f
-LEFT_MINUS	avlTree.h	13;"	d
-LH_FACTOR	avlTree.h	11;"	d
-LRU_link_next	initialize.h	/^	struct buffer_group *LRU_link_next;	\/\/ next node in LRU list$/;"	m	struct:buffer_group	typeref:struct:buffer_group::buffer_group
-LRU_link_pre	initialize.h	/^	struct buffer_group *LRU_link_pre;	\/\/ previous node in LRU list$/;"	m	struct:buffer_group	typeref:struct:buffer_group::buffer_group
-L_Rotate	avlTree.c	/^static void L_Rotate(TREE_NODE **ppNode)$/;"	f	file:
-LeftBalance	avlTree.c	/^static void LeftBalance(TREE_NODE **ppNode)$/;"	f	file:
-MAX_INT64	pagemap.h	24;"	d
-MAX_INT64	ssd.h	27;"	d
-NORMAL	initialize.h	38;"	d
-ORDER_LIST_WANTED	avlTree.h	17;"	d
-OUTPUT	initialize.h	88;"	d
-OVERFLOW	initialize.h	117;"	d
-PAGE	initialize.h	102;"	d
-PAGEMAP_H	pagemap.h	19;"	d
-PG_SUB	initialize.h	105;"	d
-PLANE	initialize.h	100;"	d
-PRE_LIST_SIZE	initialize.h	52;"	d
-READ	initialize.h	48;"	d
-REQUEST_IN	initialize.h	87;"	d
-RH_FACTOR	avlTree.h	12;"	d
-RIGHT_MINUS	avlTree.h	14;"	d
-R_Rotate	avlTree.c	/^static void R_Rotate(TREE_NODE **ppNode)$/;"	f	file:
-RightBalance	avlTree.c	/^static void RightBalance(TREE_NODE **ppNode)$/;"	f	file:
-SECTOR	initialize.h	29;"	d
-SR_COMPLETE	initialize.h	85;"	d
-SR_R_C_A_TRANSFER	initialize.h	79;"	d
-SR_R_DATA_TRANSFER	initialize.h	81;"	d
-SR_R_READ	initialize.h	80;"	d
-SR_WAIT	initialize.h	78;"	d
-SR_W_C_A_TRANSFER	initialize.h	82;"	d
-SR_W_DATA_TRANSFER	initialize.h	83;"	d
-SR_W_TRANSFER	initialize.h	84;"	d
-STATIC_ALLOCATION	initialize.h	33;"	d
-SUBPAGE	initialize.h	103;"	d
-SUCCESS	initialize.h	113;"	d
-Status	initialize.h	/^typedef int Status;     $/;"	t
+EH_FACTOR	avlTree.h	/^#define EH_FACTOR	/;"	d
+ERROR	initialize.h	/^#define ERROR	/;"	d
+FAILURE	initialize.h	/^#define FAILURE	/;"	d
+FALSE	initialize.c	/^#define FALSE	/;"	d	file:
+FALSE	initialize.h	/^#define FALSE	/;"	d
+FLASH_H	flash.h	/^#define FLASH_H /;"	d
+GC_COMPLETE	initialize.h	/^#define GC_COMPLETE /;"	d
+GC_COPY_BACK	initialize.h	/^#define GC_COPY_BACK /;"	d
+GC_ERASE_C_A	initialize.h	/^#define GC_ERASE_C_A /;"	d
+GC_INTERRUPT	initialize.h	/^#define GC_INTERRUPT /;"	d
+GC_UNINTERRUPT	initialize.h	/^#define GC_UNINTERRUPT /;"	d
+GC_WAIT	initialize.h	/^#define GC_WAIT /;"	d
+INFEASIBLE	initialize.h	/^#define INFEASIBLE	/;"	d
+INIT	IsHot.h	/^#define INIT$/;"	d
+INITIALIZE_H	initialize.h	/^#define INITIALIZE_H /;"	d
+INSERT_NEXT	avlTree.h	/^#define INSERT_NEXT	/;"	d
+INSERT_PREV	avlTree.h	/^#define INSERT_PREV	/;"	d
+INTERLEAVE	initialize.h	/^#define INTERLEAVE /;"	d
+INTERLEAVE_TWO_PLANE	initialize.h	/^#define INTERLEAVE_TWO_PLANE /;"	d
+IsHot	IsHot.c	/^int IsHot(struct ssd_info *ssd){$/;"	f	typeref:typename:int
+IsHot	pagemap.c	/^int IsHot(struct ssd_info *ssd,unsigned int lsn){$/;"	f	typeref:typename:int
+IsHot.o	Makefile	/^IsHot.o:$/;"	t
+Is_SLC_cache_blk	initialize.c	/^int Is_SLC_cache_blk(struct ssd_info * ssd,unsigned int chip,unsigned int die,unsigned int plane/;"	f	typeref:typename:int
+LEFT_MINUS	avlTree.h	/^#define LEFT_MINUS	/;"	d
+LH_FACTOR	avlTree.h	/^#define LH_FACTOR	/;"	d
+LRU_link_next	initialize.h	/^	struct buffer_group *LRU_link_next;	\/\/ next node in LRU list$/;"	m	struct:buffer_group	typeref:struct:buffer_group *
+LRU_link_pre	initialize.h	/^	struct buffer_group *LRU_link_pre;	\/\/ previous node in LRU list$/;"	m	struct:buffer_group	typeref:struct:buffer_group *
+L_Rotate	avlTree.c	/^static void L_Rotate(TREE_NODE **ppNode)$/;"	f	typeref:typename:void	file:
+LeftBalance	avlTree.c	/^static void LeftBalance(TREE_NODE **ppNode)$/;"	f	typeref:typename:void	file:
+MAX_INT64	pagemap.h	/^#define MAX_INT64 /;"	d
+MAX_INT64	ssd.h	/^#define MAX_INT64 /;"	d
+MAX_SLC_NUM	initialize.h	/^#define MAX_SLC_NUM /;"	d
+MAX_STORAGE_CELL	initialize.h	/^#define MAX_STORAGE_CELL /;"	d
+NORMAL	initialize.h	/^#define NORMAL /;"	d
+ORDER_LIST_WANTED	avlTree.h	/^#define ORDER_LIST_WANTED$/;"	d
+OUTPUT	initialize.h	/^#define OUTPUT /;"	d
+OVERFLOW	initialize.h	/^#define OVERFLOW	/;"	d
+PAGE	initialize.h	/^#define PAGE(/;"	d
+PAGEMAP_H	pagemap.h	/^#define PAGEMAP_H /;"	d
+PG_SUB	initialize.h	/^#define PG_SUB /;"	d
+PLANE	initialize.h	/^#define PLANE(/;"	d
+PRE_LIST_SIZE	initialize.h	/^#define PRE_LIST_SIZE /;"	d
+READ	initialize.h	/^#define READ /;"	d
+README	README.md	/^# README$/;"	c
+REQUEST_IN	initialize.h	/^#define REQUEST_IN /;"	d
+RH_FACTOR	avlTree.h	/^#define RH_FACTOR	/;"	d
+RIGHT_MINUS	avlTree.h	/^#define RIGHT_MINUS	/;"	d
+R_Rotate	avlTree.c	/^static void R_Rotate(TREE_NODE **ppNode)$/;"	f	typeref:typename:void	file:
+RightBalance	avlTree.c	/^static void RightBalance(TREE_NODE **ppNode)$/;"	f	typeref:typename:void	file:
+SECTOR	initialize.h	/^#define SECTOR /;"	d
+SLC_CACHE_MODE	initialize.h	/^#define SLC_CACHE_MODE /;"	d
+SLC_CACHE_SIZE	initialize.h	/^	int SLC_CACHE_SIZE;$/;"	m	struct:parameter_value	typeref:typename:int
+SLC_CACHE_end	initialize.h	/^	int64_t SLC_CACHE_end[MAX_SLC_NUM];	\/\/Ê¹ï¿½Ã¼Ä´ï¿½ï¿½ï¿½ï¿½ï¿½Ê½ï¿½ï¿½ï¿½ï¿½	8Î»chipï¿½ï¿½die/;"	m	struct:parameter_value	typeref:typename:int64_t[]
+SLC_CACHE_start	initialize.h	/^	int64_t SLC_CACHE_start[MAX_SLC_NUM];	\/\/ï¿½ï¿½ï¿½ï¿½SLCÒ³ï¿½æ¿ªÊ¼ï¿½ï¿½ï¿½ï¿½ï¿½	$/;"	m	struct:parameter_value	typeref:typename:int64_t[]
+SR_COMPLETE	initialize.h	/^#define SR_COMPLETE /;"	d
+SR_R_C_A_TRANSFER	initialize.h	/^#define SR_R_C_A_TRANSFER /;"	d
+SR_R_DATA_TRANSFER	initialize.h	/^#define SR_R_DATA_TRANSFER /;"	d
+SR_R_READ	initialize.h	/^#define SR_R_READ /;"	d
+SR_WAIT	initialize.h	/^#define SR_WAIT /;"	d
+SR_W_C_A_TRANSFER	initialize.h	/^#define SR_W_C_A_TRANSFER /;"	d
+SR_W_DATA_TRANSFER	initialize.h	/^#define SR_W_DATA_TRANSFER /;"	d
+SR_W_TRANSFER	initialize.h	/^#define SR_W_TRANSFER /;"	d
+STATIC_ALLOCATION	initialize.h	/^#define STATIC_ALLOCATION /;"	d
+SUBPAGE	initialize.h	/^#define SUBPAGE(/;"	d
+SUCCESS	initialize.h	/^#define SUCCESS	/;"	d
+Status	initialize.h	/^typedef int Status;     $/;"	t	typeref:typename:int
 TREE_NODE	avlTree.h	/^}TREE_NODE;$/;"	t	typeref:struct:_AVL_TREE_NODE
-TRUE	initialize.c	25;"	d	file:
-TRUE	initialize.h	111;"	d
-TWO_PLANE	initialize.h	36;"	d
-UNKNOWN	initialize.h	76;"	d
-WRITE	initialize.h	49;"	d
+TRUE	initialize.c	/^#define TRUE	/;"	d	file:
+TRUE	initialize.h	/^#define TRUE	/;"	d
+TWO_PLANE	initialize.h	/^#define TWO_PLANE /;"	d
+TempDivMethod	initialize.h	/^#define TempDivMethod /;"	d
+UNKNOWN	initialize.h	/^#define UNKNOWN /;"	d
+WRITE	initialize.h	/^#define WRITE /;"	d
 _AVL_TREE_NODE	avlTree.h	/^typedef struct _AVL_TREE_NODE$/;"	s
-_CRTDBG_MAP_ALLOC	initialize.c	19;"	d	file:
-_CRTDBG_MAP_ALLOC	pagemap-tmp.c	19;"	d	file:
-_CRTDBG_MAP_ALLOC	pagemap.c	19;"	d	file:
+_CRTDBG_MAP_ALLOC	initialize.c	/^#define _CRTDBG_MAP_ALLOC$/;"	d	file:
+_CRTDBG_MAP_ALLOC	pagemap.c	/^#define _CRTDBG_MAP_ALLOC$/;"	d	file:
+a	chx.py	/^a=[float(i) for i in a]$/;"	v
+a	chx.py	/^a=f.readline().split()$/;"	v
 ac_time_characteristics	initialize.h	/^struct ac_time_characteristics{$/;"	s
-ac_timing	initialize.h	/^    struct ac_time_characteristics ac_timing;  $/;"	m	struct:chip_info	typeref:struct:chip_info::ac_time_characteristics
+ac_timing	initialize.h	/^    struct ac_time_characteristics ac_timing;  $/;"	m	struct:chip_info	typeref:struct:ac_time_characteristics
 ac_timing	initialize.h	/^}ac_timing;$/;"	v	typeref:struct:ac_time_characteristics
-active_block	initialize.h	/^	unsigned int active_block;          \/\/if a die has a active block, ¸ÃÏî±íÊ¾ÆäÎïÀí¿éºÅ$/;"	m	struct:plane_info
-active_current	initialize.h	/^	float active_current;$/;"	m	struct:dram_parameter
-active_flag	initialize.h	/^	int active_flag;                     \/\/¼ÇÂ¼Ö÷¶¯Ð´ÊÇ·ñ×èÈû£¬Èç¹û·¢ÏÖÖùÈû£¬ÐèÒª½«Ê±¼äÏòÇ°ÍÆ½ø,0±íÊ¾Ã»ÓÐ×èÈû£¬1±íÊ¾±»×èÈû£¬ÐèÒªÏòÇ°ÍÆ½øÊ±¼ä$/;"	m	struct:ssd_info
-active_write	initialize.h	/^	int active_write;               \/\/±íÊ¾ÊÇ·ñÖ´ÐÐÖ÷¶¯Ð´²Ù×÷1,yes;0,no$/;"	m	struct:parameter_value
-ad_priority	initialize.h	/^	int ad_priority;                \/\/record the priority between two plane operation and interleave operation$/;"	m	struct:parameter_value
-ad_priority2	initialize.h	/^	int ad_priority2;               \/\/record the priority of channel-level, 0 indicates that the priority order of channel-level is highest; 1 indicates the contrary$/;"	m	struct:parameter_value
-add_reg_ppn	initialize.h	/^	int add_reg_ppn;                    \/\/read£¬writeÊ±°ÑµØÖ·´«ËÍµ½¸Ã±äÁ¿£¬¸Ã±äÁ¿´ú±íµØÖ·¼Ä´æÆ÷¡£dieÓÉbusy±äÎªidleÊ±£¬Çå³ýµØÖ· \/\/ÓÐ¿ÉÄÜÒòÎªÒ»¶Ô¶àµÄÓ³Éä£¬ÔÚÒ»¸ö¶ÁÇëÇóÊ±£¬ÓÐ¶à¸öÏàÍ¬µÄlpn£¬ËùÒÔÐèÒªÓÃppnÀ´Çø·Ö  $/;"	m	struct:plane_info
-address_mapping	initialize.h	/^	int address_mapping;            \/\/¼ÇÂ¼Ó³ÉäµÄÀàÐÍ£¬1£ºpage£»2£ºblock£»3£ºfast$/;"	m	struct:parameter_value
-advanced_commands	initialize.h	/^	int advanced_commands;  $/;"	m	struct:parameter_value
-aged	initialize.h	/^	int aged;                       \/\/1±íÊ¾ÐèÒª½«Õâ¸öSSD±ä³Éaged£¬0±íÊ¾ÐèÒª½«Õâ¸öSSD±£³Önon-aged$/;"	m	struct:parameter_value
-aged_ratio	initialize.h	/^	float aged_ratio; $/;"	m	struct:parameter_value
-alloc_assert	pagemap-tmp.c	/^void alloc_assert(void *p,char *s)\/\/ï¿½ï¿½ï¿½ï¿½$/;"	f
-alloc_assert	pagemap.c	/^void alloc_assert(void *p,char *s)\/\/¶ÏÑÔ$/;"	f
-alloc_pool	initialize.h	/^	int alloc_pool;                 \/\/allocation pool ´óÐ¡(plane£¬die£¬chip£¬channel),Ò²¾ÍÊÇÓµÓÐactive_blockµÄµ¥Î»$/;"	m	struct:parameter_value
-allocate_location	flash.c	/^Status allocate_location(struct ssd_info * ssd ,struct sub_request *sub_req)$/;"	f
-allocation_scheme	initialize.h	/^	int allocation_scheme;          \/\/¼ÇÂ¼·ÖÅä·½Ê½µÄÑ¡Ôñ£¬0±íÊ¾¶¯Ì¬·ÖÅä£¬1±íÊ¾¾²Ì¬·ÖÅä$/;"	m	struct:parameter_value
-attach_info	initialize.h	/^	struct buffer_info *attach_info;	\/\/ info about attach map$/;"	m	struct:map_info	typeref:struct:map_info::buffer_info
-ave_read_size	initialize.h	/^	float ave_read_size;$/;"	m	struct:ssd_info
-ave_write_size	initialize.h	/^	float ave_write_size;$/;"	m	struct:ssd_info
-avlDelBalance	avlTree.c	/^static int avlDelBalance$/;"	f	file:
-avlTreeAdd	avlTree.c	/^int avlTreeAdd$/;"	f
-avlTreeCheck	avlTree.c	/^int avlTreeCheck(tAVLTree *pTree , TREE_NODE *pNode)$/;"	f
-avlTreeCount	avlTree.c	/^unsigned int avlTreeCount$/;"	f
-avlTreeCreate	avlTree.c	/^tAVLTree *avlTreeCreate(int *keyCompareFunc,int *freeFunc)$/;"	f
-avlTreeDel	avlTree.c	/^int avlTreeDel( tAVLTree *pTree ,TREE_NODE *pDelNode)$/;"	f
-avlTreeDestroy	avlTree.c	/^int avlTreeDestroy$/;"	f
-avlTreeFind	avlTree.c	/^TREE_NODE *avlTreeFind$/;"	f
-avlTreeFirst	avlTree.c	/^TREE_NODE *avlTreeFirst$/;"	f
-avlTreeFlush	avlTree.c	/^int avlTreeFlush$/;"	f
-avlTreeHigh	avlTree.c	/^int avlTreeHigh(TREE_NODE *pNode)$/;"	f
-avlTreeInsert	avlTree.c	/^static int avlTreeInsert$/;"	f	file:
-avlTreeLast	avlTree.c	/^TREE_NODE *avlTreeLast$/;"	f
-avlTreeLookup	avlTree.c	/^static TREE_NODE *avlTreeLookup$/;"	f	file:
-avlTreeNext	avlTree.c	/^TREE_NODE *avlTreeNext$/;"	f
-avlTreePrev	avlTree.c	/^TREE_NODE *avlTreePrev$/;"	f
-avlTreeRemove	avlTree.c	/^static int avlTreeRemove$/;"	f	file:
-begin_time	initialize.h	/^	int64_t begin_time;               \/\/×ÓÇëÇó¿ªÊ¼Ê±¼ä$/;"	m	struct:sub_request
-begin_time	initialize.h	/^	int64_t begin_time;            \/\/¼ÇÂ¼Ò»¸öplaneÊ²Ã´Ê±ºò¿ªÊ¼gc²Ù×÷µÄ$/;"	m	struct:gc_info
-begin_time	initialize.h	/^	int64_t begin_time;$/;"	m	struct:request
-bf	avlTree.h	/^	int  bf;    			                     \/*Æ½ºâÒò×Ó£»µ±Æ½ºâÒò×ÓµÄ¾ø¶ÔÖµ´óÓÚ »òµÈÓÚ2µÄÊ±ºò¾Í±íÊ¾Ê÷²»Æ½ºâ(balance_factor)*\/$/;"	m	struct:_AVL_TREE_NODE
-blk_head	initialize.h	/^	struct blk_info *blk_head;$/;"	m	struct:plane_info	typeref:struct:plane_info::blk_info
+active_block	initialize.h	/^	unsigned int active_block;          \/\/if a die has a active block, ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½/;"	m	struct:plane_info	typeref:typename:unsigned int
+active_current	initialize.h	/^	float active_current;$/;"	m	struct:dram_parameter	typeref:typename:float
+active_flag	initialize.h	/^	int active_flag;                     \/\/ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½Ð´ï¿½Ç·ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½/;"	m	struct:ssd_info	typeref:typename:int
+active_write	initialize.h	/^	int active_write;               \/\/ï¿½ï¿½Ê¾ï¿½Ç·ï¿½Ö´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½1,yes;0,n/;"	m	struct:parameter_value	typeref:typename:int
+ad_priority	initialize.h	/^	int ad_priority;                \/\/record the priority between two plane operation and interle/;"	m	struct:parameter_value	typeref:typename:int
+ad_priority2	initialize.h	/^	int ad_priority2;               \/\/record the priority of channel-level, 0 indicates that the /;"	m	struct:parameter_value	typeref:typename:int
+add_reg_ppn	initialize.h	/^	int add_reg_ppn;                    \/\/readï¿½ï¿½writeÊ±ï¿½Ñµï¿½Ö·ï¿½ï¿½ï¿½Íµï¿½ï¿½Ã±ï¿½ï¿½ï¿½/;"	m	struct:plane_info	typeref:typename:int
+address_mapping	initialize.h	/^	int address_mapping;            \/\/ï¿½ï¿½Â¼Ó³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í£ï¿½1ï¿½ï¿½pageï¿½ï¿½2ï¿½ï¿½bl/;"	m	struct:parameter_value	typeref:typename:int
+advanced_commands	initialize.h	/^	int advanced_commands;  $/;"	m	struct:parameter_value	typeref:typename:int
+aged	initialize.h	/^	int aged;                       \/\/1ï¿½ï¿½Ê¾ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½SSDï¿½ï¿½ï¿½agedï¿½ï¿½0ï¿½ï¿½/;"	m	struct:parameter_value	typeref:typename:int
+aged_ratio	initialize.h	/^	float aged_ratio; $/;"	m	struct:parameter_value	typeref:typename:float
+all	Makefile	/^all:ssd$/;"	t
+alloc_assert	pagemap.c	/^void alloc_assert(void *p,char *s)\/\/ï¿½ï¿½ï¿½ï¿½$/;"	f	typeref:typename:void
+alloc_pool	initialize.h	/^	int alloc_pool;                 \/\/allocation pool ï¿½ï¿½Ð¡(planeï¿½ï¿½dieï¿½ï¿½chipï¿½ï¿½chan/;"	m	struct:parameter_value	typeref:typename:int
+allocate_location	flash.c	/^Status allocate_location(struct ssd_info * ssd ,struct sub_request *sub_req)$/;"	f	typeref:typename:Status
+allocation_scheme	initialize.h	/^	int allocation_scheme;          \/\/ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ä·½Ê½ï¿½ï¿½Ñ¡ï¿½ï¿½0ï¿½ï¿½Ê¾ï¿½ï¿½Ì¬ï¿½ï¿½/;"	m	struct:parameter_value	typeref:typename:int
+attach_info	initialize.h	/^	struct buffer_info *attach_info;	\/\/ info about attach map$/;"	m	struct:map_info	typeref:struct:buffer_info *
+ave_read_size	initialize.h	/^	float ave_read_size;$/;"	m	struct:ssd_info	typeref:typename:float
+ave_write_size	initialize.h	/^	float ave_write_size;$/;"	m	struct:ssd_info	typeref:typename:float
+avlDelBalance	avlTree.c	/^static int avlDelBalance$/;"	f	typeref:typename:int	file:
+avlTree.o	Makefile	/^avlTree.o: $/;"	t
+avlTreeAdd	avlTree.c	/^int avlTreeAdd$/;"	f	typeref:typename:int
+avlTreeCheck	avlTree.c	/^int avlTreeCheck(tAVLTree *pTree , TREE_NODE *pNode)$/;"	f	typeref:typename:int
+avlTreeCount	avlTree.c	/^unsigned int avlTreeCount$/;"	f	typeref:typename:unsigned int
+avlTreeCreate	avlTree.c	/^tAVLTree *avlTreeCreate(int *keyCompareFunc,int *freeFunc)$/;"	f	typeref:typename:tAVLTree *
+avlTreeDel	avlTree.c	/^int avlTreeDel( tAVLTree *pTree ,TREE_NODE *pDelNode)$/;"	f	typeref:typename:int
+avlTreeDestroy	avlTree.c	/^int avlTreeDestroy$/;"	f	typeref:typename:int
+avlTreeFind	avlTree.c	/^TREE_NODE *avlTreeFind$/;"	f	typeref:typename:TREE_NODE *
+avlTreeFirst	avlTree.c	/^TREE_NODE *avlTreeFirst$/;"	f	typeref:typename:TREE_NODE *
+avlTreeFlush	avlTree.c	/^int avlTreeFlush$/;"	f	typeref:typename:int
+avlTreeHigh	avlTree.c	/^int avlTreeHigh(TREE_NODE *pNode)$/;"	f	typeref:typename:int
+avlTreeInsert	avlTree.c	/^static int avlTreeInsert$/;"	f	typeref:typename:int	file:
+avlTreeLast	avlTree.c	/^TREE_NODE *avlTreeLast$/;"	f	typeref:typename:TREE_NODE *
+avlTreeLookup	avlTree.c	/^static TREE_NODE *avlTreeLookup$/;"	f	typeref:typename:TREE_NODE *	file:
+avlTreeNext	avlTree.c	/^TREE_NODE *avlTreeNext$/;"	f	typeref:typename:TREE_NODE *
+avlTreePrev	avlTree.c	/^TREE_NODE *avlTreePrev$/;"	f	typeref:typename:TREE_NODE *
+avlTreeRemove	avlTree.c	/^static int avlTreeRemove$/;"	f	typeref:typename:int	file:
+begin_time	initialize.h	/^	int64_t begin_time;               \/\/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼Ê±ï¿½ï¿½$/;"	m	struct:sub_request	typeref:typename:int64_t
+begin_time	initialize.h	/^	int64_t begin_time;            \/\/ï¿½ï¿½Â¼Ò»ï¿½ï¿½planeÊ²Ã´Ê±ï¿½ï¿½Ê¼gcï¿½ï¿½ï¿½ï¿½ï¿½ï¿½$/;"	m	struct:gc_info	typeref:typename:int64_t
+begin_time	initialize.h	/^	int64_t begin_time;$/;"	m	struct:request	typeref:typename:int64_t
+bf	avlTree.h	/^	int  bf;    			                     \/*Æ½ºâÒò×Ó£»µ±Æ½ºâÒò×ÓµÄ¾ø¶ÔÖµ´óÓÚ »òµÈÓÚ2µÄÊ±ºò¾Í±íÊ¾Ê÷²»/;"	m	struct:_AVL_TREE_NODE	typeref:typename:int
+blk_head	initialize.h	/^	struct blk_info *blk_head;$/;"	m	struct:plane_info	typeref:struct:blk_info *
 blk_info	initialize.h	/^struct blk_info{$/;"	s
-block	initialize.h	/^	unsigned int block;           \/\/¸Ã²ÎÊýÖ»ÔÚ¿ÉÖÐ¶ÏµÄgcº¯ÊýÖÐÊ¹ÓÃ£¨gc_interrupt£©£¬ÓÃÀ´¼ÇÂ¼ÒÑ½üÕÒ³öÀ´µÄÄ¿±ê¿éºÅ$/;"	m	struct:gc_operation
-block	initialize.h	/^	unsigned int block;$/;"	m	struct:direct_erase
-block	initialize.h	/^	unsigned int block;$/;"	m	struct:local
-block_num_plane	initialize.h	/^	unsigned int block_num_plane;       \/\/indicate how many blocks in a plane$/;"	m	struct:chip_info
-block_plane	initialize.h	/^	unsigned int block_plane;$/;"	m	struct:parameter_value
+block	initialize.h	/^	unsigned int block;           \/\/ï¿½Ã²ï¿½ï¿½ï¿½Ö»ï¿½Ú¿ï¿½ï¿½Ð¶Ïµï¿½gcï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½Ã£/;"	m	struct:gc_operation	typeref:typename:unsigned int
+block	initialize.h	/^	unsigned int block;$/;"	m	struct:direct_erase	typeref:typename:unsigned int
+block	initialize.h	/^	unsigned int block;$/;"	m	struct:local	typeref:typename:unsigned int
+block_num_plane	initialize.h	/^	unsigned int block_num_plane;       \/\/indicate how many blocks in a plane$/;"	m	struct:chip_info	typeref:typename:unsigned int
+block_plane	initialize.h	/^	unsigned int block_plane;$/;"	m	struct:parameter_value	typeref:typename:unsigned int
 buf_node	initialize.h	/^}buf_node;$/;"	t	typeref:struct:buffer_group
-buffer	initialize.h	/^	struct buffer_info *buffer; $/;"	m	struct:dram_info	typeref:struct:dram_info::buffer_info
+buffer	initialize.h	/^	struct buffer_info *buffer; $/;"	m	struct:dram_info	typeref:struct:buffer_info *
 buffer_group	initialize.h	/^typedef struct buffer_group{$/;"	s
-buffer_head	avlTree.h	/^	struct buffer_group *buffer_head;            \/*as LRU head which is most recently used*\/$/;"	m	struct:buffer_info	typeref:struct:buffer_info::buffer_group
+buffer_head	avlTree.h	/^	struct buffer_group *buffer_head;            \/*as LRU head which is most recently used*\/$/;"	m	struct:buffer_info	typeref:struct:buffer_group *
 buffer_info	avlTree.h	/^typedef struct buffer_info$/;"	s
-buffer_management	initialize.h	/^	int buffer_management;          \/\/indicates that there are buffer management or not$/;"	m	struct:parameter_value
-buffer_management	ssd.c	/^struct ssd_info *buffer_management(struct ssd_info *ssd)$/;"	f
-buffer_sector_count	avlTree.h	/^	unsigned int buffer_sector_count;$/;"	m	struct:buffer_info
-buffer_tail	avlTree.h	/^	struct buffer_group *buffer_tail;            \/*as LRU tail which is least recently used*\/$/;"	m	struct:buffer_info	typeref:struct:buffer_info::buffer_group
-can_erase_block	initialize.h	/^	int can_erase_block;                \/\/¼ÇÂ¼ÔÚÒ»¸öplaneÖÐ×¼±¸ÔÚgc²Ù×÷ÖÐ±»²Á³ý²Ù×÷µÄ¿é,-1±íÊ¾»¹Ã»ÓÐÕÒµ½ºÏÊÊµÄ¿é$/;"	m	struct:plane_info
-channel	initialize.h	/^	unsigned int channel;$/;"	m	struct:local
-channel_head	initialize.h	/^	struct channel_info *channel_head;   \/\/Ö¸Ïòchannel½á¹¹ÌåÊý×éµÄÊ×µØÖ·$/;"	m	struct:ssd_info	typeref:struct:ssd_info::channel_info
+buffer_management	initialize.h	/^	int buffer_management;          \/\/indicates that there are buffer management or not$/;"	m	struct:parameter_value	typeref:typename:int
+buffer_management	ssd.c	/^struct ssd_info *buffer_management(struct ssd_info *ssd)$/;"	f	typeref:struct:ssd_info *
+buffer_sector_count	avlTree.h	/^	unsigned int buffer_sector_count;$/;"	m	struct:buffer_info	typeref:typename:unsigned int
+buffer_tail	avlTree.h	/^	struct buffer_group *buffer_tail;            \/*as LRU tail which is least recently used*\/$/;"	m	struct:buffer_info	typeref:struct:buffer_group *
+can_erase_block	initialize.h	/^	int can_erase_block;                \/\/ï¿½ï¿½Â¼ï¿½ï¿½Ò»ï¿½ï¿½planeï¿½ï¿½×¼ï¿½ï¿½ï¿½ï¿½gcï¿½ï¿½/;"	m	struct:plane_info	typeref:typename:int
+channel	initialize.h	/^	unsigned int channel;$/;"	m	struct:local	typeref:typename:unsigned int
+channel_head	initialize.h	/^	struct channel_info *channel_head;   \/\/Ö¸ï¿½ï¿½channelï¿½á¹¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×µï¿½Ö·$/;"	m	struct:ssd_info	typeref:struct:channel_info *
 channel_info	initialize.h	/^struct channel_info{$/;"	s
-channel_number	initialize.h	/^	unsigned int channel_number;    \/\/¼ÇÂ¼SSDÖÐÓÐ¶àÉÙ¸öÍ¨µÀ£¬Ã¿¸öÍ¨µÀÊÇµ¥¶ÀµÄbus$/;"	m	struct:parameter_value
-chip	initialize.h	/^	int chip;                            \/\/±íÊ¾ÔÚ¸Ã×ÜÏßÉÏÓÐ¶àÉÙ¿ÅÁ£$/;"	m	struct:channel_info
-chip	initialize.h	/^	unsigned int chip;$/;"	m	struct:gc_operation
-chip	initialize.h	/^	unsigned int chip;$/;"	m	struct:local
-chip	initialize.h	98;"	d
-chip_channel	initialize.h	/^	unsigned int chip_channel[100]; \/\/ÉèÖÃSSDÖÐchannelÊýºÍÃ¿channelÉÏ¿ÅÁ£µÄÊýÁ¿$/;"	m	struct:parameter_value
-chip_head	initialize.h	/^	struct chip_info *chip_head;        $/;"	m	struct:channel_info	typeref:struct:channel_info::chip_info
+channel_number	initialize.h	/^	unsigned int channel_number;    \/\/ï¿½ï¿½Â¼SSDï¿½ï¿½ï¿½Ð¶ï¿½ï¿½Ù¸ï¿½Í¨ï¿½ï¿½ï¿½ï¿½Ã¿ï¿½ï¿½Í¨ï¿½/;"	m	struct:parameter_value	typeref:typename:unsigned int
+chip	initialize.h	/^	int chip;                            \/\/ï¿½ï¿½Ê¾ï¿½Ú¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½ï¿½Ù¿ï¿½ï¿½ï¿½$/;"	m	struct:channel_info	typeref:typename:int
+chip	initialize.h	/^	unsigned int chip;$/;"	m	struct:gc_operation	typeref:typename:unsigned int
+chip	initialize.h	/^	unsigned int chip;$/;"	m	struct:local	typeref:typename:unsigned int
+chip	initialize.h	/^#define chip(/;"	d
+chip_channel	initialize.h	/^	unsigned int chip_channel[100]; \/\/ï¿½ï¿½ï¿½ï¿½SSDï¿½ï¿½channelï¿½ï¿½ï¿½ï¿½Ã¿channelï¿½Ï¿ï¿½ï¿½/;"	m	struct:parameter_value	typeref:typename:unsigned int[100]
+chip_head	initialize.h	/^	struct chip_info *chip_head;        $/;"	m	struct:channel_info	typeref:struct:chip_info *
 chip_info	initialize.h	/^struct chip_info{$/;"	s
-chip_num	initialize.h	/^	unsigned int chip_num;          \/\/¼ÇÂ¼Ò»¸öSSDÖÐÓÐ¶àÉÙ¸ö¿ÅÁ£$/;"	m	struct:parameter_value
-clean_in_background	initialize.h	/^	int clean_in_background;        \/\/Çå³ý²Ù×÷ÊÇ·ñÔÚÇ°Ì¨Íê³É$/;"	m	struct:parameter_value
-clock_time	initialize.h	/^	int clock_time;$/;"	m	struct:dram_parameter
-clock_time	initialize.h	/^	int64_t clock_time;                 \/\/±íÊ¾Ò»¸öÊ±ÖÓÖÜÆÚµÄÊ±¼ä$/;"	m	struct:controller_info
-complete_lsn_count	initialize.h	/^	unsigned int complete_lsn_count;   \/\/record the count of lsn served by buffer$/;"	m	struct:request
-complete_time	initialize.h	/^	int64_t complete_time;            \/\/¼ÇÂ¼¸Ã×ÓÇëÇóµÄ´¦ÀíÊ±¼ä,¼ÈÕæÕýÐ´Èë»òÕß¶Á³öÊý¾ÝµÄÊ±¼ä$/;"	m	struct:sub_request
-compute_serve_time	flash.c	/^struct ssd_info *compute_serve_time(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,struct sub_request **subs, unsigned int subs_count,unsigned int command)$/;"	f
+chip_num	initialize.h	/^	unsigned int chip_num;          \/\/ï¿½ï¿½Â¼Ò»ï¿½ï¿½SSDï¿½ï¿½ï¿½Ð¶ï¿½ï¿½Ù¸ï¿½ï¿½ï¿½ï¿½ï¿½$/;"	m	struct:parameter_value	typeref:typename:unsigned int
+clean	Makefile	/^clean:$/;"	t
+clean_in_background	initialize.h	/^	int clean_in_background;        \/\/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ç·ï¿½ï¿½ï¿½Ç°Ì¨ï¿½ï¿½ï¿½$/;"	m	struct:parameter_value	typeref:typename:int
+clock_time	initialize.h	/^	int clock_time;$/;"	m	struct:dram_parameter	typeref:typename:int
+clock_time	initialize.h	/^	int64_t clock_time;                 \/\/ï¿½ï¿½Ê¾Ò»ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½ï¿½Úµï¿½Ê±ï¿½ï¿½$/;"	m	struct:controller_info	typeref:typename:int64_t
+complete_lsn_count	initialize.h	/^	unsigned int complete_lsn_count;   \/\/record the count of lsn served by buffer$/;"	m	struct:request	typeref:typename:unsigned int
+complete_time	initialize.h	/^	int64_t complete_time;            \/\/ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½ï¿½Ê±ï¿½ï¿½,ï¿½ï¿½/;"	m	struct:sub_request	typeref:typename:int64_t
+compute_serve_time	flash.c	/^struct ssd_info *compute_serve_time(struct ssd_info *ssd,unsigned int channel,unsigned int chip,/;"	f	typeref:struct:ssd_info *
 controller_info	initialize.h	/^struct controller_info{$/;"	s
-copy_back	flash.c	/^Status copy_back(struct ssd_info * ssd, unsigned int channel, unsigned int chip, unsigned int die,struct sub_request * sub)$/;"	f
-copy_back_count	initialize.h	/^	int copy_back_count;    $/;"	m	struct:gc_info
-copy_back_count	initialize.h	/^	unsigned long copy_back_count;$/;"	m	struct:ssd_info
-count	avlTree.h	/^	unsigned int	count;		                 \/*AVLÊ÷ÀïµÄ½Úµã×ÜÊý*\/$/;"	m	struct:buffer_info
-cpu_sdram	initialize.h	/^	unsigned int cpu_sdram;         \/\/¼ÇÂ¼Æ¬ÄÚÓÐ¶àÉÙ$/;"	m	struct:parameter_value
-creat_sub_request	flash.c	/^struct sub_request * creat_sub_request(struct ssd_info * ssd,unsigned int lpn,int size,unsigned int state,struct request * req,unsigned int operation)$/;"	f
-current_state	initialize.h	/^	int current_state;                   \/\/channel has serveral states, including idle, command\/address transfer,data transfer,unknown$/;"	m	struct:channel_info
-current_state	initialize.h	/^	int current_state;                  \/\/channel has serveral states, including idle, command\/address transfer,data transfer,unknown$/;"	m	struct:chip_info
-current_state	initialize.h	/^	unsigned int current_state;        \/\/±íÊ¾¸Ã×ÓÇëÇóËù´¦µÄ×´Ì¬£¬¼ûºê¶¨Òåsub request$/;"	m	struct:sub_request
-current_time	initialize.h	/^	int64_t current_time;                \/\/¼ÇÂ¼¸ÃÍ¨µÀµÄµ±Ç°Ê±¼ä$/;"	m	struct:channel_info
-current_time	initialize.h	/^	int64_t current_time;                \/\/¼ÇÂ¼ÏµÍ³Ê±¼ä$/;"	m	struct:ssd_info
-current_time	initialize.h	/^	int64_t current_time;               \/\/¼ÇÂ¼¸ÃÍ¨µÀµÄµ±Ç°Ê±¼ä$/;"	m	struct:chip_info
-current_time	initialize.h	/^	int64_t current_time;$/;"	m	struct:dram_info
-current_time	initialize.h	/^	int64_t current_time;$/;"	m	struct:sub_request
-decide_gc_invoke	pagemap-tmp.c	/^int decide_gc_invoke(struct ssd_info *ssd, unsigned int channel)      $/;"	f
-decide_gc_invoke	pagemap.c	/^int decide_gc_invoke(struct ssd_info *ssd, unsigned int channel)      $/;"	f
-delete_from_channel	flash.c	/^struct ssd_info *delete_from_channel(struct ssd_info *ssd,unsigned int channel,struct sub_request * sub_req)$/;"	f
-delete_gc_node	pagemap-tmp.c	/^int delete_gc_node(struct ssd_info *ssd, unsigned int channel,struct gc_operation *gc_node)$/;"	f
-delete_gc_node	pagemap.c	/^int delete_gc_node(struct ssd_info *ssd, unsigned int channel,struct gc_operation *gc_node)$/;"	f
-delete_w_sub_request	flash.c	/^int delete_w_sub_request(struct ssd_info * ssd, unsigned int channel, struct sub_request * sub )$/;"	f
-die	initialize.h	/^	unsigned int die;$/;"	m	struct:gc_operation
-die	initialize.h	/^	unsigned int die;$/;"	m	struct:local
-die	initialize.h	99;"	d
-die_chip	initialize.h	/^	unsigned int die_chip;    $/;"	m	struct:parameter_value
-die_head	initialize.h	/^	struct die_info *die_head;$/;"	m	struct:chip_info	typeref:struct:chip_info::die_info
+copy_back	flash.c	/^Status copy_back(struct ssd_info * ssd, unsigned int channel, unsigned int chip, unsigned int di/;"	f	typeref:typename:Status
+copy_back_count	initialize.h	/^	int copy_back_count;    $/;"	m	struct:gc_info	typeref:typename:int
+copy_back_count	initialize.h	/^	unsigned long copy_back_count;$/;"	m	struct:ssd_info	typeref:typename:unsigned long
+count	avlTree.h	/^	unsigned int	count;		                 \/*AVLÊ÷ÀïµÄ½Úµã×ÜÊý*\/$/;"	m	struct:buffer_info	typeref:typename:unsigned int
+cpu_sdram	initialize.h	/^	unsigned int cpu_sdram;         \/\/ï¿½ï¿½Â¼Æ¬ï¿½ï¿½ï¿½Ð¶ï¿½ï¿½ï¿½$/;"	m	struct:parameter_value	typeref:typename:unsigned int
+creat_sub_request	flash.c	/^struct sub_request * creat_sub_request(struct ssd_info * ssd,unsigned int lpn,int size,unsigned /;"	f	typeref:struct:sub_request *
+current_state	initialize.h	/^	int current_state;                   \/\/channel has serveral states, including idle, command\//;"	m	struct:channel_info	typeref:typename:int
+current_state	initialize.h	/^	int current_state;                  \/\/channel has serveral states, including idle, command\/a/;"	m	struct:chip_info	typeref:typename:int
+current_state	initialize.h	/^	unsigned int current_state;        \/\/ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬ï¿½/;"	m	struct:sub_request	typeref:typename:unsigned int
+current_time	initialize.h	/^	int64_t current_time;                \/\/ï¿½ï¿½Â¼ÏµÍ³Ê±ï¿½ï¿½$/;"	m	struct:ssd_info	typeref:typename:int64_t
+current_time	initialize.h	/^	int64_t current_time;                \/\/ï¿½ï¿½Â¼ï¿½ï¿½Í¨ï¿½ï¿½ï¿½Äµï¿½Ç°Ê±ï¿½ï¿½$/;"	m	struct:channel_info	typeref:typename:int64_t
+current_time	initialize.h	/^	int64_t current_time;               \/\/ï¿½ï¿½Â¼ï¿½ï¿½Í¨ï¿½ï¿½ï¿½Äµï¿½Ç°Ê±ï¿½ï¿½$/;"	m	struct:chip_info	typeref:typename:int64_t
+current_time	initialize.h	/^	int64_t current_time;$/;"	m	struct:dram_info	typeref:typename:int64_t
+current_time	initialize.h	/^	int64_t current_time;$/;"	m	struct:sub_request	typeref:typename:int64_t
+decide_gc_invoke	pagemap.c	/^int decide_gc_invoke(struct ssd_info *ssd, unsigned int channel)      $/;"	f	typeref:typename:int
+delete_from_channel	flash.c	/^struct ssd_info *delete_from_channel(struct ssd_info *ssd,unsigned int channel,struct sub_reques/;"	f	typeref:struct:ssd_info *
+delete_gc_node	pagemap.c	/^int delete_gc_node(struct ssd_info *ssd, unsigned int channel,struct gc_operation *gc_node)$/;"	f	typeref:typename:int
+delete_w_sub_request	flash.c	/^int delete_w_sub_request(struct ssd_info * ssd, unsigned int channel, struct sub_request * sub )$/;"	f	typeref:typename:int
+die	initialize.h	/^	unsigned int die;$/;"	m	struct:gc_operation	typeref:typename:unsigned int
+die	initialize.h	/^	unsigned int die;$/;"	m	struct:local	typeref:typename:unsigned int
+die	initialize.h	/^#define die(/;"	d
+die_chip	initialize.h	/^	unsigned int die_chip;    $/;"	m	struct:parameter_value	typeref:typename:unsigned int
+die_head	initialize.h	/^	struct die_info *die_head;$/;"	m	struct:chip_info	typeref:struct:die_info *
 die_info	initialize.h	/^struct die_info{$/;"	s
-die_num	initialize.h	/^	unsigned int die_num;               \/\/±íÊ¾Ò»¸ö¿ÅÁ£ÖÐÓÐ¶àÉÙ¸ödie$/;"	m	struct:chip_info
+die_num	initialize.h	/^	unsigned int die_num;               \/\/ï¿½ï¿½Ê¾Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½ï¿½Ù¸ï¿½die$/;"	m	struct:chip_info	typeref:typename:unsigned int
 direct_erase	initialize.h	/^struct direct_erase{$/;"	s
-direct_erase_count	initialize.h	/^	unsigned long direct_erase_count;$/;"	m	struct:ssd_info
-dirty_clean	initialize.h	/^	unsigned int dirty_clean;           \/\/it is flag of the data has been modified, one bit indicates one subpage. EX. 0001 indicates the first subpage is dirty$/;"	m	struct:buffer_group
-distri_flag	initialize.h	/^	int distri_flag;		           \/\/ indicate whether this request has been distributed already$/;"	m	struct:request
-distribute	ssd.c	/^struct ssd_info *distribute(struct ssd_info *ssd) $/;"	f
-dram	initialize.h	/^	struct dram_info *dram;$/;"	m	struct:ssd_info	typeref:struct:ssd_info::dram_info
-dram_active_current	initialize.h	/^	double dram_active_current;     \/\/cpu sdram work current   uA$/;"	m	struct:parameter_value
-dram_capacity	initialize.h	/^	unsigned int dram_capacity;     $/;"	m	struct:dram_info
-dram_capacity	initialize.h	/^	unsigned int dram_capacity;     \/\/¼ÇÂ¼SSDÖÐDRAM capacity$/;"	m	struct:parameter_value
+direct_erase_count	initialize.h	/^	unsigned long direct_erase_count;$/;"	m	struct:ssd_info	typeref:typename:unsigned long
+dirty_clean	initialize.h	/^	unsigned int dirty_clean;           \/\/it is flag of the data has been modified, one bit indic/;"	m	struct:buffer_group	typeref:typename:unsigned int
+distri_flag	initialize.h	/^	int distri_flag;		           \/\/ indicate whether this request has been distributed already$/;"	m	struct:request	typeref:typename:int
+distribute	ssd.c	/^struct ssd_info *distribute(struct ssd_info *ssd) $/;"	f	typeref:struct:ssd_info *
+dram	initialize.h	/^	struct dram_info *dram;$/;"	m	struct:ssd_info	typeref:struct:dram_info *
+dram_active_current	initialize.h	/^	double dram_active_current;     \/\/cpu sdram work current   uA$/;"	m	struct:parameter_value	typeref:typename:double
+dram_capacity	initialize.h	/^	unsigned int dram_capacity;     $/;"	m	struct:dram_info	typeref:typename:unsigned int
+dram_capacity	initialize.h	/^	unsigned int dram_capacity;     \/\/ï¿½ï¿½Â¼SSDï¿½ï¿½DRAM capacity$/;"	m	struct:parameter_value	typeref:typename:unsigned int
 dram_info	initialize.h	/^struct dram_info{$/;"	s
 dram_parameter	initialize.h	/^struct dram_parameter{$/;"	s
-dram_paramters	initialize.h	/^	struct dram_parameter *dram_paramters;      $/;"	m	struct:dram_info	typeref:struct:dram_info::dram_parameter
-dram_refresh_current	initialize.h	/^	double dram_refresh_current;    \/\/cpu sdram work current   uA$/;"	m	struct:parameter_value
-dram_standby_current	initialize.h	/^	double dram_standby_current;    \/\/cpu sdram work current   uA$/;"	m	struct:parameter_value
-dram_voltage	initialize.h	/^	double dram_voltage;            \/\/cpu sdram work voltage  V$/;"	m	struct:parameter_value
-dynamic_advanced_process	flash.c	/^struct ssd_info *dynamic_advanced_process(struct ssd_info *ssd,unsigned int channel,unsigned int chip)         $/;"	f
-dynamic_allocation	initialize.h	/^	int dynamic_allocation;         \/\/¼ÇÂ¼¶¯Ì¬·ÖÅäµÄ·½Ê½$/;"	m	struct:parameter_value
-energy_consumption	initialize.h	/^	double energy_consumption;         \/\/¼ÇÂ¼¸ÃÇëÇóµÄÄÜÁ¿ÏûºÄ£¬µ¥Î»ÎªuJ$/;"	m	struct:request
-energy_consumption	initialize.h	/^	double energy_consumption;     \/\/¸Ãplane»¨ÁË¶àÉÙÄÜÁ¿ÔÚgc²Ù×÷ÉÏ$/;"	m	struct:gc_info
+dram_paramters	initialize.h	/^	struct dram_parameter *dram_paramters;      $/;"	m	struct:dram_info	typeref:struct:dram_parameter *
+dram_refresh_current	initialize.h	/^	double dram_refresh_current;    \/\/cpu sdram work current   uA$/;"	m	struct:parameter_value	typeref:typename:double
+dram_standby_current	initialize.h	/^	double dram_standby_current;    \/\/cpu sdram work current   uA$/;"	m	struct:parameter_value	typeref:typename:double
+dram_voltage	initialize.h	/^	double dram_voltage;            \/\/cpu sdram work voltage  V$/;"	m	struct:parameter_value	typeref:typename:double
+dynamic_advanced_process	flash.c	/^struct ssd_info *dynamic_advanced_process(struct ssd_info *ssd,unsigned int channel,unsigned int/;"	f	typeref:struct:ssd_info *
+dynamic_allocation	initialize.h	/^	int dynamic_allocation;         \/\/ï¿½ï¿½Â¼ï¿½ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½Ä·ï¿½Ê½$/;"	m	struct:parameter_value	typeref:typename:int
+energy_consumption	initialize.h	/^	double energy_consumption;         \/\/ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä£ï¿½ï¿½/;"	m	struct:request	typeref:typename:double
+energy_consumption	initialize.h	/^	double energy_consumption;     \/\/ï¿½ï¿½planeï¿½ï¿½ï¿½Ë¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½gcï¿½ï¿½ï¿½/;"	m	struct:gc_info	typeref:typename:double
 entry	initialize.h	/^struct entry{                       $/;"	s
-erase_count	initialize.h	/^	int erase_count;$/;"	m	struct:gc_info
-erase_count	initialize.h	/^	unsigned int erase_count;          \/\/¿éµÄ²Á³ý´ÎÊý£¬¸ÃÏî¼ÇÂ¼ÔÚramÖÐ£¬ÓÃÓÚGC$/;"	m	struct:blk_info
-erase_count	initialize.h	/^	unsigned long erase_count;$/;"	m	struct:channel_info
-erase_count	initialize.h	/^	unsigned long erase_count;$/;"	m	struct:chip_info
-erase_count	initialize.h	/^	unsigned long erase_count;$/;"	m	struct:ssd_info
-erase_node	initialize.h	/^	struct direct_erase *erase_node;    \/\/ÓÃÀ´¼ÇÂ¼¿ÉÒÔÖ±½ÓÉ¾³ýµÄ¿éºÅ,ÔÚ»ñÈ¡ÐÂµÄppnÊ±£¬Ã¿µ±³öÏÖinvalid_page_num==64Ê±£¬½«ÆäÌí¼Óµ½Õâ¸öÖ¸ÕëÉÏ£¬¹©GC²Ù×÷Ê±Ö±½ÓÉ¾³ý$/;"	m	struct:plane_info	typeref:struct:plane_info::direct_erase
-erase_operation	pagemap-tmp.c	/^Status erase_operation(struct ssd_info * ssd,unsigned int channel ,unsigned int chip ,unsigned int die ,unsigned int plane ,unsigned int block)$/;"	f
-erase_operation	pagemap.c	/^Status erase_operation(struct ssd_info * ssd,unsigned int channel ,unsigned int chip ,unsigned int die ,unsigned int plane ,unsigned int block)$/;"	f
-erase_planes	pagemap-tmp.c	/^Status erase_planes(struct ssd_info * ssd, unsigned int channel, unsigned int chip, unsigned int die1, unsigned int plane1,unsigned int command)$/;"	f
-erase_planes	pagemap.c	/^Status erase_planes(struct ssd_info * ssd, unsigned int channel, unsigned int chip, unsigned int die1, unsigned int plane1,unsigned int command)$/;"	f
-ers_invalid	initialize.h	/^	unsigned int ers_invalid;           \/\/¼ÇÂ¼¸ÃplaneÖÐ²Á³ýÊ§Ð§µÄ¿éÊý$/;"	m	struct:plane_info
-ers_limit	initialize.h	/^	unsigned int ers_limit;             \/\/¸ÃchipÖÐÃ¿¿éÄÜ¹»±»²Á³ýµÄ´ÎÊý$/;"	m	struct:chip_info
-ers_limit	initialize.h	/^	unsigned int ers_limit;         \/\/¼ÇÂ¼Ã¿¸ö¿é¿É²Á³ýµÄ´ÎÊý$/;"	m	struct:parameter_value
-event	initialize.h	/^	struct event_node *event;            \/\/ÊÂ¼þ¶ÓÁÐ£¬Ã¿²úÉúÒ»¸öÐÂµÄÊÂ¼þ£¬°´ÕÕÊ±¼äË³Ðò¼Óµ½Õâ¸ö¶ÓÁÐ£¬ÔÚsimulateº¯Êý×îºó£¬¸ù¾ÝÕâ¸ö¶ÓÁÐ¶ÓÊ×µÄÊ±¼ä£¬È·¶¨Ê±¼ä$/;"	m	struct:ssd_info	typeref:struct:ssd_info::event_node
-event	initialize.h	/^	struct event_node *event;$/;"	m	struct:channel_info	typeref:struct:channel_info::event_node
+erase_count	initialize.h	/^	int erase_count;$/;"	m	struct:gc_info	typeref:typename:int
+erase_count	initialize.h	/^	unsigned int erase_count;          \/\/ï¿½ï¿½Ä²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½/;"	m	struct:blk_info	typeref:typename:unsigned int
+erase_count	initialize.h	/^	unsigned long erase_count;$/;"	m	struct:channel_info	typeref:typename:unsigned long
+erase_count	initialize.h	/^	unsigned long erase_count;$/;"	m	struct:chip_info	typeref:typename:unsigned long
+erase_count	initialize.h	/^	unsigned long erase_count;$/;"	m	struct:ssd_info	typeref:typename:unsigned long
+erase_node	initialize.h	/^	struct direct_erase *erase_node;    \/\/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½Ö±ï¿½ï¿½É¾ï¿½ï¿½ï¿½Ä¿ï¿½/;"	m	struct:plane_info	typeref:struct:direct_erase *
+erase_operation	pagemap.c	/^Status erase_operation(struct ssd_info * ssd,unsigned int channel ,unsigned int chip ,unsigned i/;"	f	typeref:typename:Status
+erase_planes	pagemap.c	/^Status erase_planes(struct ssd_info * ssd, unsigned int channel, unsigned int chip, unsigned int/;"	f	typeref:typename:Status
+ers_invalid	initialize.h	/^	unsigned int ers_invalid;           \/\/ï¿½ï¿½Â¼ï¿½ï¿½planeï¿½Ð²ï¿½ï¿½ï¿½Ê§Ð§ï¿½Ä¿ï¿½ï¿½ï¿½$/;"	m	struct:plane_info	typeref:typename:unsigned int
+ers_limit	initialize.h	/^	unsigned int ers_limit;             \/\/ï¿½ï¿½chipï¿½ï¿½Ã¿ï¿½ï¿½ï¿½Ü¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´/;"	m	struct:chip_info	typeref:typename:unsigned int
+ers_limit	initialize.h	/^	unsigned int ers_limit;         \/\/ï¿½ï¿½Â¼Ã¿ï¿½ï¿½ï¿½ï¿½É²ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½ï¿½$/;"	m	struct:parameter_value	typeref:typename:unsigned int
+event	initialize.h	/^	struct event_node *event;            \/\/ï¿½Â¼ï¿½ï¿½ï¿½ï¿½Ð£ï¿½Ã¿ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½Âµï¿½ï¿½/;"	m	struct:ssd_info	typeref:struct:event_node *
+event	initialize.h	/^	struct event_node *event;$/;"	m	struct:channel_info	typeref:struct:event_node *
 event_node	initialize.h	/^struct event_node{$/;"	s
-file_assert	pagemap-tmp.c	/^void file_assert(int error,char *s)$/;"	f
-file_assert	pagemap.c	/^void file_assert(int error,char *s)$/;"	f
-find_active_block	flash.c	/^Status  find_active_block(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane)$/;"	f
-find_interleave_twoplane_page	flash.c	/^struct sub_request *find_interleave_twoplane_page(struct ssd_info *ssd, struct sub_request *one_page,unsigned int command)$/;"	f
-find_interleave_twoplane_sub_request	flash.c	/^int find_interleave_twoplane_sub_request(struct ssd_info * ssd, unsigned int channel,struct sub_request * sub_request_one,struct sub_request * sub_request_two,unsigned int command)$/;"	f
-find_level_page	flash.c	/^Status find_level_page(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,struct sub_request *subA,struct sub_request *subB)       $/;"	f
-find_location	pagemap-tmp.c	/^struct local *find_location(struct ssd_info *ssd,unsigned int ppn)$/;"	f
-find_location	pagemap.c	/^struct local *find_location(struct ssd_info *ssd,unsigned int ppn)$/;"	f
-find_nearest_event	ssd.c	/^int64_t find_nearest_event(struct ssd_info *ssd) $/;"	f
-find_ppn	pagemap-tmp.c	/^unsigned int find_ppn(struct ssd_info * ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane,unsigned int block,unsigned int page)$/;"	f
-find_ppn	pagemap.c	/^unsigned int find_ppn(struct ssd_info * ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane,unsigned int block,unsigned int page)$/;"	f
-find_read_sub_request	flash.c	/^struct sub_request * find_read_sub_request(struct ssd_info * ssd, unsigned int channel, unsigned int chip, unsigned int die)$/;"	f
-find_write_sub_request	flash.c	/^struct sub_request * find_write_sub_request(struct ssd_info * ssd, unsigned int channel)$/;"	f
-flag	initialize.h	/^	int flag;			                \/\/indicates if this node is the last 20% of the LRU list	$/;"	m	struct:buffer_group
-flag	initialize.h	/^	int flag;$/;"	m	struct:ssd_info
-flash_page_state_modify	flash.c	/^struct ssd_info *flash_page_state_modify(struct ssd_info *ssd,struct sub_request *sub,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane,unsigned int block,unsigned int page)$/;"	f
-free	avlTree.h	/^	int			(*free)(TREE_NODE *);$/;"	m	struct:buffer_info
-freeFunc	initialize.c	/^extern int freeFunc(TREE_NODE *pNode)$/;"	f
-free_all_node	ssd.c	/^void free_all_node(struct ssd_info *ssd)$/;"	f
-free_page	initialize.h	/^	unsigned int free_page;             \/\/¸ÃplaneÖÐÓÐ¶àÉÙfree page$/;"	m	struct:plane_info
-free_page_num	initialize.h	/^	unsigned int free_page_num;        \/\/¼ÇÂ¼¸Ã¿éÖÐµÄfreeÒ³¸öÊý£¬Í¬ÉÏ$/;"	m	struct:blk_info
-free_state	initialize.h	/^	int free_state;                    \/\/each bit indicates the subpage is free or occupted. 1 indicates that the bit is free and 0 indicates that the bit is used$/;"	m	struct:page_info
-frequency	initialize.h	/^	unsigned int frequency;             \/\/±íÊ¾¸Ã¿ØÖÆÆ÷µÄ¹¤×÷ÆµÂÊ$/;"	m	struct:controller_info
-gc	initialize.h	/^	int gc;                         \/\/¼ÇÂ¼gc²ßÂÔ$/;"	m	struct:parameter_value
-gc	pagemap-tmp.c	/^unsigned int gc(struct ssd_info *ssd,unsigned int channel, unsigned int flag)$/;"	f
-gc	pagemap.c	/^unsigned int gc(struct ssd_info *ssd,unsigned int channel, unsigned int flag)$/;"	f
-gc_command	initialize.h	/^	struct gc_operation *gc_command;     \/\/¼ÇÂ¼ÐèÒª²úÉúgcµÄÎ»ÖÃ$/;"	m	struct:channel_info	typeref:struct:channel_info::gc_operation
-gc_copy_back	initialize.h	/^	unsigned long gc_copy_back;$/;"	m	struct:ssd_info
-gc_direct_erase	pagemap-tmp.c	/^int gc_direct_erase(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane)     $/;"	f
-gc_direct_erase	pagemap.c	/^int gc_direct_erase(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane)     $/;"	f
-gc_for_channel	pagemap-tmp.c	/^Status gc_for_channel(struct ssd_info *ssd, unsigned int channel)$/;"	f
-gc_for_channel	pagemap.c	/^Status gc_for_channel(struct ssd_info *ssd, unsigned int channel)$/;"	f
-gc_hard_threshold	initialize.h	/^	float gc_hard_threshold;        \/\/ÆÕÍ¨²ßÂÔÖÐÓÃ²»µ½¸Ã²ÎÊý£¬Ö»ÓÐÔÚÖ÷¶¯Ð´²ßÂÔÖÐ£¬µ±Âú×ãÕâ¸öãÐÖµÊ±£¬GC²Ù×÷²»¿ÉÖÐ¶Ï$/;"	m	struct:parameter_value
+f	chx.py	/^f=open('req.dat','r')$/;"	v
+f	chx.py	/^f=open('req.dat','w')$/;"	v
+file_assert	pagemap.c	/^void file_assert(int error,char *s)$/;"	f	typeref:typename:void
+find_active_block	flash.c	/^Status find_active_block(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned in/;"	f	typeref:typename:Status
+find_interleave_twoplane_page	flash.c	/^struct sub_request *find_interleave_twoplane_page(struct ssd_info *ssd, struct sub_request *one_/;"	f	typeref:struct:sub_request *
+find_interleave_twoplane_sub_request	flash.c	/^int find_interleave_twoplane_sub_request(struct ssd_info * ssd, unsigned int channel,struct sub_/;"	f	typeref:typename:int
+find_level_page	flash.c	/^Status find_level_page(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int /;"	f	typeref:typename:Status
+find_location	pagemap.c	/^struct local *find_location(struct ssd_info *ssd,unsigned int ppn)$/;"	f	typeref:struct:local *
+find_nearest_event	ssd.c	/^int64_t find_nearest_event(struct ssd_info *ssd) $/;"	f	typeref:typename:int64_t
+find_ppn	pagemap.c	/^unsigned int find_ppn(struct ssd_info * ssd,unsigned int channel,unsigned int chip,unsigned int /;"	f	typeref:typename:unsigned int
+find_read_sub_request	flash.c	/^struct sub_request * find_read_sub_request(struct ssd_info * ssd, unsigned int channel, unsigned/;"	f	typeref:struct:sub_request *
+find_slc_cache_active_block	flash.c	/^Status find_slc_cache_active_block(struct ssd_info *ssd,unsigned int channel,unsigned int chip,u/;"	f	typeref:typename:Status
+find_write_sub_request	flash.c	/^struct sub_request * find_write_sub_request(struct ssd_info * ssd, unsigned int channel)$/;"	f	typeref:struct:sub_request *
+flag	initialize.h	/^	int flag;			                \/\/indicates if this node is the last 20% of the LRU list	$/;"	m	struct:buffer_group	typeref:typename:int
+flag	initialize.h	/^	int flag;$/;"	m	struct:ssd_info	typeref:typename:int
+flash.o	Makefile	/^flash.o: pagemap.h$/;"	t
+flash_page_state_modify	flash.c	/^struct ssd_info *flash_page_state_modify(struct ssd_info *ssd,struct sub_request *sub,unsigned i/;"	f	typeref:struct:ssd_info *
+flash_type	initialize.h	/^	int flash_type;$/;"	m	struct:parameter_value	typeref:typename:int
+free	avlTree.h	/^	int			(*free)(TREE_NODE *);$/;"	m	struct:buffer_info	typeref:typename:int (*)(TREE_NODE *)
+freeFunc	initialize.c	/^extern int freeFunc(TREE_NODE *pNode)$/;"	f	typeref:typename:int
+free_all_node	ssd.c	/^void free_all_node(struct ssd_info *ssd)$/;"	f	typeref:typename:void
+free_page	initialize.h	/^	unsigned int free_page;             \/\/ï¿½ï¿½planeï¿½ï¿½ï¿½Ð¶ï¿½ï¿½ï¿½free page$/;"	m	struct:plane_info	typeref:typename:unsigned int
+free_page_num	initialize.h	/^	unsigned int free_page_num;        \/\/ï¿½ï¿½Â¼ï¿½Ã¿ï¿½ï¿½Ðµï¿½freeÒ³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½$/;"	m	struct:blk_info	typeref:typename:unsigned int
+free_state	initialize.h	/^	int free_state;                    \/\/each bit indicates the subpage is free or occupted. 1 in/;"	m	struct:page_info	typeref:typename:int
+frequency	initialize.h	/^	unsigned int frequency;             \/\/ï¿½ï¿½Ê¾ï¿½Ã¿ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¹ï¿½ï¿½ï¿½Æµï¿½ï¿½$/;"	m	struct:controller_info	typeref:typename:unsigned int
+gc	initialize.h	/^	int gc;                         \/\/ï¿½ï¿½Â¼gcï¿½ï¿½ï¿½ï¿½$/;"	m	struct:parameter_value	typeref:typename:int
+gc	pagemap.c	/^unsigned int gc(struct ssd_info *ssd,unsigned int channel, unsigned int flag)$/;"	f	typeref:typename:unsigned int
+gc_command	initialize.h	/^	struct gc_operation *gc_command;     \/\/ï¿½ï¿½Â¼ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½gcï¿½ï¿½Î»ï¿½ï¿½$/;"	m	struct:channel_info	typeref:struct:gc_operation *
+gc_copy_back	initialize.h	/^	unsigned long gc_copy_back;$/;"	m	struct:ssd_info	typeref:typename:unsigned long
+gc_direct_erase	pagemap.c	/^int gc_direct_erase(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die/;"	f	typeref:typename:int
+gc_for_channel	pagemap.c	/^Status gc_for_channel(struct ssd_info *ssd, unsigned int channel)$/;"	f	typeref:typename:Status
+gc_hard_threshold	initialize.h	/^	float gc_hard_threshold;        \/\/ï¿½ï¿½Í¨ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ã²ï¿½ï¿½ï¿½ï¿½Ã²ï¿½ï¿½ï¿½ï¿½ï¿½/;"	m	struct:parameter_value	typeref:typename:float
 gc_info	initialize.h	/^struct gc_info{$/;"	s
 gc_operation	initialize.h	/^struct gc_operation{          $/;"	s
-gc_request	initialize.h	/^	unsigned int gc_request;             \/\/¼ÇÂ¼ÔÚSSDÖÐ£¬µ±Ç°Ê±¿ÌÓÐ¶àÉÙgc²Ù×÷µÄÇëÇó$/;"	m	struct:ssd_info
-gc_threshold	initialize.h	/^	float gc_threshold;             \/\/µ±´ïµ½Õâ¸öãÐÖµÊ±£¬¿ªÊ¼GC²Ù×÷£¬ÔÚÖ÷¶¯Ð´²ßÂÔÖÐ£¬¿ªÊ¼GC²Ù×÷ºó¿ÉÒÔÁÙÊ±ÖÐ¶ÏGC²Ù×÷£¬·þÎñÐÂµ½µÄÇëÇó£»ÔÚÆÕÍ¨²ßÂÔÖÐ£¬GC²»¿ÉÖÐ¶Ï$/;"	m	struct:parameter_value
-get_ppn	pagemap-tmp.c	/^struct ssd_info *get_ppn(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane,struct sub_request *sub)$/;"	f
-get_ppn	pagemap.c	/^struct ssd_info *get_ppn(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane,struct sub_request *sub)$/;"	f
-get_ppn_for_advanced_commands	flash.c	/^Status get_ppn_for_advanced_commands(struct ssd_info *ssd,unsigned int channel,unsigned int chip,struct sub_request * * subs ,unsigned int subs_count,unsigned int command)      $/;"	f
-get_ppn_for_gc	pagemap-tmp.c	/^ unsigned int get_ppn_for_gc(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane)     $/;"	f
-get_ppn_for_gc	pagemap.c	/^ unsigned int get_ppn_for_gc(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane)     $/;"	f
-get_ppn_for_normal_command	flash.c	/^Status get_ppn_for_normal_command(struct ssd_info * ssd, unsigned int channel,unsigned int chip, struct sub_request * sub)$/;"	f
-get_ppn_for_pre_process	pagemap-tmp.c	/^unsigned int get_ppn_for_pre_process(struct ssd_info *ssd,unsigned int lsn)     $/;"	f
-get_ppn_for_pre_process	pagemap.c	/^unsigned int get_ppn_for_pre_process(struct ssd_info *ssd,unsigned int lsn)     $/;"	f
-get_requests	ssd.c	/^int get_requests(struct ssd_info *ssd)  $/;"	f
-go_one_step	flash.c	/^Status go_one_step(struct ssd_info * ssd, struct sub_request * sub1,struct sub_request *sub2, unsigned int aim_state,unsigned int command)$/;"	f
-greed_CB_ad	initialize.h	/^	int greed_CB_ad;                \/\/0 don't use copyback advanced commands greedily; 1 use copyback advanced commands greedily$/;"	m	struct:parameter_value
-greed_MPW_ad	initialize.h	/^	int greed_MPW_ad;               \/\/0 don't use multi-plane write advanced commands greedily; 1 use multi-plane write advanced commands greedily$/;"	m	struct:parameter_value
-group	initialize.h	/^	unsigned int group;                 \/\/the first data logic sector number of a group stored in buffer $/;"	m	struct:buffer_group
-initialize_block	initialize.c	/^struct blk_info * initialize_block(struct blk_info * p_block,struct parameter_value *parameter)$/;"	f
-initialize_channels	initialize.c	/^struct ssd_info * initialize_channels(struct ssd_info * ssd )$/;"	f
-initialize_chip	initialize.c	/^struct chip_info * initialize_chip(struct chip_info * p_chip,struct parameter_value *parameter,long long current_time )$/;"	f
-initialize_die	initialize.c	/^struct die_info * initialize_die(struct die_info * p_die,struct parameter_value *parameter,long long current_time )$/;"	f
-initialize_dram	initialize.c	/^struct dram_info * initialize_dram(struct ssd_info * ssd)$/;"	f
-initialize_page	initialize.c	/^struct page_info * initialize_page(struct page_info * p_page )$/;"	f
-initialize_plane	initialize.c	/^struct plane_info * initialize_plane(struct plane_info * p_plane,struct parameter_value *parameter )$/;"	f
-initiation	initialize.c	/^struct ssd_info *initiation(struct ssd_info *ssd)$/;"	f
-insert2buffer	flash.c	/^struct ssd_info * insert2buffer(struct ssd_info *ssd,unsigned int lpn,int state,struct sub_request *sub,struct request *req)      $/;"	f
-inter_mplane_count	initialize.h	/^	unsigned long inter_mplane_count;$/;"	m	struct:ssd_info
-inter_mplane_prog_count	initialize.h	/^	unsigned long inter_mplane_prog_count;$/;"	m	struct:ssd_info
-interleave_count	initialize.h	/^	unsigned long interleave_count;$/;"	m	struct:ssd_info
-interleave_erase_count	initialize.h	/^	unsigned long interleave_erase_count;$/;"	m	struct:ssd_info
-interleave_mplane_erase_count	initialize.h	/^	unsigned long interleave_mplane_erase_count;$/;"	m	struct:ssd_info
-interleave_read_count	initialize.h	/^	unsigned long interleave_read_count;$/;"	m	struct:ssd_info
-interleaving	initialize.h	/^	int interleaving;$/;"	m	struct:parameter_value
-interrupt_gc	pagemap-tmp.c	/^int interrupt_gc(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane,struct gc_operation *gc_node)        $/;"	f
-interrupt_gc	pagemap.c	/^int interrupt_gc(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane,struct gc_operation *gc_node)        $/;"	f
-invalid_page_num	initialize.h	/^	unsigned int invalid_page_num;     \/\/¼ÇÂ¼¸Ã¿éÖÐÊ§Ð§Ò³µÄ¸öÊý£¬Í¬ÉÏ$/;"	m	struct:blk_info
-keyCompare	avlTree.h	/^	int 			(*keyCompare)(TREE_NODE * , TREE_NODE *);$/;"	m	struct:buffer_info
-keyCompareFunc	initialize.c	/^extern int keyCompareFunc(TREE_NODE *p , TREE_NODE *p1)$/;"	f
-last_write_page	initialize.h	/^	int last_write_page;               \/\/¼ÇÂ¼×î½üÒ»´ÎÐ´²Ù×÷Ö´ÐÐµÄÒ³Êý,-1±íÊ¾¸Ã¿éÃ»ÓÐÒ»Ò³±»Ð´¹ý$/;"	m	struct:blk_info
-left_child	avlTree.h	/^	struct _AVL_TREE_NODE *left_child;$/;"	m	struct:_AVL_TREE_NODE	typeref:struct:_AVL_TREE_NODE::_AVL_TREE_NODE
-load_parameters	initialize.c	/^struct parameter_value *load_parameters(char parameter_file[30])$/;"	f
+gc_request	initialize.h	/^	unsigned int gc_request;             \/\/ï¿½ï¿½Â¼ï¿½ï¿½SSDï¿½Ð£ï¿½ï¿½ï¿½Ç°Ê±ï¿½ï¿½ï¿½Ð¶ï¿½ï¿½ï¿½/;"	m	struct:ssd_info	typeref:typename:unsigned int
+gc_threshold	initialize.h	/^	float gc_threshold;             \/\/ï¿½ï¿½ï¿½ïµ½ï¿½ï¿½ï¿½ï¿½ï¿½ÖµÊ±ï¿½ï¿½ï¿½ï¿½Ê¼GCï¿½ï¿½ï¿½ï¿½/;"	m	struct:parameter_value	typeref:typename:float
+get_ppn	pagemap.c	/^struct ssd_info *get_ppn(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned in/;"	f	typeref:struct:ssd_info *
+get_ppn_for_advanced_commands	flash.c	/^Status get_ppn_for_advanced_commands(struct ssd_info *ssd,unsigned int channel,unsigned int chip/;"	f	typeref:typename:Status
+get_ppn_for_gc	pagemap.c	/^ unsigned int get_ppn_for_gc(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigne/;"	f	typeref:typename:unsigned int
+get_ppn_for_normal_command	flash.c	/^Status get_ppn_for_normal_command(struct ssd_info * ssd, unsigned int channel,unsigned int chip,/;"	f	typeref:typename:Status
+get_ppn_for_pre_process	pagemap.c	/^unsigned int get_ppn_for_pre_process(struct ssd_info *ssd,unsigned int lsn)     $/;"	f	typeref:typename:unsigned int
+get_requests	ssd.c	/^int get_requests(struct ssd_info *ssd)  $/;"	f	typeref:typename:int
+go_one_step	flash.c	/^Status go_one_step(struct ssd_info * ssd, struct sub_request * sub1,struct sub_request *sub2, un/;"	f	typeref:typename:Status
+greed_CB_ad	initialize.h	/^	int greed_CB_ad;                \/\/0 don't use copyback advanced commands greedily; 1 use copy/;"	m	struct:parameter_value	typeref:typename:int
+greed_MPW_ad	initialize.h	/^	int greed_MPW_ad;               \/\/0 don't use multi-plane write advanced commands greedily; 1/;"	m	struct:parameter_value	typeref:typename:int
+group	initialize.h	/^	unsigned int group;                 \/\/the first data logic sector number of a group stored in/;"	m	struct:buffer_group	typeref:typename:unsigned int
+initialize.o	Makefile	/^initialize.o: avlTree.h pagemap.h$/;"	t
+initialize_block	initialize.c	/^struct blk_info * initialize_block(struct blk_info * p_block,struct parameter_value *parameter)$/;"	f	typeref:struct:blk_info *
+initialize_channels	initialize.c	/^struct ssd_info * initialize_channels(struct ssd_info * ssd )$/;"	f	typeref:struct:ssd_info *
+initialize_chip	initialize.c	/^struct chip_info * initialize_chip(struct chip_info * p_chip,struct parameter_value *parameter,l/;"	f	typeref:struct:chip_info *
+initialize_die	initialize.c	/^struct die_info * initialize_die(struct die_info * p_die,struct parameter_value *parameter,long /;"	f	typeref:struct:die_info *
+initialize_dram	initialize.c	/^struct dram_info * initialize_dram(struct ssd_info * ssd)$/;"	f	typeref:struct:dram_info *
+initialize_page	initialize.c	/^struct page_info * initialize_page(struct page_info * p_page )$/;"	f	typeref:struct:page_info *
+initialize_plane	initialize.c	/^struct plane_info * initialize_plane(struct plane_info * p_plane,struct parameter_value *paramet/;"	f	typeref:struct:plane_info *
+initiation	initialize.c	/^struct ssd_info *initiation(struct ssd_info *ssd)$/;"	f	typeref:struct:ssd_info *
+insert2buffer	flash.c	/^struct ssd_info * insert2buffer(struct ssd_info *ssd,unsigned int lpn,int state,struct sub_reque/;"	f	typeref:struct:ssd_info *
+inter_mplane_count	initialize.h	/^	unsigned long inter_mplane_count;$/;"	m	struct:ssd_info	typeref:typename:unsigned long
+inter_mplane_prog_count	initialize.h	/^	unsigned long inter_mplane_prog_count;$/;"	m	struct:ssd_info	typeref:typename:unsigned long
+interleave_count	initialize.h	/^	unsigned long interleave_count;$/;"	m	struct:ssd_info	typeref:typename:unsigned long
+interleave_erase_count	initialize.h	/^	unsigned long interleave_erase_count;$/;"	m	struct:ssd_info	typeref:typename:unsigned long
+interleave_mplane_erase_count	initialize.h	/^	unsigned long interleave_mplane_erase_count;$/;"	m	struct:ssd_info	typeref:typename:unsigned long
+interleave_read_count	initialize.h	/^	unsigned long interleave_read_count;$/;"	m	struct:ssd_info	typeref:typename:unsigned long
+interleaving	initialize.h	/^	int interleaving;$/;"	m	struct:parameter_value	typeref:typename:int
+interrupt_gc	pagemap.c	/^int interrupt_gc(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,un/;"	f	typeref:typename:int
+invalid_page_num	initialize.h	/^	unsigned int invalid_page_num;     \/\/ï¿½ï¿½Â¼ï¿½Ã¿ï¿½ï¿½ï¿½Ê§Ð§Ò³ï¿½Ä¸ï¿½ï¿½ï¿½ï¿½ï¿½Í¬ï¿½ï¿½$/;"	m	struct:blk_info	typeref:typename:unsigned int
+keyCompare	avlTree.h	/^	int 			(*keyCompare)(TREE_NODE * , TREE_NODE *);$/;"	m	struct:buffer_info	typeref:typename:int (*)(TREE_NODE *,TREE_NODE *)
+keyCompareFunc	initialize.c	/^extern int keyCompareFunc(TREE_NODE *p , TREE_NODE *p1)$/;"	f	typeref:typename:int
+last_write_page	initialize.h	/^	int last_write_page;               \/\/ï¿½ï¿½Â¼ï¿½ï¿½ï¿½Ò»ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½Ö´ï¿½Ðµï¿½Ò³ï¿½ï¿½/;"	m	struct:blk_info	typeref:typename:int
+left_child	avlTree.h	/^	struct _AVL_TREE_NODE *left_child;$/;"	m	struct:_AVL_TREE_NODE	typeref:struct:_AVL_TREE_NODE *
+load_parameters	initialize.c	/^struct parameter_value *load_parameters(char parameter_file[30])$/;"	f	typeref:struct:parameter_value *
 local	initialize.h	/^struct local{          $/;"	s
-location	initialize.h	/^	struct local *location;           \/\/ÔÚ¾²Ì¬·ÖÅäºÍ»ìºÏ·ÖÅä·½Ê½ÖÐ£¬ÒÑÖªlpn¾ÍÖªµÀ¸Ãlpn¸Ã·ÖÅäµ½ÄÇ¸öchannel£¬chip£¬die£¬plane£¬Õâ¸ö½á¹¹ÌåÓÃÀ´±£´æ¼ÆËãµÃµ½µÄµØÖ·$/;"	m	struct:sub_request	typeref:struct:sub_request::local
-lpn	initialize.h	/^	unsigned int lpn;                  \/\/ÕâÀï±íÊ¾¸Ã×ÓÇëÇóµÄÂß¼­Ò³ºÅ$/;"	m	struct:sub_request
-lpn	initialize.h	/^	unsigned int lpn;                 $/;"	m	struct:page_info
-lpn2ppn	ssd.c	/^unsigned int lpn2ppn(struct ssd_info *ssd,unsigned int lsn)$/;"	f
-lsn	initialize.h	/^	unsigned int lsn;                  \/\/ÇëÇóµÄÆðÊ¼µØÖ·£¬Âß¼­µØÖ·$/;"	m	struct:request
-m_plane_prog_count	initialize.h	/^	unsigned long m_plane_prog_count;$/;"	m	struct:ssd_info
-m_plane_read_count	initialize.h	/^	unsigned long m_plane_read_count;$/;"	m	struct:ssd_info
-main	ssd.c	/^int  main()$/;"	f
-make_aged	ssd.c	/^struct ssd_info *make_aged(struct ssd_info *ssd)$/;"	f
-make_level_page	flash.c	/^Status make_level_page(struct ssd_info * ssd, struct sub_request * sub0,struct sub_request * sub1)$/;"	f
-make_same_level	flash.c	/^struct ssd_info *make_same_level(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane,unsigned int block,unsigned int aim_page)$/;"	f
-map	initialize.h	/^	struct map_info *map;$/;"	m	struct:dram_info	typeref:struct:dram_info::map_info
-map_entry	initialize.h	/^	struct entry *map_entry;            \/\/¸ÃÏîÊÇÓ³Éä±í½á¹¹ÌåÖ¸Õë,each entry indicate a mapping information$/;"	m	struct:map_info	typeref:struct:map_info::entry
+location	initialize.h	/^	struct local *location;           \/\/ï¿½Ú¾ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½Í»ï¿½Ï·ï¿½ï¿½ä·½Ê½ï¿½Ð£ï¿½ï¿½ï¿½Öªl/;"	m	struct:sub_request	typeref:struct:local *
+lpn	initialize.h	/^	unsigned int lpn;                  \/\/ï¿½ï¿½ï¿½ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ß¼ï¿½Ò³ï¿½/;"	m	struct:sub_request	typeref:typename:unsigned int
+lpn	initialize.h	/^	unsigned int lpn;                 $/;"	m	struct:page_info	typeref:typename:unsigned int
+lpn2ppn	ssd.c	/^unsigned int lpn2ppn(struct ssd_info *ssd,unsigned int lsn)$/;"	f	typeref:typename:unsigned int
+lsn	initialize.h	/^	unsigned int lsn;                  \/\/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¼ï¿½ï¿½Ö·ï¿½ï¿½ï¿½ß¼ï¿½ï¿½ï¿½Ö·$/;"	m	struct:request	typeref:typename:unsigned int
+m_plane_prog_count	initialize.h	/^	unsigned long m_plane_prog_count;$/;"	m	struct:ssd_info	typeref:typename:unsigned long
+m_plane_read_count	initialize.h	/^	unsigned long m_plane_read_count;$/;"	m	struct:ssd_info	typeref:typename:unsigned long
+main	ssd.c	/^int  main()$/;"	f	typeref:typename:int
+make_aged	ssd.c	/^struct ssd_info *make_aged(struct ssd_info *ssd)$/;"	f	typeref:struct:ssd_info *
+make_level_page	flash.c	/^Status make_level_page(struct ssd_info * ssd, struct sub_request * sub0,struct sub_request * sub/;"	f	typeref:typename:Status
+make_same_level	flash.c	/^struct ssd_info *make_same_level(struct ssd_info *ssd,unsigned int channel,unsigned int chip,uns/;"	f	typeref:struct:ssd_info *
+map	initialize.h	/^	struct map_info *map;$/;"	m	struct:dram_info	typeref:struct:map_info *
+map_entry	initialize.h	/^	struct entry *map_entry;            \/\/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ó³ï¿½ï¿½ï¿½ï¿½á¹¹ï¿½ï¿½Ö¸ï¿½ï¿½,each /;"	m	struct:map_info	typeref:struct:entry *
 map_info	initialize.h	/^struct map_info{$/;"	s
-max_buffer_sector	avlTree.h	/^	unsigned int max_buffer_sector;$/;"	m	struct:buffer_info
-max_lsn	initialize.h	/^	unsigned int max_lsn;$/;"	m	struct:ssd_info
-min_lsn	initialize.h	/^	unsigned int min_lsn;$/;"	m	struct:ssd_info
-move_page	pagemap-tmp.c	/^Status move_page(struct ssd_info * ssd, struct local *location, unsigned int * transfer_size)$/;"	f
-move_page	pagemap.c	/^Status move_page(struct ssd_info * ssd, struct local *location, unsigned int * transfer_size)$/;"	f
-mplane_erase_conut	initialize.h	/^	unsigned long mplane_erase_conut;$/;"	m	struct:ssd_info
-need_distr_flag	initialize.h	/^	unsigned int* need_distr_flag;$/;"	m	struct:request
-next	avlTree.h	/^	struct _AVL_TREE_NODE *next;$/;"	m	struct:_AVL_TREE_NODE	typeref:struct:_AVL_TREE_NODE::_AVL_TREE_NODE
-next_node	initialize.h	/^	struct direct_erase *next_node;$/;"	m	struct:direct_erase	typeref:struct:direct_erase::direct_erase
-next_node	initialize.h	/^	struct event_node *next_node;$/;"	m	struct:event_node	typeref:struct:event_node::event_node
-next_node	initialize.h	/^	struct gc_operation *next_node;$/;"	m	struct:gc_operation	typeref:struct:gc_operation::gc_operation
-next_node	initialize.h	/^	struct request *next_node;         \/\/Ö¸ÏòÏÂÒ»¸öÇëÇó½á¹¹Ìå$/;"	m	struct:request	typeref:struct:request::request
-next_node	initialize.h	/^	struct sub_request *next_node;    \/\/Ö¸ÏòÍ¬Ò»¸öchannelÖÐÏÂÒ»¸ö×ÓÇëÇó½á¹¹Ìå$/;"	m	struct:sub_request	typeref:struct:sub_request::sub_request
-next_request_time	initialize.h	/^	int64_t next_request_time;$/;"	m	struct:ssd_info
-next_state	initialize.h	/^	int next_state;$/;"	m	struct:channel_info
-next_state	initialize.h	/^	int next_state;$/;"	m	struct:chip_info
-next_state	initialize.h	/^	unsigned int next_state;$/;"	m	struct:sub_request
-next_state_predict_time	initialize.h	/^	int64_t next_state_predict_time;     \/\/the predict time of next state, used to decide the sate at the moment$/;"	m	struct:channel_info
-next_state_predict_time	initialize.h	/^	int64_t next_state_predict_time;    \/\/the predict time of next state, used to decide the sate at the moment$/;"	m	struct:chip_info
-next_state_predict_time	initialize.h	/^	int64_t next_state_predict_time;$/;"	m	struct:sub_request
-next_subs	initialize.h	/^	struct sub_request *next_subs;    \/\/Ö¸ÏòÊôÓÚÍ¬Ò»¸örequestµÄ×ÓÇëÇó$/;"	m	struct:sub_request	typeref:struct:sub_request::sub_request
-no_buffer_distribute	ssd.c	/^struct ssd_info *no_buffer_distribute(struct ssd_info *ssd)$/;"	f
-node	initialize.h	/^	TREE_NODE node;                     \/\/Ê÷½ÚµãµÄ½á¹¹Ò»¶¨Òª·ÅÔÚÓÃ»§×Ô¶¨Òå½á¹¹µÄ×îÇ°Ãæ£¬×¢Òâ!$/;"	m	struct:buffer_group
-not_align_write_count	initialize.h	/^	unsigned int not_align_write_count;$/;"	m	struct:ssd_info
-operating_current	initialize.h	/^	double operating_current;       \/\/NAND FLASHµÄ¹¤×÷µçÁ÷µ¥Î»ÊÇuA$/;"	m	struct:parameter_value
-operation	initialize.h	/^	unsigned int operation;            \/\/±íÊ¾¸Ã×ÓÇëÇóµÄÀàÐÍ£¬³ýÁË¶Á1 Ð´0£¬»¹ÓÐ²Á³ý£¬two planeµÈ²Ù×÷ $/;"	m	struct:sub_request
-operation	initialize.h	/^	unsigned int operation;            \/\/ÇëÇóµÄÖÖÀà£¬1Îª¶Á£¬0ÎªÐ´$/;"	m	struct:request
-orderListInsert	avlTree.c	/^static int orderListInsert$/;"	f	file:
-orderListRemove	avlTree.c	/^static int orderListRemove$/;"	f	file:
-outputfile	initialize.h	/^	FILE * outputfile;$/;"	m	struct:ssd_info
-outputfilename	initialize.h	/^	char outputfilename[30];$/;"	m	struct:ssd_info
-overprovide	initialize.h	/^	float overprovide;$/;"	m	struct:parameter_value
-pListHeader	avlTree.h	/^	TREE_NODE	*pListHeader;$/;"	m	struct:buffer_info
-pListTail	avlTree.h	/^	TREE_NODE	*pListTail;$/;"	m	struct:buffer_info
-pTreeHeader	avlTree.h	/^	TREE_NODE	*pTreeHeader;     				 \/*for search target lsn is LRU table*\/$/;"	m	struct:buffer_info
-page	initialize.h	/^	unsigned int page;            \/\/¸Ã²ÎÊýÖ»ÔÚ¿ÉÖÐ¶ÏµÄgcº¯ÊýÖÐÊ¹ÓÃ£¨gc_interrupt£©£¬ÓÃÀ´¼ÇÂ¼ÒÑ¾­Íê³ÉµÄÊý¾ÝÇ¨ÒÆµÄÒ³ºÅ$/;"	m	struct:gc_operation
-page	initialize.h	/^	unsigned int page;$/;"	m	struct:local
-page	initialize.h	/^	unsigned int page;$/;"	m	struct:ssd_info
-page_block	initialize.h	/^	unsigned int page_block;$/;"	m	struct:parameter_value
-page_capacity	initialize.h	/^	unsigned int page_capacity;$/;"	m	struct:parameter_value
-page_head	initialize.h	/^	struct page_info *page_head;       \/\/¼ÇÂ¼Ã¿Ò»×ÓÒ³µÄ×´Ì¬$/;"	m	struct:blk_info	typeref:struct:blk_info::page_info
-page_info	initialize.h	/^struct page_info{                      \/\/lpn¼ÇÂ¼¸ÃÎïÀíÒ³´æ´¢µÄÂß¼­Ò³£¬µ±¸ÃÂß¼­Ò³ÓÐÐ§Ê±£¬valid_state´óÓÚ0£¬free_state´óÓÚ0£»$/;"	s
-page_num_block	initialize.h	/^	unsigned int page_num_block;        \/\/indicate how many pages in a block$/;"	m	struct:chip_info
-parameter	initialize.h	/^    struct parameter_value *parameter;   \/\/SSD²ÎÊýÒò×Ó$/;"	m	struct:ssd_info	typeref:struct:ssd_info::parameter_value
+max_buffer_sector	avlTree.h	/^	unsigned int max_buffer_sector;$/;"	m	struct:buffer_info	typeref:typename:unsigned int
+max_lsn	initialize.h	/^	unsigned int max_lsn;$/;"	m	struct:ssd_info	typeref:typename:unsigned int
+min_lsn	initialize.h	/^	unsigned int min_lsn;$/;"	m	struct:ssd_info	typeref:typename:unsigned int
+move_page	pagemap.c	/^Status move_page(struct ssd_info * ssd, struct local *location, unsigned int * transfer_size)$/;"	f	typeref:typename:Status
+mplane_erase_conut	initialize.h	/^	unsigned long mplane_erase_conut;$/;"	m	struct:ssd_info	typeref:typename:unsigned long
+need_distr_flag	initialize.h	/^	unsigned int* need_distr_flag;$/;"	m	struct:request	typeref:typename:unsigned int *
+next	avlTree.h	/^	struct _AVL_TREE_NODE *next;$/;"	m	struct:_AVL_TREE_NODE	typeref:struct:_AVL_TREE_NODE *
+next_node	initialize.h	/^	struct direct_erase *next_node;$/;"	m	struct:direct_erase	typeref:struct:direct_erase *
+next_node	initialize.h	/^	struct event_node *next_node;$/;"	m	struct:event_node	typeref:struct:event_node *
+next_node	initialize.h	/^	struct gc_operation *next_node;$/;"	m	struct:gc_operation	typeref:struct:gc_operation *
+next_node	initialize.h	/^	struct request *next_node;         \/\/Ö¸ï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½á¹¹ï¿½ï¿½$/;"	m	struct:request	typeref:struct:request *
+next_node	initialize.h	/^	struct sub_request *next_node;    \/\/Ö¸ï¿½ï¿½Í¬Ò»ï¿½ï¿½channelï¿½ï¿½ï¿½ï¿½Ò»ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½/;"	m	struct:sub_request	typeref:struct:sub_request *
+next_request_time	initialize.h	/^	int64_t next_request_time;$/;"	m	struct:ssd_info	typeref:typename:int64_t
+next_state	initialize.h	/^	int next_state;$/;"	m	struct:channel_info	typeref:typename:int
+next_state	initialize.h	/^	int next_state;$/;"	m	struct:chip_info	typeref:typename:int
+next_state	initialize.h	/^	unsigned int next_state;$/;"	m	struct:sub_request	typeref:typename:unsigned int
+next_state_predict_time	initialize.h	/^	int64_t next_state_predict_time;     \/\/the predict time of next state, used to decide the sat/;"	m	struct:channel_info	typeref:typename:int64_t
+next_state_predict_time	initialize.h	/^	int64_t next_state_predict_time;    \/\/the predict time of next state, used to decide the sate/;"	m	struct:chip_info	typeref:typename:int64_t
+next_state_predict_time	initialize.h	/^	int64_t next_state_predict_time;$/;"	m	struct:sub_request	typeref:typename:int64_t
+next_subs	initialize.h	/^	struct sub_request *next_subs;    \/\/Ö¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í¬Ò»ï¿½ï¿½requestï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½/;"	m	struct:sub_request	typeref:struct:sub_request *
+no_buffer_distribute	ssd.c	/^struct ssd_info *no_buffer_distribute(struct ssd_info *ssd)$/;"	f	typeref:struct:ssd_info *
+node	initialize.h	/^	TREE_NODE node;                     \/\/ï¿½ï¿½ï¿½Úµï¿½Ä½á¹¹Ò»ï¿½ï¿½Òªï¿½ï¿½ï¿½ï¿½ï¿½Ã»ï¿½ï¿½Ô¶ï¿½/;"	m	struct:buffer_group	typeref:typename:TREE_NODE
+not_align_write_count	initialize.h	/^	unsigned int not_align_write_count;$/;"	m	struct:ssd_info	typeref:typename:unsigned int
+operating_current	initialize.h	/^	double operating_current;       \/\/NAND FLASHï¿½Ä¹ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½uA$/;"	m	struct:parameter_value	typeref:typename:double
+operation	initialize.h	/^	unsigned int operation;            \/\/ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í£ï¿½ï¿½ï¿½ï¿½/;"	m	struct:sub_request	typeref:typename:unsigned int
+operation	initialize.h	/^	unsigned int operation;            \/\/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½à£¬1Îªï¿½ï¿½ï¿½ï¿½0ÎªÐ´$/;"	m	struct:request	typeref:typename:unsigned int
+orderListInsert	avlTree.c	/^static int orderListInsert$/;"	f	typeref:typename:int	file:
+orderListRemove	avlTree.c	/^static int orderListRemove$/;"	f	typeref:typename:int	file:
+outputfile	initialize.h	/^	FILE * outputfile;$/;"	m	struct:ssd_info	typeref:typename:FILE *
+outputfilename	initialize.h	/^	char outputfilename[30];$/;"	m	struct:ssd_info	typeref:typename:char[30]
+overprovide	initialize.h	/^	float overprovide;$/;"	m	struct:parameter_value	typeref:typename:float
+pListHeader	avlTree.h	/^	TREE_NODE	*pListHeader;$/;"	m	struct:buffer_info	typeref:typename:TREE_NODE *
+pListTail	avlTree.h	/^	TREE_NODE	*pListTail;$/;"	m	struct:buffer_info	typeref:typename:TREE_NODE *
+pTreeHeader	avlTree.h	/^	TREE_NODE	*pTreeHeader;     				 \/*for search target lsn is LRU table*\/$/;"	m	struct:buffer_info	typeref:typename:TREE_NODE *
+page	initialize.h	/^	unsigned int page;            \/\/ï¿½Ã²ï¿½ï¿½ï¿½Ö»ï¿½Ú¿ï¿½ï¿½Ð¶Ïµï¿½gcï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ê¹ï¿½Ã£/;"	m	struct:gc_operation	typeref:typename:unsigned int
+page	initialize.h	/^	unsigned int page;$/;"	m	struct:local	typeref:typename:unsigned int
+page	initialize.h	/^	unsigned int page;$/;"	m	struct:ssd_info	typeref:typename:unsigned int
+page_block	initialize.h	/^	unsigned int page_block;$/;"	m	struct:parameter_value	typeref:typename:unsigned int
+page_capacity	initialize.h	/^	unsigned int page_capacity;$/;"	m	struct:parameter_value	typeref:typename:unsigned int
+page_head	initialize.h	/^	struct page_info *page_head;       \/\/ï¿½ï¿½Â¼Ã¿Ò»ï¿½ï¿½Ò³ï¿½ï¿½×´Ì¬$/;"	m	struct:blk_info	typeref:struct:page_info *
+page_info	initialize.h	/^struct page_info{                      \/\/lpnï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò³ï¿½æ´¢ï¿½ï¿½ï¿½ß¼ï¿½Ò³/;"	s
+page_num_block	initialize.h	/^	unsigned int page_num_block;        \/\/indicate how many pages in a block$/;"	m	struct:chip_info	typeref:typename:unsigned int
+pagemap-tmp.o	Makefile	/^pagemap-tmp.o: initialize.h IsHot.o$/;"	t
+pagemap.o	Makefile	/^pagemap.o: initialize.h$/;"	t
+parameter	initialize.h	/^    struct parameter_value *parameter;   \/\/SSDï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½$/;"	m	struct:ssd_info	typeref:struct:parameter_value *
 parameter_value	initialize.h	/^struct parameter_value{$/;"	s
-parameterfilename	initialize.h	/^	char parameterfilename[30];$/;"	m	struct:ssd_info
-pipelining	initialize.h	/^	int pipelining;$/;"	m	struct:parameter_value
-plane	initialize.h	/^	unsigned int plane;$/;"	m	struct:gc_operation
-plane	initialize.h	/^	unsigned int plane;$/;"	m	struct:local
-plane_die	initialize.h	/^	unsigned int plane_die;$/;"	m	struct:parameter_value
-plane_head	initialize.h	/^	struct plane_info *plane_head;$/;"	m	struct:die_info	typeref:struct:die_info::plane_info
+parameterfilename	initialize.h	/^	char parameterfilename[30];$/;"	m	struct:ssd_info	typeref:typename:char[30]
+pipelining	initialize.h	/^	int pipelining;$/;"	m	struct:parameter_value	typeref:typename:int
+plane	initialize.h	/^	unsigned int plane;$/;"	m	struct:gc_operation	typeref:typename:unsigned int
+plane	initialize.h	/^	unsigned int plane;$/;"	m	struct:local	typeref:typename:unsigned int
+plane_die	initialize.h	/^	unsigned int plane_die;$/;"	m	struct:parameter_value	typeref:typename:unsigned int
+plane_head	initialize.h	/^	struct plane_info *plane_head;$/;"	m	struct:die_info	typeref:struct:plane_info *
 plane_info	initialize.h	/^struct plane_info{$/;"	s
-plane_num_die	initialize.h	/^	unsigned int plane_num_die;         \/\/indicate how many planes in a die$/;"	m	struct:chip_info
-pn	initialize.h	/^	unsigned int pn;                \/\/ÎïÀíºÅ£¬¼È¿ÉÒÔ±íÊ¾ÎïÀíÒ³ºÅ£¬Ò²¿ÉÒÔ±íÊ¾ÎïÀí×ÓÒ³ºÅ£¬Ò²¿ÉÒÔ±íÊ¾ÎïÀí¿éºÅ$/;"	m	struct:entry
-power	initialize.h	/^	float power;                        \/\/±íÊ¾¿ØÖÆÆ÷µ¥Î»Ê±¼äµÄÄÜºÄ$/;"	m	struct:controller_info
-ppn	initialize.h	/^	unsigned int ppn;                  \/\/·ÖÅäÄÇ¸öÎïÀí×ÓÒ³¸øÕâ¸ö×ÓÇëÇó¡£ÔÚmulti_chip_page_mappingÖÐ£¬²úÉú×ÓÒ³ÇëÇóÊ±¿ÉÄÜ¾ÍÖªµÀpsnµÄÖµ£¬ÆäËûÊ±ºòpsnµÄÖµÓÉpage_map_read,page_map_writeµÈFTL×îµ×²ãº¯Êý²úÉú¡£ $/;"	m	struct:sub_request
-pre_entropy	initialize.h	/^	double pre_entropy[PRE_LIST_SIZE];$/;"	m	struct:ssd_info
-pre_list	initialize.h	/^	int64_t pre_list[PRE_LIST_SIZE];$/;"	m	struct:ssd_info
-pre_node	initialize.h	/^	struct event_node *pre_node;$/;"	m	struct:event_node	typeref:struct:event_node::event_node
-pre_process_page	pagemap-tmp.c	/^struct ssd_info *pre_process_page(struct ssd_info *ssd)$/;"	f
-pre_process_page	pagemap.c	/^struct ssd_info *pre_process_page(struct ssd_info *ssd)$/;"	f
-predict_time	initialize.h	/^	int64_t predict_time;            \/\/¼ÇÂ¼Õâ¸öÊ±¼ä¿ªÊ¼µÄÔ¤¼ÆÊ±¼ä£¬·ÀÖ¹ÌáÇ°Ö´ÐÐÕâ¸öÊ±¼ä$/;"	m	struct:event_node
-prev	avlTree.h	/^	struct _AVL_TREE_NODE *prev;$/;"	m	struct:_AVL_TREE_NODE	typeref:struct:_AVL_TREE_NODE::_AVL_TREE_NODE
-priority	initialize.h	/^	unsigned int priority;        \/\/¼ÇÂ¼¸Ãgc²Ù×÷µÄÓÅÏÈ¼¶£¬1±íÊ¾²»¿ÉÖÐ¶Ï£¬0±íÊ¾¿ÉÖÐ¶Ï£¨ÈíãÐÖµ²úÉúµÄgcÇëÇó£©$/;"	m	struct:gc_operation
-process	flash.c	/^struct ssd_info *process(struct ssd_info *ssd)   $/;"	f
-process_time	initialize.h	/^	int64_t process_time;          \/\/¸Ãplane»¨ÁË¶àÉÙÊ±¼äÔÚgc²Ù×÷ÉÏ$/;"	m	struct:gc_info
-program_count	initialize.h	/^	unsigned long program_count;$/;"	m	struct:channel_info
-program_count	initialize.h	/^	unsigned long program_count;$/;"	m	struct:chip_info
-program_count	initialize.h	/^	unsigned long program_count;$/;"	m	struct:ssd_info
-queue_length	initialize.h	/^	int queue_length;               \/\/ÇëÇó¶ÓÁÐµÄ³¤¶ÈÏÞÖÆ$/;"	m	struct:parameter_value
-quick_radio	initialize.h	/^	float quick_radio;$/;"	m	struct:parameter_value
-read_avg	initialize.h	/^	int64_t read_avg;                    \/\/¼ÇÂ¼ÓÃÓÚ¼ÆËã¶ÁÇëÇóÆ½¾ùÏìÓ¦Ê±¼äµÄÊ±¼ä$/;"	m	struct:ssd_info
-read_count	initialize.h	/^	unsigned long read_count;           \/\/how many read count in the process of workload$/;"	m	struct:chip_info
-read_count	initialize.h	/^	unsigned long read_count;$/;"	m	struct:channel_info
-read_count	initialize.h	/^	unsigned long read_count;$/;"	m	struct:ssd_info
-read_hit	avlTree.h	/^	unsigned long read_hit;                      \/*ÕâÀïµÄhit¶¼±íÊ¾sectorµÄÃüÖÐ´ÎÊý»òÊÇÃ»ÃüÖÐµÄ´ÎÊý*\/$/;"	m	struct:buffer_info
-read_miss_hit	avlTree.h	/^	unsigned long read_miss_hit;  $/;"	m	struct:buffer_info
-read_request_count	initialize.h	/^	unsigned int read_request_count;     \/\/¼ÇÂ¼¶Á²Ù×÷µÄ´ÎÊý$/;"	m	struct:ssd_info
-real_time_subreq	initialize.h	/^	unsigned int real_time_subreq;       \/\/¼ÇÂ¼ÊµÊ±µÄÐ´ÇëÇó¸öÊý£¬ÓÃÔÚÈ«¶¯Ì¬·ÖÅäÊ±£¬channelÓÅÏÈµÄÇé¿ö$/;"	m	struct:ssd_info
-related_mapping	initialize.h	/^	int related_mapping;$/;"	m	struct:parameter_value
+plane_num_die	initialize.h	/^	unsigned int plane_num_die;         \/\/indicate how many planes in a die$/;"	m	struct:chip_info	typeref:typename:unsigned int
+plt	chx.py	/^import matplotlib.pyplot as plt$/;"	I	nameref:module:matplotlib.pyplot
+pn	initialize.h	/^	unsigned int pn;                \/\/ï¿½ï¿½ï¿½ï¿½ï¿½Å£ï¿½ï¿½È¿ï¿½ï¿½Ô±ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½Ò³ï¿½Å£ï¿½/;"	m	struct:entry	typeref:typename:unsigned int
+power	initialize.h	/^	float power;                        \/\/ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»Ê±ï¿½ï¿½ï¿½ï¿½Üºï¿½$/;"	m	struct:controller_info	typeref:typename:float
+ppn	initialize.h	/^	unsigned int ppn;                  \/\/ï¿½ï¿½ï¿½ï¿½ï¿½Ç¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ò³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½/;"	m	struct:sub_request	typeref:typename:unsigned int
+pre_entropy	initialize.h	/^	double pre_entropy[PRE_LIST_SIZE];$/;"	m	struct:ssd_info	typeref:typename:double[]
+pre_list	initialize.h	/^	unsigned int pre_list[PRE_LIST_SIZE];$/;"	m	struct:ssd_info	typeref:typename:unsigned int[]
+pre_node	initialize.h	/^	struct event_node *pre_node;$/;"	m	struct:event_node	typeref:struct:event_node *
+pre_process_page	pagemap.c	/^struct ssd_info *pre_process_page(struct ssd_info *ssd)$/;"	f	typeref:struct:ssd_info *
+predict_time	initialize.h	/^	int64_t predict_time;            \/\/ï¿½ï¿½Â¼ï¿½ï¿½ï¿½Ê±ï¿½ä¿ªÊ¼ï¿½ï¿½Ô¤ï¿½ï¿½Ê±ï¿½ä£¬ï¿½ï¿½Ö¹ï¿½/;"	m	struct:event_node	typeref:typename:int64_t
+prev	avlTree.h	/^	struct _AVL_TREE_NODE *prev;$/;"	m	struct:_AVL_TREE_NODE	typeref:struct:_AVL_TREE_NODE *
+priority	initialize.h	/^	unsigned int priority;        \/\/ï¿½ï¿½Â¼ï¿½ï¿½gcï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È¼ï¿½ï¿½ï¿½1ï¿½ï¿½/;"	m	struct:gc_operation	typeref:typename:unsigned int
+process	flash.c	/^struct ssd_info *process(struct ssd_info *ssd)   $/;"	f	typeref:struct:ssd_info *
+process_time	initialize.h	/^	int64_t process_time;          \/\/ï¿½ï¿½planeï¿½ï¿½ï¿½Ë¶ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½gcï¿½ï¿½ï¿½ï¿½ï¿½/;"	m	struct:gc_info	typeref:typename:int64_t
+program_count	initialize.h	/^	unsigned long program_count;$/;"	m	struct:channel_info	typeref:typename:unsigned long
+program_count	initialize.h	/^	unsigned long program_count;$/;"	m	struct:chip_info	typeref:typename:unsigned long
+program_count	initialize.h	/^	unsigned long program_count;$/;"	m	struct:ssd_info	typeref:typename:unsigned long
+queue_length	initialize.h	/^	int queue_length;               \/\/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÐµÄ³ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½$/;"	m	struct:parameter_value	typeref:typename:int
+quick_radio	initialize.h	/^	float quick_radio;$/;"	m	struct:parameter_value	typeref:typename:float
+read_avg	initialize.h	/^	int64_t read_avg;                    \/\/ï¿½ï¿½Â¼ï¿½ï¿½ï¿½Ú¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æ½ï¿½ï¿½ï¿½/;"	m	struct:ssd_info	typeref:typename:int64_t
+read_count	initialize.h	/^	unsigned long read_count;           \/\/how many read count in the process of workload$/;"	m	struct:chip_info	typeref:typename:unsigned long
+read_count	initialize.h	/^	unsigned long read_count;$/;"	m	struct:channel_info	typeref:typename:unsigned long
+read_count	initialize.h	/^	unsigned long read_count;$/;"	m	struct:ssd_info	typeref:typename:unsigned long
+read_hit	avlTree.h	/^	unsigned long read_hit;                      \/*ÕâÀïµÄhit¶¼±íÊ¾sectorµÄÃüÖÐ´ÎÊý»òÊÇÃ»ÃüÖÐµÄ´ÎÊý/;"	m	struct:buffer_info	typeref:typename:unsigned long
+read_miss_hit	avlTree.h	/^	unsigned long read_miss_hit;  $/;"	m	struct:buffer_info	typeref:typename:unsigned long
+read_request_count	initialize.h	/^	unsigned int read_request_count;     \/\/ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½ï¿½$/;"	m	struct:ssd_info	typeref:typename:unsigned int
+real_time_subreq	initialize.h	/^	unsigned int real_time_subreq;       \/\/ï¿½ï¿½Â¼ÊµÊ±ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½/;"	m	struct:ssd_info	typeref:typename:unsigned int
+related_mapping	initialize.h	/^	int related_mapping;$/;"	m	struct:parameter_value	typeref:typename:int
 request	initialize.h	/^struct request{$/;"	s
-request_queue	initialize.h	/^	struct request *request_queue;       \/\/dynamic request queue$/;"	m	struct:ssd_info	typeref:struct:ssd_info::request
-request_queue_length	initialize.h	/^	unsigned int request_queue_length;$/;"	m	struct:ssd_info
-request_tail	initialize.h	/^	struct request *request_tail;	     \/\/ the tail of the request queue$/;"	m	struct:ssd_info	typeref:struct:ssd_info::request
-response_time	initialize.h	/^	int64_t response_time;$/;"	m	struct:request
-right_child	avlTree.h	/^	struct _AVL_TREE_NODE *right_child;$/;"	m	struct:_AVL_TREE_NODE	typeref:struct:_AVL_TREE_NODE::_AVL_TREE_NODE
-scheduling_algorithm	initialize.h	/^	int scheduling_algorithm;       \/\/¼ÇÂ¼Ê¹ÓÃÄÄÖÖµ÷¶ÈËã·¨£¬1:FCFS$/;"	m	struct:parameter_value
-services_2_r_cmd_trans_and_complete	flash.c	/^Status services_2_r_cmd_trans_and_complete(struct ssd_info * ssd)$/;"	f
-services_2_r_data_trans	flash.c	/^Status services_2_r_data_trans(struct ssd_info * ssd,unsigned int channel,unsigned int * channel_busy_flag, unsigned int * change_current_time_flag)$/;"	f
-services_2_r_wait	flash.c	/^int services_2_r_wait(struct ssd_info * ssd,unsigned int channel,unsigned int * channel_busy_flag, unsigned int * change_current_time_flag)$/;"	f
-services_2_write	flash.c	/^Status services_2_write(struct ssd_info * ssd,unsigned int channel,unsigned int * channel_busy_flag, unsigned int * change_current_time_flag)$/;"	f
-set_entry_state	pagemap-tmp.c	/^int set_entry_state(struct ssd_info *ssd,unsigned int lsn,unsigned int size)$/;"	f
-set_entry_state	pagemap.c	/^int set_entry_state(struct ssd_info *ssd,unsigned int lsn,unsigned int size)$/;"	f
-simulate	ssd.c	/^struct ssd_info *simulate(struct ssd_info *ssd)$/;"	f
-size	initialize.h	/^	int size;$/;"	m	struct:sub_request
-size	initialize.h	/^	unsigned int size;                 \/\/ÇëÇóµÄ´óÐ¡£¬¼È¶àÉÙ¸öÉÈÇø$/;"	m	struct:request
-size	ssd.c	/^unsigned int size(unsigned int stored)$/;"	f
-sleep_current	initialize.h	/^	float sleep_current;$/;"	m	struct:dram_parameter
-small_large_write	initialize.h	/^	unsigned int small_large_write; \/\/the threshould of large write, large write do not occupt buffer, which is written back to flash directly$/;"	m	struct:parameter_value
-ssd_energy	initialize.h	/^	double ssd_energy;                   \/\/SSDµÄÄÜºÄ£¬ÊÇÊ±¼äºÍÐ¾Æ¬ÊýµÄº¯Êý,ÄÜºÄÒò×Ó$/;"	m	struct:ssd_info
+request_queue	initialize.h	/^	struct request *request_queue;       \/\/dynamic request queue$/;"	m	struct:ssd_info	typeref:struct:request *
+request_queue_length	initialize.h	/^	unsigned int request_queue_length;$/;"	m	struct:ssd_info	typeref:typename:unsigned int
+request_tail	initialize.h	/^	struct request *request_tail;	     \/\/ the tail of the request queue$/;"	m	struct:ssd_info	typeref:struct:request *
+response_time	initialize.h	/^	int64_t response_time;$/;"	m	struct:request	typeref:typename:int64_t
+right_child	avlTree.h	/^	struct _AVL_TREE_NODE *right_child;$/;"	m	struct:_AVL_TREE_NODE	typeref:struct:_AVL_TREE_NODE *
+scheduling_algorithm	initialize.h	/^	int scheduling_algorithm;       \/\/ï¿½ï¿½Â¼Ê¹ï¿½ï¿½ï¿½ï¿½ï¿½Öµï¿½ï¿½ï¿½ï¿½ã·¨ï¿½ï¿½1:FCFS$/;"	m	struct:parameter_value	typeref:typename:int
+services_2_r_cmd_trans_and_complete	flash.c	/^Status services_2_r_cmd_trans_and_complete(struct ssd_info * ssd)$/;"	f	typeref:typename:Status
+services_2_r_data_trans	flash.c	/^Status services_2_r_data_trans(struct ssd_info * ssd,unsigned int channel,unsigned int * channel/;"	f	typeref:typename:Status
+services_2_r_wait	flash.c	/^int services_2_r_wait(struct ssd_info * ssd,unsigned int channel,unsigned int * channel_busy_fla/;"	f	typeref:typename:int
+services_2_write	flash.c	/^Status services_2_write(struct ssd_info * ssd,unsigned int channel,unsigned int * channel_busy_f/;"	f	typeref:typename:Status
+set_entry_state	pagemap.c	/^int set_entry_state(struct ssd_info *ssd,unsigned int lsn,unsigned int size)$/;"	f	typeref:typename:int
+simulate	ssd.c	/^struct ssd_info *simulate(struct ssd_info *ssd)$/;"	f	typeref:struct:ssd_info *
+size	initialize.h	/^	int size;$/;"	m	struct:sub_request	typeref:typename:int
+size	initialize.h	/^	unsigned int size;                 \/\/ï¿½ï¿½ï¿½ï¿½Ä´ï¿½Ð¡ï¿½ï¿½ï¿½È¶ï¿½ï¿½Ù¸ï¿½ï¿½ï¿½ï¿½ï¿½$/;"	m	struct:request	typeref:typename:unsigned int
+size	ssd.c	/^unsigned int size(unsigned int stored)$/;"	f	typeref:typename:unsigned int
+slc_cache_active_block	initialize.h	/^	unsigned int slc_cache_active_block;$/;"	m	struct:plane_info	typeref:typename:unsigned int
+sleep_current	initialize.h	/^	float sleep_current;$/;"	m	struct:dram_parameter	typeref:typename:float
+small_large_write	initialize.h	/^	unsigned int small_large_write; \/\/the threshould of large write, large write do not occupt bu/;"	m	struct:parameter_value	typeref:typename:unsigned int
+ssd	Makefile	/^ssd: ssd.o avlTree.o flash.o initialize.o pagemap.o     $/;"	t
+ssd.o	Makefile	/^ssd.o: flash.h initialize.h pagemap.h$/;"	t
+ssd_energy	initialize.h	/^	double ssd_energy;                   \/\/SSDï¿½ï¿½ï¿½ÜºÄ£ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½Ð¾Æ¬ï¿½ï¿½ï¿½Äºï¿½/;"	m	struct:ssd_info	typeref:typename:double
 ssd_info	initialize.h	/^struct ssd_info{ $/;"	s
-state	initialize.h	/^	 unsigned int state;              \/\/Ê¹ÓÃstateµÄ×î¸ßÎ»±íÊ¾¸Ã×ÓÇëÇóÊÇ·ñÊÇÒ»¶Ô¶àÓ³Éä¹ØÏµÖÐµÄÒ»¸ö£¬ÊÇµÄ»°£¬ÐèÒª¶Áµ½bufferÖÐ¡£1±íÊ¾ÊÇÒ»¶Ô¶à£¬0±íÊ¾²»ÓÃÐ´µ½buffer$/;"	m	struct:sub_request
-state	initialize.h	/^	int state;                      \/\/Ê®Áù½øÖÆ±íÊ¾µÄ»°ÊÇ0000-FFFF£¬Ã¿Î»±íÊ¾ÏàÓ¦µÄ×ÓÒ³ÊÇ·ñÓÐÐ§£¨Ò³Ó³Éä£©¡£±ÈÈçÔÚÕâ¸öÒ³ÖÐ£¬0£¬1ºÅ×ÓÒ³ÓÐÐ§£¬2£¬3ÎÞÐ§£¬Õâ¸öÓ¦¸ÃÊÇ0x0003.$/;"	m	struct:entry
-state	initialize.h	/^	unsigned int state;           \/\/¼ÇÂ¼µ±Ç°gcÇëÇóµÄ×´Ì¬$/;"	m	struct:gc_operation
-state	initialize.h	/^	unsigned int state; $/;"	m	struct:Dram_write_map
-static_allocation	initialize.h	/^	int static_allocation;          \/\/¼ÇÂ¼ÊÇÄÇÖÖ¾²Ì¬·ÖÅä·½Ê½£¬ÈçICS09ÄÇÆªÎÄÕÂËùÊöµÄËùÓÐ¾²Ì¬·ÖÅä·½Ê½$/;"	m	struct:parameter_value
-static_write	flash.c	/^Status static_write(struct ssd_info * ssd, unsigned int channel,unsigned int chip, unsigned int die,struct sub_request * sub)$/;"	f
-statistic_output	ssd.c	/^void statistic_output(struct ssd_info *ssd)$/;"	f
-statisticfile	initialize.h	/^	FILE * statisticfile;$/;"	m	struct:ssd_info
-statisticfile2	initialize.h	/^	FILE * statisticfile2;$/;"	m	struct:ssd_info
-statisticfilename	initialize.h	/^	char statisticfilename[30];$/;"	m	struct:ssd_info
-statisticfilename2	initialize.h	/^	char statisticfilename2[30];$/;"	m	struct:ssd_info
-stored	initialize.h	/^	unsigned int stored;                \/\/indicate the sector is stored in buffer or not. 1 indicates the sector is stored and 0 indicate the sector isn't stored.EX.  00110011 indicates the first, second, fifth, sixth sector is stored in buffer.$/;"	m	struct:buffer_group
-striping	initialize.h	/^	int striping;                   \/\/±íÊ¾ÊÇ·ñÊ¹ÓÃÁËstriping·½Ê½£¬0±íÊ¾Ã»ÓÐ£¬1±íÊ¾ÓÐ$/;"	m	struct:parameter_value
-sub_page	initialize.h	/^	unsigned int sub_page;$/;"	m	struct:local
+state	initialize.h	/^	 unsigned int state;              \/\/Ê¹ï¿½ï¿½stateï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½/;"	m	struct:sub_request	typeref:typename:unsigned int
+state	initialize.h	/^	int state;                      \/\/Ê®ï¿½ï¿½ï¿½ï¿½ï¿½Æ±ï¿½Ê¾ï¿½Ä»ï¿½ï¿½ï¿½0000-FFFFï¿½ï¿½Ã¿Î»ï¿½/;"	m	struct:entry	typeref:typename:int
+state	initialize.h	/^	unsigned int state;           \/\/ï¿½ï¿½Â¼ï¿½ï¿½Ç°gcï¿½ï¿½ï¿½ï¿½ï¿½×´Ì¬$/;"	m	struct:gc_operation	typeref:typename:unsigned int
+state	initialize.h	/^	unsigned int state; $/;"	m	struct:Dram_write_map	typeref:typename:unsigned int
+static_allocation	initialize.h	/^	int static_allocation;          \/\/ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½Ì¬ï¿½ï¿½ï¿½ä·½Ê½ï¿½ï¿½ï¿½ï¿½ICS/;"	m	struct:parameter_value	typeref:typename:int
+static_write	flash.c	/^Status static_write(struct ssd_info * ssd, unsigned int channel,unsigned int chip, unsigned int /;"	f	typeref:typename:Status
+statistic_output	ssd.c	/^void statistic_output(struct ssd_info *ssd)$/;"	f	typeref:typename:void
+statisticfile	initialize.h	/^	FILE * statisticfile;$/;"	m	struct:ssd_info	typeref:typename:FILE *
+statisticfile2	initialize.h	/^	FILE * statisticfile2;$/;"	m	struct:ssd_info	typeref:typename:FILE *
+statisticfilename	initialize.h	/^	char statisticfilename[30];$/;"	m	struct:ssd_info	typeref:typename:char[30]
+statisticfilename2	initialize.h	/^	char statisticfilename2[30];$/;"	m	struct:ssd_info	typeref:typename:char[30]
+stored	initialize.h	/^	unsigned int stored;                \/\/indicate the sector is stored in buffer or not. 1 indic/;"	m	struct:buffer_group	typeref:typename:unsigned int
+striping	initialize.h	/^	int striping;                   \/\/ï¿½ï¿½Ê¾ï¿½Ç·ï¿½Ê¹ï¿½ï¿½ï¿½ï¿½stripingï¿½ï¿½Ê½ï¿½ï¿½0ï¿½ï¿½/;"	m	struct:parameter_value	typeref:typename:int
+sub_page	initialize.h	/^	unsigned int sub_page;$/;"	m	struct:local	typeref:typename:unsigned int
 sub_request	initialize.h	/^struct sub_request{$/;"	s
-subpage_capacity	initialize.h	/^	unsigned int subpage_capacity;$/;"	m	struct:parameter_value
-subpage_num_page	initialize.h	/^	unsigned int subpage_num_page;      \/\/indicate how many subpage in a page$/;"	m	struct:chip_info
-subpage_page	initialize.h	/^	unsigned int subpage_page;$/;"	m	struct:parameter_value
-subs	initialize.h	/^	struct sub_request *subs;          \/\/Á´½Óµ½ÊôÓÚ¸ÃÇëÇóµÄËùÓÐ×ÓÇëÇó$/;"	m	struct:request	typeref:struct:request::sub_request
-subs_r_head	initialize.h	/^	struct sub_request *subs_r_head;     \/\/channelÉÏµÄ¶ÁÇëÇó¶ÓÁÐÍ·£¬ÏÈ·þÎñ´¦ÓÚ¶ÓÁÐÍ·µÄ×ÓÇëÇó$/;"	m	struct:channel_info	typeref:struct:channel_info::sub_request
-subs_r_tail	initialize.h	/^	struct sub_request *subs_r_tail;     \/\/channelÉÏµÄ¶ÁÇëÇó¶ÓÁÐÎ²£¬ÐÂ¼Ó½øÀ´µÄ×ÓÇëÇó¼Óµ½¶ÓÎ²$/;"	m	struct:channel_info	typeref:struct:channel_info::sub_request
-subs_w_head	initialize.h	/^	struct sub_request *subs_w_head;     \/\/channelÉÏµÄÐ´ÇëÇó¶ÓÁÐÍ·£¬ÏÈ·þÎñ´¦ÓÚ¶ÓÁÐÍ·µÄ×ÓÇëÇó$/;"	m	struct:channel_info	typeref:struct:channel_info::sub_request
-subs_w_head	initialize.h	/^	struct sub_request *subs_w_head;     \/\/µ±²ÉÓÃÈ«¶¯Ì¬·ÖÅäÊ±£¬·ÖÅäÊÇ²»ÖªµÀÓ¦¸Ã¹ÒÔØÄÄ¸öchannelÉÏ£¬ËùÒÔÏÈ¹ÒÔÚssdÉÏ£¬µÈ½øÈëprocessº¯ÊýÊ±²Å¹Òµ½ÏàÓ¦µÄchannelµÄ¶ÁÇëÇó¶ÓÁÐÉÏ$/;"	m	struct:ssd_info	typeref:struct:ssd_info::sub_request
-subs_w_tail	initialize.h	/^	struct sub_request *subs_w_tail;     \/\/channelÉÏµÄÐ´ÇëÇó¶ÓÁÐ£¬ÐÂ¼Ó½øÀ´µÄ×ÓÇëÇó¼Óµ½¶ÓÎ²$/;"	m	struct:channel_info	typeref:struct:channel_info::sub_request
-subs_w_tail	initialize.h	/^	struct sub_request *subs_w_tail;$/;"	m	struct:ssd_info	typeref:struct:ssd_info::sub_request
-supply_voltage	initialize.h	/^	double supply_voltage;	$/;"	m	struct:parameter_value
-tADL	initialize.h	/^	int tADL;      \/\/address to data loading time$/;"	m	struct:ac_time_characteristics
-tALH	initialize.h	/^	int tALH;      \/\/ALE hold time$/;"	m	struct:ac_time_characteristics
-tALS	initialize.h	/^	int tALS;      \/\/ALE setup time$/;"	m	struct:ac_time_characteristics
-tAR	initialize.h	/^	int tAR;       \/\/ALE to RE delay$/;"	m	struct:ac_time_characteristics
+subpage_capacity	initialize.h	/^	unsigned int subpage_capacity;$/;"	m	struct:parameter_value	typeref:typename:unsigned int
+subpage_num_page	initialize.h	/^	unsigned int subpage_num_page;      \/\/indicate how many subpage in a page$/;"	m	struct:chip_info	typeref:typename:unsigned int
+subpage_page	initialize.h	/^	unsigned int subpage_page;$/;"	m	struct:parameter_value	typeref:typename:unsigned int
+subs	initialize.h	/^	struct sub_request *subs;          \/\/ï¿½ï¿½ï¿½Óµï¿½ï¿½ï¿½ï¿½Ú¸ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½/;"	m	struct:request	typeref:struct:sub_request *
+subs_r_head	initialize.h	/^	struct sub_request *subs_r_head;     \/\/channelï¿½ÏµÄ¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í·ï¿½ï¿½ï¿½È·ï¿½/;"	m	struct:channel_info	typeref:struct:sub_request *
+subs_r_tail	initialize.h	/^	struct sub_request *subs_r_tail;     \/\/channelï¿½ÏµÄ¶ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î²ï¿½ï¿½ï¿½Â¼Ó½ï¿½/;"	m	struct:channel_info	typeref:struct:sub_request *
+subs_w_head	initialize.h	/^	struct sub_request *subs_w_head;     \/\/channelï¿½Ïµï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í·ï¿½ï¿½ï¿½È·ï¿½/;"	m	struct:channel_info	typeref:struct:sub_request *
+subs_w_head	initialize.h	/^	struct sub_request *subs_w_head;     \/\/ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½È«ï¿½ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½Ê±ï¿½ï¿½ï¿½ï¿½/;"	m	struct:ssd_info	typeref:struct:sub_request *
+subs_w_tail	initialize.h	/^	struct sub_request *subs_w_tail;     \/\/channelï¿½Ïµï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½ï¿½Â¼Ó½ï¿½ï¿½ï¿½/;"	m	struct:channel_info	typeref:struct:sub_request *
+subs_w_tail	initialize.h	/^	struct sub_request *subs_w_tail;$/;"	m	struct:ssd_info	typeref:struct:sub_request *
+supply_voltage	initialize.h	/^	double supply_voltage;	$/;"	m	struct:parameter_value	typeref:typename:double
+tADL	initialize.h	/^	int tADL;      \/\/address to data loading time$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tALH	initialize.h	/^	int tALH;      \/\/ALE hold time$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tALS	initialize.h	/^	int tALS;      \/\/ALE setup time$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tAR	initialize.h	/^	int tAR;       \/\/ALE to RE delay$/;"	m	struct:ac_time_characteristics	typeref:typename:int
 tAVLTree	avlTree.h	/^} tAVLTree;$/;"	t	typeref:struct:buffer_info
-tBERS	initialize.h	/^	int tBERS;     \/\/block erase time$/;"	m	struct:ac_time_characteristics
-tCEA	initialize.h	/^	int tCEA;      \/\/CE access time$/;"	m	struct:ac_time_characteristics
-tCH	initialize.h	/^	int tCH;       \/\/CE hold time$/;"	m	struct:ac_time_characteristics
-tCHZ	initialize.h	/^	int tCHZ;      \/\/CE high to output hi-z$/;"	m	struct:ac_time_characteristics
-tCLH	initialize.h	/^	int tCLH;      \/\/CLE hold time$/;"	m	struct:ac_time_characteristics
-tCLR	initialize.h	/^	int tCLR;      \/\/CLE to RE delay$/;"	m	struct:ac_time_characteristics
-tCLS	initialize.h	/^	int tCLS;      \/\/CLE setup time$/;"	m	struct:ac_time_characteristics
-tCOH	initialize.h	/^	int tCOH;      \/\/CE high to output hold$/;"	m	struct:ac_time_characteristics
-tCS	initialize.h	/^	int tCS;       \/\/CE setup time$/;"	m	struct:ac_time_characteristics
-tDBSY	initialize.h	/^	int tDBSY;     \/\/bummy busy time for two-plane program$/;"	m	struct:ac_time_characteristics
-tDH	initialize.h	/^	int tDH;       \/\/data hold time$/;"	m	struct:ac_time_characteristics
-tDS	initialize.h	/^	int tDS;       \/\/data setup time$/;"	m	struct:ac_time_characteristics
-tIR	initialize.h	/^	int tIR;       \/\/output hi-z to RE low$/;"	m	struct:ac_time_characteristics
-tPROG	initialize.h	/^	int tPROG;     \/\/program time$/;"	m	struct:ac_time_characteristics
-tR	initialize.h	/^	int tR;        \/\/data transfer from cell to register$/;"	m	struct:ac_time_characteristics
-tRC	initialize.h	/^	int tRC;       \/\/read cycle time$/;"	m	struct:ac_time_characteristics
-tREA	initialize.h	/^	int tREA;      \/\/RE access time$/;"	m	struct:ac_time_characteristics
-tREH	initialize.h	/^	int tREH;      \/\/RE high to output time$/;"	m	struct:ac_time_characteristics
-tRHOH	initialize.h	/^	int tRHOH;     \/\/RE high to output hold$/;"	m	struct:ac_time_characteristics
-tRHW	initialize.h	/^	int tRHW;      \/\/RE high to WE low$/;"	m	struct:ac_time_characteristics
-tRHZ	initialize.h	/^	int tRHZ;      \/\/RE high to output hi-z$/;"	m	struct:ac_time_characteristics
-tRLOH	initialize.h	/^	int tRLOH;     \/\/RE low to output hold$/;"	m	struct:ac_time_characteristics
-tRP	initialize.h	/^	int tRP;       \/\/RE pulse width$/;"	m	struct:ac_time_characteristics
-tRR	initialize.h	/^	int tRR;       \/\/ready to RE low$/;"	m	struct:ac_time_characteristics
-tRST	initialize.h	/^	int tRST;      \/\/device resetting time$/;"	m	struct:ac_time_characteristics
-tWB	initialize.h	/^	int tWB;       \/\/WE high to busy$/;"	m	struct:ac_time_characteristics
-tWC	initialize.h	/^	int tWC;       \/\/write cycle time$/;"	m	struct:ac_time_characteristics
-tWH	initialize.h	/^	int tWH;       \/\/WE high hold time$/;"	m	struct:ac_time_characteristics
-tWHR	initialize.h	/^	int tWHR;      \/\/WE high to RE low$/;"	m	struct:ac_time_characteristics
-tWP	initialize.h	/^	int tWP;       \/\/WE pulse width$/;"	m	struct:ac_time_characteristics
-threshold_fixed_adjust	initialize.h	/^	int threshold_fixed_adjust;$/;"	m	struct:parameter_value
-threshold_value	initialize.h	/^	int threshold_value;$/;"	m	struct:parameter_value
-time	initialize.h	/^	int64_t time;                      \/\/ÇëÇóµ½´ïµÄÊ±¼ä£¬µ¥Î»Îªus,ÕâÀïºÍÍ¨³£µÄÏ°¹ß²»Ò»Ñù£¬Í¨³£µÄÊÇmsÎªµ¥Î»£¬ÕâÀïÐèÒªÓÐ¸öµ¥Î»±ä»»¹ý³Ì$/;"	m	struct:request
-time_characteristics	initialize.h	/^	struct ac_time_characteristics time_characteristics;$/;"	m	struct:parameter_value	typeref:struct:parameter_value::ac_time_characteristics
-time_step	initialize.h	/^	unsigned int time_step;$/;"	m	struct:parameter_value
-token	initialize.h	/^	unsigned int token;                  \/\/ÔÚ¶¯Ì¬·ÖÅäÖÐ£¬Îª·ÀÖ¹Ã¿´Î·ÖÅäÔÚµÚÒ»¸öchannelÐèÒªÎ¬³ÖÒ»¸öÁîÅÆ£¬Ã¿´Î´ÓÁîÅÆËùÖ¸µÄÎ»ÖÃ¿ªÊ¼·ÖÅä$/;"	m	struct:ssd_info
-token	initialize.h	/^	unsigned int token;                  \/\/ÔÚ¶¯Ì¬·ÖÅäÖÐ£¬Îª·ÀÖ¹Ã¿´Î·ÖÅäÔÚµÚÒ»¸öchipÐèÒªÎ¬³ÖÒ»¸öÁîÅÆ£¬Ã¿´Î´ÓÁîÅÆËùÖ¸µÄÎ»ÖÃ¿ªÊ¼·ÖÅä$/;"	m	struct:channel_info
-token	initialize.h	/^	unsigned int token;                 \/\/ÔÚ¶¯Ì¬·ÖÅäÖÐ£¬Îª·ÀÖ¹Ã¿´Î·ÖÅäÔÚµÚÒ»¸ödieÐèÒªÎ¬³ÖÒ»¸öÁîÅÆ£¬Ã¿´Î´ÓÁîÅÆËùÖ¸µÄÎ»ÖÃ¿ªÊ¼·ÖÅä$/;"	m	struct:chip_info
-token	initialize.h	/^	unsigned int token;                 \/\/ÔÚ¶¯Ì¬·ÖÅäÖÐ£¬Îª·ÀÖ¹Ã¿´Î·ÖÅäÔÚµÚÒ»¸öplaneÐèÒªÎ¬³ÖÒ»¸öÁîÅÆ£¬Ã¿´Î´ÓÁîÅÆËùÖ¸µÄÎ»ÖÃ¿ªÊ¼·ÖÅä$/;"	m	struct:die_info
-trace_assert	pagemap-tmp.c	/^void trace_assert(int64_t time_t,int device,unsigned int lsn,int size,int ope)\/\/ï¿½ï¿½ï¿½ï¿½$/;"	f
-trace_assert	pagemap.c	/^void trace_assert(int64_t time_t,int device,unsigned int lsn,int size,int ope)\/\/¶ÏÑÔ$/;"	f
-trace_output	ssd.c	/^void trace_output(struct ssd_info* ssd){$/;"	f
-tracefile	initialize.h	/^	FILE * tracefile;$/;"	m	struct:ssd_info
-tracefilename	initialize.h	/^	char tracefilename[30];$/;"	m	struct:ssd_info
-transfer_size	ssd.c	/^unsigned int transfer_size(struct ssd_info *ssd,int need_distribute,unsigned int lpn,struct request *req)$/;"	f
-tree_root	avlTree.h	/^	struct _AVL_TREE_NODE *tree_root;$/;"	m	struct:_AVL_TREE_NODE	typeref:struct:_AVL_TREE_NODE::_AVL_TREE_NODE
-type	initialize.h	/^	int type;                        \/\/¼ÇÂ¼¸ÃÊÂ¼þµÄÀàÐÍ£¬1±íÊ¾ÃüÁîÀàÐÍ£¬2±íÊ¾Êý¾Ý´«ÊäÀàÐÍ$/;"	m	struct:event_node
-un_greed_copyback	flash.c	/^struct ssd_info *un_greed_copyback(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,struct sub_request *sub1)$/;"	f
-un_greed_interleave_copyback	flash.c	/^struct ssd_info *un_greed_interleave_copyback(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,struct sub_request *sub1,struct sub_request *sub2)$/;"	f
-uninterrupt_gc	pagemap-tmp.c	/^int uninterrupt_gc(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane)       $/;"	f
-uninterrupt_gc	pagemap.c	/^int uninterrupt_gc(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane)       $/;"	f
-update	initialize.h	/^	struct sub_request *update;       \/\/ÒòÎªÔÚÐ´²Ù×÷ÖÐ´æÔÚ¸üÐÂ²Ù×÷£¬ÒòÎªÔÚ¶¯Ì¬·ÖÅä·½Ê½ÖÐÎÞ·¨Ê¹ÓÃcopyback²Ù×÷£¬ÐèÒª½«Ô­À´µÄÒ³¶Á³öºó²ÅÄÜ½øÐÐÐ´²Ù×÷£¬ËùÒÔ£¬½«Òò¸üÐÂ²úÉúµÄ¶Á²Ù×÷¹ÒÔÚÕâ¸öÖ¸ÕëÉÏ$/;"	m	struct:sub_request	typeref:struct:sub_request::sub_request
-update_read_count	initialize.h	/^	unsigned int update_read_count;      \/\/¼ÇÂ¼ÒòÎª¸üÐÂ²Ù×÷µ¼ÖÂµÄ¶îÍâ¶Á³ö²Ù×÷$/;"	m	struct:ssd_info
-valid_state	initialize.h	/^	int valid_state;                   \/\/indicate the page is valid or invalid$/;"	m	struct:page_info
-voltage	initialize.h	/^	float voltage;$/;"	m	struct:dram_parameter
-waste_page_count	initialize.h	/^	unsigned long waste_page_count;      \/\/¼ÇÂ¼ÒòÎª¸ß¼¶ÃüÁîµÄÏÞÖÆµ¼ÖÂµÄÒ³ÀË·Ñ$/;"	m	struct:ssd_info
-wear_leveling	initialize.h	/^	int wear_leveling;              \/\/ WLËã·¨$/;"	m	struct:parameter_value
-write_avg	initialize.h	/^	int64_t write_avg;                   \/\/¼ÇÂ¼ÓÃÓÚ¼ÆËãÐ´ÇëÇóÆ½¾ùÏìÓ¦Ê±¼äµÄÊ±¼ä$/;"	m	struct:ssd_info
-write_flash_count	initialize.h	/^	unsigned long write_flash_count;     \/\/Êµ¼Ê²úÉúµÄ¶ÔflashµÄÐ´²Ù×÷$/;"	m	struct:ssd_info
-write_hit	avlTree.h	/^	unsigned long write_hit;   $/;"	m	struct:buffer_info
-write_miss_hit	avlTree.h	/^	unsigned long write_miss_hit;$/;"	m	struct:buffer_info
-write_page	flash.c	/^Status write_page(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,unsigned int plane,unsigned int active_block,unsigned int *ppn)$/;"	f
-write_request_count	initialize.h	/^	unsigned int write_request_count;    \/\/¼ÇÂ¼Ð´²Ù×÷µÄ´ÎÊý$/;"	m	struct:ssd_info
-written_count	initialize.h	/^	unsigned int written_count;        \/\/¼ÇÂ¼¸ÃÒ³±»Ð´µÄ´ÎÊý$/;"	m	struct:page_info
+tBERS	initialize.h	/^	int tBERS;     \/\/block erase time$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tCEA	initialize.h	/^	int tCEA;      \/\/CE access time$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tCH	initialize.h	/^	int tCH;       \/\/CE hold time$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tCHZ	initialize.h	/^	int tCHZ;      \/\/CE high to output hi-z$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tCLH	initialize.h	/^	int tCLH;      \/\/CLE hold time$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tCLR	initialize.h	/^	int tCLR;      \/\/CLE to RE delay$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tCLS	initialize.h	/^	int tCLS;      \/\/CLE setup time$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tCOH	initialize.h	/^	int tCOH;      \/\/CE high to output hold$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tCS	initialize.h	/^	int tCS;       \/\/CE setup time$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tDBSY	initialize.h	/^	int tDBSY;     \/\/bummy busy time for two-plane program$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tDH	initialize.h	/^	int tDH;       \/\/data hold time$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tDS	initialize.h	/^	int tDS;       \/\/data setup time$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tIR	initialize.h	/^	int tIR;       \/\/output hi-z to RE low$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tPROG	initialize.h	/^	int tPROG;     \/\/program time$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tPXLC	initialize.h	/^	int tPXLC[MAX_STORAGE_CELL];$/;"	m	struct:ac_time_characteristics	typeref:typename:int[]
+tR	initialize.h	/^	int tR;        \/\/data transfer from cell to register$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tRC	initialize.h	/^	int tRC;       \/\/read cycle time$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tREA	initialize.h	/^	int tREA;      \/\/RE access time$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tREH	initialize.h	/^	int tREH;      \/\/RE high to output time$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tRHOH	initialize.h	/^	int tRHOH;     \/\/RE high to output hold$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tRHW	initialize.h	/^	int tRHW;      \/\/RE high to WE low$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tRHZ	initialize.h	/^	int tRHZ;      \/\/RE high to output hi-z$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tRLOH	initialize.h	/^	int tRLOH;     \/\/RE low to output hold$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tRP	initialize.h	/^	int tRP;       \/\/RE pulse width$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tRR	initialize.h	/^	int tRR;       \/\/ready to RE low$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tRST	initialize.h	/^	int tRST;      \/\/device resetting time$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tRXLC	initialize.h	/^	int tRXLC[MAX_STORAGE_CELL];$/;"	m	struct:ac_time_characteristics	typeref:typename:int[]
+tWB	initialize.h	/^	int tWB;       \/\/WE high to busy$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tWC	initialize.h	/^	int tWC;       \/\/write cycle time$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tWH	initialize.h	/^	int tWH;       \/\/WE high hold time$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tWHR	initialize.h	/^	int tWHR;      \/\/WE high to RE low$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+tWP	initialize.h	/^	int tWP;       \/\/WE pulse width$/;"	m	struct:ac_time_characteristics	typeref:typename:int
+testssd	Makefile	/^testssd: ssd.o avlTree.o flash.o IsHot.o initialize.o pagemap-tmp.o     $/;"	t
+threshold_fixed_adjust	initialize.h	/^	int threshold_fixed_adjust;$/;"	m	struct:parameter_value	typeref:typename:int
+threshold_value	initialize.h	/^	int threshold_value;$/;"	m	struct:parameter_value	typeref:typename:int
+time	initialize.h	/^	int64_t time;                      \/\/ï¿½ï¿½ï¿½óµ½´ï¿½ï¿½Ê±ï¿½ä£¬ï¿½ï¿½Î»Îªus,ï¿½ï¿½ï¿½ï¿½ï¿½Í¨/;"	m	struct:request	typeref:typename:int64_t
+time_characteristics	initialize.h	/^	struct ac_time_characteristics time_characteristics;$/;"	m	struct:parameter_value	typeref:struct:ac_time_characteristics
+time_step	initialize.h	/^	unsigned int time_step;$/;"	m	struct:parameter_value	typeref:typename:unsigned int
+token	initialize.h	/^	unsigned int token;                  \/\/ï¿½Ú¶ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½Îªï¿½ï¿½Ö¹Ã¿ï¿½Î·ï¿½ï¿½ï¿½/;"	m	struct:channel_info	typeref:typename:unsigned int
+token	initialize.h	/^	unsigned int token;                  \/\/ï¿½Ú¶ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½Îªï¿½ï¿½Ö¹Ã¿ï¿½Î·ï¿½ï¿½ï¿½/;"	m	struct:ssd_info	typeref:typename:unsigned int
+token	initialize.h	/^	unsigned int token;                 \/\/ï¿½Ú¶ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½Îªï¿½ï¿½Ö¹Ã¿ï¿½Î·ï¿½ï¿½ï¿½/;"	m	struct:chip_info	typeref:typename:unsigned int
+token	initialize.h	/^	unsigned int token;                 \/\/ï¿½Ú¶ï¿½Ì¬ï¿½ï¿½ï¿½ï¿½ï¿½Ð£ï¿½Îªï¿½ï¿½Ö¹Ã¿ï¿½Î·ï¿½ï¿½ï¿½/;"	m	struct:die_info	typeref:typename:unsigned int
+trace_assert	pagemap.c	/^void trace_assert(int64_t time_t,int device,unsigned int lsn,int size,int ope)\/\/ï¿½ï¿½ï¿½ï¿½$/;"	f	typeref:typename:void
+trace_output	ssd.c	/^void trace_output(struct ssd_info* ssd){$/;"	f	typeref:typename:void
+tracefile	Makefile	/^tracefile=jenkins$/;"	m
+tracefile	initialize.h	/^	FILE * tracefile;$/;"	m	struct:ssd_info	typeref:typename:FILE *
+tracefilename	initialize.h	/^	char tracefilename[30];$/;"	m	struct:ssd_info	typeref:typename:char[30]
+transfer_size	ssd.c	/^unsigned int transfer_size(struct ssd_info *ssd,int need_distribute,unsigned int lpn,struct requ/;"	f	typeref:typename:unsigned int
+tree_root	avlTree.h	/^	struct _AVL_TREE_NODE *tree_root;$/;"	m	struct:_AVL_TREE_NODE	typeref:struct:_AVL_TREE_NODE *
+type	initialize.h	/^	int type;                        \/\/ï¿½ï¿½Â¼ï¿½ï¿½ï¿½Â¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Í£ï¿½1ï¿½ï¿½Ê¾ï¿½ï¿½ï¿½/;"	m	struct:event_node	typeref:typename:int
+un_greed_copyback	flash.c	/^struct ssd_info *un_greed_copyback(struct ssd_info *ssd,unsigned int channel,unsigned int chip,u/;"	f	typeref:struct:ssd_info *
+un_greed_interleave_copyback	flash.c	/^struct ssd_info *un_greed_interleave_copyback(struct ssd_info *ssd,unsigned int channel,unsigned/;"	f	typeref:struct:ssd_info *
+uninterrupt_gc	pagemap.c	/^int uninterrupt_gc(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,/;"	f	typeref:typename:int
+update	initialize.h	/^	struct sub_request *update;       \/\/ï¿½ï¿½Îªï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½ï¿½Ð´ï¿½ï¿½Ú¸ï¿½ï¿½Â²ï¿½ï¿½ï¿½/;"	m	struct:sub_request	typeref:struct:sub_request *
+update_read_count	initialize.h	/^	unsigned int update_read_count;      \/\/ï¿½ï¿½Â¼ï¿½ï¿½Îªï¿½ï¿½ï¿½Â²ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ÂµÄ¶ï¿½ï¿½/;"	m	struct:ssd_info	typeref:typename:unsigned int
+valid_state	initialize.h	/^	int valid_state;                   \/\/indicate the page is valid or invalid$/;"	m	struct:page_info	typeref:typename:int
+voltage	initialize.h	/^	float voltage;$/;"	m	struct:dram_parameter	typeref:typename:float
+waste_page_count	initialize.h	/^	unsigned long waste_page_count;      \/\/ï¿½ï¿½Â¼ï¿½ï¿½Îªï¿½ß¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Æµï¿½ï¿½/;"	m	struct:ssd_info	typeref:typename:unsigned long
+wear_leveling	initialize.h	/^	int wear_leveling;              \/\/ WLï¿½ã·¨$/;"	m	struct:parameter_value	typeref:typename:int
+write_avg	initialize.h	/^	int64_t write_avg;                   \/\/ï¿½ï¿½Â¼ï¿½ï¿½ï¿½Ú¼ï¿½ï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½Æ½ï¿½ï¿½ï¿½ï¿½/;"	m	struct:ssd_info	typeref:typename:int64_t
+write_flash_count	initialize.h	/^	unsigned long write_flash_count;     \/\/Êµï¿½Ê²ï¿½ï¿½ï¿½ï¿½Ä¶ï¿½flashï¿½ï¿½Ð´ï¿½ï¿½ï¿½ï¿½$/;"	m	struct:ssd_info	typeref:typename:unsigned long
+write_hit	avlTree.h	/^	unsigned long write_hit;   $/;"	m	struct:buffer_info	typeref:typename:unsigned long
+write_miss_hit	avlTree.h	/^	unsigned long write_miss_hit;$/;"	m	struct:buffer_info	typeref:typename:unsigned long
+write_page	flash.c	/^Status write_page(struct ssd_info *ssd,unsigned int channel,unsigned int chip,unsigned int die,u/;"	f	typeref:typename:Status
+write_request_count	initialize.h	/^	unsigned int write_request_count;    \/\/ï¿½ï¿½Â¼Ð´ï¿½ï¿½ï¿½ï¿½ï¿½Ä´ï¿½ï¿½ï¿½$/;"	m	struct:ssd_info	typeref:typename:unsigned int
+written_count	initialize.h	/^	unsigned int written_count;        \/\/ï¿½ï¿½Â¼ï¿½ï¿½Ò³ï¿½ï¿½Ð´ï¿½Ä´ï¿½ï¿½ï¿½$/;"	m	struct:page_info	typeref:typename:unsigned int
